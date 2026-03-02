@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-23T19:43:02.847745+00:00",
+  "generated_at_utc": "2026-03-02T05:03:43.802865+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 331659
+      "rule_count": 330871
     },
     {
       "id": "reject_extra",
@@ -42,7 +42,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6727
+      "rule_count": 6728
     },
     {
       "id": "cncidr",
@@ -63,7 +63,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 250,
       "recommended_note": "CDN 回源与就近访问优先直连",
-      "rule_count": 1285
+      "rule_count": 1297
     },
     {
       "id": "download",
@@ -119,14 +119,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 320,
       "recommended_note": "AI 服务走代理",
-      "rule_count": 120
+      "rule_count": 121
     },
     {
       "id": "apple_cn",
       "recommended_action": "DIRECT",
       "recommended_priority": 230,
       "recommended_note": "Apple 中国区服务直连",
-      "rule_count": 285
+      "rule_count": 289
     },
     {
       "id": "apple_cdn",
@@ -147,7 +147,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 321,
       "recommended_note": "iCloud Private Relay 推荐走代理（PROXY）",
-      "rule_count": 13363
+      "rule_count": 13359
     },
     {
       "id": "apple_services",
@@ -301,14 +301,14 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 240,
       "recommended_note": "国内社交平台直连",
-      "rule_count": 124
+      "rule_count": 125
     },
     {
       "id": "socialmedia",
       "recommended_action": "PROXY",
       "recommended_priority": 340,
       "recommended_note": "国际社交网络走代理",
-      "rule_count": 631
+      "rule_count": 634
     },
     {
       "id": "anime",
@@ -378,14 +378,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23648
+      "rule_count": 23672
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 18890
+      "rule_count": 18903
     }
   ]
 }

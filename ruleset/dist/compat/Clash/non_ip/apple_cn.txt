@@ -8,6 +8,7 @@ DOMAIN,adcdownload.apple.com.akadns.net
 DOMAIN,amp-api-edge-lb-cn.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge-lb.itunes-apple.com.akadns.net
 DOMAIN,amp-api-edge.apps.apple.com
+DOMAIN,amp-api-edge.music.apple.com
 DOMAIN,amp-api-search-edge.apps.apple.com
 DOMAIN,amp-api-updates.apps.apple.com
 DOMAIN,amp-api.apps.apple.com
@@ -143,6 +144,8 @@ DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,music.apple.com
+DOMAIN,musicstatus.music.apple.com
+DOMAIN,mvod.itunes.apple.com
 DOMAIN,myapp.itunes.apple.com
 DOMAIN,np-edge.itunes.apple.com
 DOMAIN,ocsp-lb.apple.com.akadns.net
@@ -182,6 +185,7 @@ DOMAIN,sh-pod2-smp-device.apple.com
 DOMAIN,shazam-insights.cdn-apple.com
 DOMAIN,smp-device-content.apple.com
 DOMAIN,sp.itunes.apple.com
+DOMAIN,speedysub.music.apple.com
 DOMAIN,static.gc.apple.com
 DOMAIN,stocks-sparkline-lb.apple.com.akadns.net
 DOMAIN,stocks-sparkline.apple.com

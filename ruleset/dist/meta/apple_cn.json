@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 230,
   "recommended_note": "Apple 中国区服务直连",
-  "rule_count": 285,
+  "rule_count": 289,
   "paths": {
     "surge": "surge/apple_cn.list",
     "surge_non_ip": "surge/non_ip/apple_cn.list",
@@ -27,8 +27,8 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple",
-      "used_cache": true,
-      "rule_count": 285
+      "used_cache": false,
+      "rule_count": 289
     },
     {
       "type": "local_domain",

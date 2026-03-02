@@ -27,42 +27,42 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/netflix",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 28
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hulu",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 48
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/disney",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 160
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/abema",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 21
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-tvplus",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 8
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/primevideo",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 23
     },
     {

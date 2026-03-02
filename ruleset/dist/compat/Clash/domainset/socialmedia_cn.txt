@@ -110,6 +110,7 @@ upos-hz-mirrorakam.akamaized.net
 +.weibo.com
 +.weibo.com.cn
 +.weibocdn.com
++.weibopay.com
 +.xhaiwai.com
 +.xhscdn.com
 +.xhscdn.net

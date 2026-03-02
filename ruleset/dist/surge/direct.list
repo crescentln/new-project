@@ -6003,6 +6003,7 @@ DOMAIN-SUFFIX,weibo.cn
 DOMAIN-SUFFIX,weibo.com
 DOMAIN-SUFFIX,weibo.com.cn
 DOMAIN-SUFFIX,weibocdn.com
+DOMAIN-SUFFIX,weibopay.com
 DOMAIN-SUFFIX,weicaifu.com
 DOMAIN-SUFFIX,weidian.com
 DOMAIN-SUFFIX,weilaicaijing.com
@@ -14465,11 +14466,16 @@ IP-CIDR,34.183.32.0/24,no-resolve
 IP-CIDR,34.183.33.0/24,no-resolve
 IP-CIDR,34.183.34.0/23,no-resolve
 IP-CIDR,34.183.36.0/24,no-resolve
+IP-CIDR,34.183.37.0/24,no-resolve
 IP-CIDR,34.183.4.0/23,no-resolve
 IP-CIDR,34.183.40.0/21,no-resolve
 IP-CIDR,34.183.50.0/23,no-resolve
 IP-CIDR,34.183.52.0/22,no-resolve
+IP-CIDR,34.183.56.0/23,no-resolve
+IP-CIDR,34.183.58.0/24,no-resolve
+IP-CIDR,34.183.59.0/24,no-resolve
 IP-CIDR,34.183.6.0/23,no-resolve
+IP-CIDR,34.183.60.0/24,no-resolve
 IP-CIDR,34.183.8.0/23,no-resolve
 IP-CIDR,34.184.0.0/24,no-resolve
 IP-CIDR,34.184.1.0/24,no-resolve
@@ -14490,6 +14496,11 @@ IP-CIDR,34.184.4.0/23,no-resolve
 IP-CIDR,34.184.40.0/21,no-resolve
 IP-CIDR,34.184.48.0/22,no-resolve
 IP-CIDR,34.184.52.0/23,no-resolve
+IP-CIDR,34.184.54.0/24,no-resolve
+IP-CIDR,34.184.55.0/24,no-resolve
+IP-CIDR,34.184.56.0/23,no-resolve
+IP-CIDR,34.184.58.0/24,no-resolve
+IP-CIDR,34.184.59.0/24,no-resolve
 IP-CIDR,34.184.6.0/23,no-resolve
 IP-CIDR,34.184.8.0/23,no-resolve
 IP-CIDR,34.185.128.0/17,no-resolve
@@ -14546,6 +14557,7 @@ IP-CIDR,34.37.0.0/16,no-resolve
 IP-CIDR,34.38.0.0/16,no-resolve
 IP-CIDR,34.39.0.0/17,no-resolve
 IP-CIDR,34.39.128.0/17,no-resolve
+IP-CIDR,34.4.102.0/23,no-resolve
 IP-CIDR,34.4.128.0/18,no-resolve
 IP-CIDR,34.4.16.0/22,no-resolve
 IP-CIDR,34.4.24.0/22,no-resolve
@@ -16666,6 +16678,7 @@ IP-CIDR,8.228.64.0/18,no-resolve
 IP-CIDR,8.229.0.0/16,no-resolve
 IP-CIDR,8.230.0.0/19,no-resolve
 IP-CIDR,8.230.32.0/19,no-resolve
+IP-CIDR,8.230.64.0/19,no-resolve
 IP-CIDR,8.34.208.0/23,no-resolve
 IP-CIDR,8.34.210.0/24,no-resolve
 IP-CIDR,8.34.211.0/24,no-resolve

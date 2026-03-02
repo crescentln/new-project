@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 240,
   "recommended_note": "国内社交平台直连",
-  "rule_count": 124,
+  "rule_count": 125,
   "paths": {
     "surge": "surge/socialmedia_cn.list",
     "surge_non_ip": "surge/non_ip/socialmedia_cn.list",
@@ -27,28 +27,28 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-cn",
-      "used_cache": true,
-      "rule_count": 74
+      "used_cache": false,
+      "rule_count": 75
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sina",
-      "used_cache": true,
-      "rule_count": 29
+      "used_cache": false,
+      "rule_count": 30
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zhihu",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 50
     },
     {

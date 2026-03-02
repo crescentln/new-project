@@ -27,14 +27,14 @@
       "type": "iana_special_csv",
       "authority": "official",
       "ref": "https://www.iana.org/assignments/iana-ipv4-special-registry/iana-ipv4-special-registry-1.csv",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 20
     },
     {
       "type": "iana_special_csv",
       "authority": "official",
       "ref": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry-1.csv",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 13
     },
     {

@@ -6003,6 +6003,7 @@ wetv.qq.com
 +.weibo.com
 +.weibo.com.cn
 +.weibocdn.com
++.weibopay.com
 +.weicaifu.com
 +.weidian.com
 +.weilaicaijing.com

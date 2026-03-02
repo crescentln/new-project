@@ -27,7 +27,7 @@
       "type": "apnic_country_cidr",
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 10828
     },
     {

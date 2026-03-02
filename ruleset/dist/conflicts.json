@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-02-23T19:43:02.845904+00:00",
-  "conflict_count": 401,
+  "generated_at_utc": "2026-03-02T05:03:43.793354+00:00",
+  "conflict_count": 402,
   "cross_action_conflict_count": 0,
   "high_severity_conflict_count": 0,
   "medium_severity_conflict_count": 0,
-  "low_severity_conflict_count": 401,
+  "low_severity_conflict_count": 402,
   "conflicts": [
     {
       "rule": "DOMAIN-SUFFIX,bilibiligame.cn",
@@ -7646,6 +7646,27 @@
     },
     {
       "rule": "DOMAIN-SUFFIX,weibocdn.com",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,weibopay.com",
       "categories": [
         "domestic",
         "socialmedia_cn"
