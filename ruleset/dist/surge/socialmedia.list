@@ -4,6 +4,8 @@ DOMAIN,fbcdn-a.akamaihd.net
 DOMAIN,hammerandchisel.ssl.zendesk.com
 DOMAIN,licdn.cn.cdn20.com
 DOMAIN,linkedin.sc.omtrdc.net
+DOMAIN,st-ok-pts.cdn-vk.ru
+DOMAIN,st-ok.cdn-vk.ru
 DOMAIN-SUFFIX,9ineverse.com
 DOMAIN-SUFFIX,aboutfacebook.com
 DOMAIN-SUFFIX,accessfacebookfromschool.com
@@ -460,6 +462,7 @@ DOMAIN-SUFFIX,intagram.com
 DOMAIN-SUFFIX,intagrm.com
 DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,intgram.com
+DOMAIN-SUFFIX,joinmastodon.org
 DOMAIN-SUFFIX,kingstagram.com
 DOMAIN-SUFFIX,klik.me
 DOMAIN-SUFFIX,l-0005.dc-msedge.net
@@ -478,6 +481,8 @@ DOMAIN-SUFFIX,login-account.net
 DOMAIN-SUFFIX,mail.ru
 DOMAIN-SUFFIX,maniakey.homes
 DOMAIN-SUFFIX,markzuckerberg.com
+DOMAIN-SUFFIX,mastodon.online
+DOMAIN-SUFFIX,mastodon.social
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,medium.systems
 DOMAIN-SUFFIX,mfmf.club
@@ -524,7 +529,9 @@ DOMAIN-SUFFIX,oninstagram.com
 DOMAIN-SUFFIX,online-deals.net
 DOMAIN-SUFFIX,online-instagram.com
 DOMAIN-SUFFIX,onlineinstagram.com
+DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,opencreate.org
+DOMAIN-SUFFIX,pawoo.net
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net

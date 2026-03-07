@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-  "rule_count": 18903,
+  "rule_count": 18918,
   "paths": {
     "surge": "surge/direct.list",
     "surge_non_ip": "surge/non_ip/direct.list",
@@ -42,7 +42,7 @@
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10828
+      "rule_count": 10829
     },
     {
       "type": "plain_cidr",
@@ -63,7 +63,7 @@
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "used_cache": false,
-      "rule_count": 379
+      "rule_count": 386
     },
     {
       "type": "gcp_ip_ranges",
@@ -77,7 +77,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn",
       "used_cache": false,
-      "rule_count": 6728
+      "rule_count": 6735
     },
     {
       "type": "local_domain",

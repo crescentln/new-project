@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-02T05:03:43.802865+00:00",
+  "generated_at_utc": "2026-03-07T00:44:29.758991+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 330871
+      "rule_count": 330910
     },
     {
       "id": "reject_extra",
@@ -42,14 +42,14 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6728
+      "rule_count": 6735
     },
     {
       "id": "cncidr",
       "recommended_action": "DIRECT",
       "recommended_priority": 220,
       "recommended_note": "中国大陆 IP 段直连（IP-focused）",
-      "rule_count": 10828
+      "rule_count": 10829
     },
     {
       "id": "telegram",
@@ -63,14 +63,14 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 250,
       "recommended_note": "CDN 回源与就近访问优先直连",
-      "rule_count": 1297
+      "rule_count": 1304
     },
     {
       "id": "download",
       "recommended_action": "DIRECT",
       "recommended_priority": 251,
       "recommended_note": "安卓应用下载集合默认直连（游戏平台流量归 games）",
-      "rule_count": 12
+      "rule_count": 14
     },
     {
       "id": "stream",
@@ -119,14 +119,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 320,
       "recommended_note": "AI 服务走代理",
-      "rule_count": 121
+      "rule_count": 123
     },
     {
       "id": "apple_cn",
       "recommended_action": "DIRECT",
       "recommended_priority": 230,
       "recommended_note": "Apple 中国区服务直连",
-      "rule_count": 289
+      "rule_count": 290
     },
     {
       "id": "apple_cdn",
@@ -147,7 +147,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 321,
       "recommended_note": "iCloud Private Relay 推荐走代理（PROXY）",
-      "rule_count": 13359
+      "rule_count": 13364
     },
     {
       "id": "apple_services",
@@ -203,7 +203,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 326,
       "recommended_note": "国际游戏服务走代理",
-      "rule_count": 788
+      "rule_count": 787
     },
     {
       "id": "youtube",
@@ -308,7 +308,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 340,
       "recommended_note": "国际社交网络走代理",
-      "rule_count": 634
+      "rule_count": 641
     },
     {
       "id": "anime",
@@ -322,7 +322,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 341,
       "recommended_note": "TikTok 国际站走代理",
-      "rule_count": 35
+      "rule_count": 36
     },
     {
       "id": "douyin",
@@ -378,14 +378,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23672
+      "rule_count": 23698
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 18903
+      "rule_count": 18918
     }
   ]
 }

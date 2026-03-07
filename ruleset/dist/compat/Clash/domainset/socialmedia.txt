@@ -4,6 +4,8 @@ fbcdn-a.akamaihd.net
 hammerandchisel.ssl.zendesk.com
 licdn.cn.cdn20.com
 linkedin.sc.omtrdc.net
+st-ok-pts.cdn-vk.ru
+st-ok.cdn-vk.ru
 +.9ineverse.com
 +.aboutfacebook.com
 +.accessfacebookfromschool.com
@@ -460,6 +462,7 @@ linkedin.sc.omtrdc.net
 +.intagrm.com
 +.internet.org
 +.intgram.com
++.joinmastodon.org
 +.kingstagram.com
 +.klik.me
 +.l-0005.dc-msedge.net
@@ -478,6 +481,8 @@ linkedin.sc.omtrdc.net
 +.mail.ru
 +.maniakey.homes
 +.markzuckerberg.com
++.mastodon.online
++.mastodon.social
 +.medium.com
 +.medium.systems
 +.mfmf.club
@@ -524,7 +529,9 @@ linkedin.sc.omtrdc.net
 +.online-deals.net
 +.online-instagram.com
 +.onlineinstagram.com
++.onlyfans.com
 +.opencreate.org
++.pawoo.net
 +.periscope.tv
 +.poe.com
 +.poecdn.net

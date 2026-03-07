@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 340,
   "recommended_note": "国际社交网络走代理",
-  "rule_count": 634,
+  "rule_count": 641,
   "paths": {
     "surge": "surge/socialmedia.list",
     "surge_non_ip": "surge/non_ip/socialmedia.list",
@@ -28,7 +28,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-!cn",
       "used_cache": false,
-      "rule_count": 585
+      "rule_count": 592
     },
     {
       "type": "v2fly_dlc",

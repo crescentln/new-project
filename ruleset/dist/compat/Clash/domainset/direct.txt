@@ -125,6 +125,7 @@ wetv.qq.com
 +.16q.cn
 +.16rd.com
 +.17173.com
++.172mix.com
 +.178.com
 +.178linux.com
 +.17989.com
@@ -2106,6 +2107,7 @@ wetv.qq.com
 +.dongao.com
 +.dongchedi.com
 +.dongchediapp.com
++.dongdianqiu.com
 +.dongguantoday.com
 +.dongjiao.cc
 +.dongjiaoapp.com
@@ -2257,6 +2259,7 @@ wetv.qq.com
 +.ecukwai.com
 +.eda.cn
 +.edgecloudx.cn
++.edgemonix.top
 +.edgeone.cool
 +.edgeonedy1.com
 +.edgesrv.com
@@ -3622,6 +3625,7 @@ wetv.qq.com
 +.juwan.com
 +.juxia.com
 +.juxieyun.com
++.juziwulian.com
 +.jvcsmart.cn
 +.jvcsmart.com.cn
 +.jvoice.cn
@@ -3635,6 +3639,7 @@ wetv.qq.com
 +.jztvnews.com
 +.k366.com
 +.ka9bv.cn
++.kaadas.com
 +.kafan.cn
 +.kaifayun.com
 +.kaifubiao.com
@@ -4228,6 +4233,7 @@ wetv.qq.com
 +.mojidict.com
 +.mokahr.com
 +.moleecel.com
++.monika.love
 +.mooc.cn
 +.moocollege.com
 +.moonshot.ai
@@ -5635,6 +5641,7 @@ wetv.qq.com
 +.ttbyte.cn
 +.ttbyte.com
 +.ttbyte.net
++.ttcdn-us.com
 +.ttgslb.com
 +.ttgtm.com
 +.ttjisu.com

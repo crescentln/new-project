@@ -1,3 +1,4 @@
+DOMAIN,apkmirror.disqus.com
 DOMAIN-SUFFIX,apkcombo.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
@@ -9,4 +10,5 @@ DOMAIN-SUFFIX,f-droid.org
 DOMAIN-SUFFIX,fdroidrepo.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,uptodown.com
+DOMAIN-SUFFIX,utdstc.com
 DOMAIN-SUFFIX,winudf.com

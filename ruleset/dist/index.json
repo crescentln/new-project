@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-02T05:03:43.800305+00:00",
+  "generated_at_utc": "2026-03-07T00:44:29.756414+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 55,
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 330871,
+      "rule_count": 330910,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,28 +36,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 60964
+          "rule_count": 58300
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 49912
+          "rule_count": 49926
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 155467
+          "rule_count": 155703
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 152673
+          "rule_count": 152574
         },
         {
           "type": "local_domain",
@@ -213,7 +213,7 @@
     {
       "id": "domestic",
       "description": "Mainland China domains (domain-focused direct set)",
-      "rule_count": 6728,
+      "rule_count": 6735,
       "surge_path": "surge/domestic.list",
       "openclash_path": "openclash/domestic.yaml",
       "surge_non_ip_path": "surge/non_ip/domestic.list",
@@ -238,7 +238,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn",
           "used_cache": false,
-          "rule_count": 6728
+          "rule_count": 6735
         },
         {
           "type": "local_domain",
@@ -252,7 +252,7 @@
     {
       "id": "cncidr",
       "description": "Mainland China IPv4/IPv6 CIDR only (IP-focused direct set)",
-      "rule_count": 10828,
+      "rule_count": 10829,
       "surge_path": "surge/cncidr.list",
       "openclash_path": "openclash/cncidr.yaml",
       "surge_non_ip_path": "surge/non_ip/cncidr.list",
@@ -277,7 +277,7 @@
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10828
+          "rule_count": 10829
         },
         {
           "type": "local_domain",
@@ -337,7 +337,7 @@
     {
       "id": "cdn",
       "description": "CDN domains and edge prefixes",
-      "rule_count": 1297,
+      "rule_count": 1304,
       "surge_path": "surge/cdn.list",
       "openclash_path": "openclash/cdn.yaml",
       "surge_non_ip_path": "surge/non_ip/cdn.list",
@@ -376,7 +376,7 @@
           "authority": "official",
           "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
           "used_cache": false,
-          "rule_count": 379
+          "rule_count": 386
         },
         {
           "type": "gcp_ip_ranges",
@@ -397,7 +397,7 @@
     {
       "id": "download",
       "description": "Download services",
-      "rule_count": 12,
+      "rule_count": 14,
       "surge_path": "surge/download.list",
       "openclash_path": "openclash/download.yaml",
       "surge_non_ip_path": "surge/non_ip/download.list",
@@ -422,7 +422,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-android-app-download",
           "used_cache": false,
-          "rule_count": 8
+          "rule_count": 11
         },
         {
           "type": "local_domain",
@@ -950,7 +950,7 @@
     {
       "id": "ai",
       "description": "AI services",
-      "rule_count": 121,
+      "rule_count": 123,
       "surge_path": "surge/ai.list",
       "openclash_path": "openclash/ai.yaml",
       "surge_non_ip_path": "surge/non_ip/ai.list",
@@ -1010,7 +1010,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
           "used_cache": false,
-          "rule_count": 121
+          "rule_count": 123
         },
         {
           "type": "local_domain",
@@ -1024,7 +1024,7 @@
     {
       "id": "apple_cn",
       "description": "Apple China direct",
-      "rule_count": 289,
+      "rule_count": 290,
       "surge_path": "surge/apple_cn.list",
       "openclash_path": "openclash/apple_cn.yaml",
       "surge_non_ip_path": "surge/non_ip/apple_cn.list",
@@ -1049,7 +1049,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple",
           "used_cache": false,
-          "rule_count": 289
+          "rule_count": 290
         },
         {
           "type": "local_domain",
@@ -1148,7 +1148,7 @@
     {
       "id": "icloud_private_relay",
       "description": "Apple iCloud Private Relay endpoints",
-      "rule_count": 13359,
+      "rule_count": 13364,
       "surge_path": "surge/icloud_private_relay.list",
       "openclash_path": "openclash/icloud_private_relay.yaml",
       "surge_non_ip_path": "surge/non_ip/icloud_private_relay.list",
@@ -1173,7 +1173,7 @@
           "authority": "official",
           "ref": "https://mask-api.icloud.com/egress-ip-ranges.csv",
           "used_cache": false,
-          "rule_count": 13354
+          "rule_count": 13359
         },
         {
           "type": "v2fly_dlc",
@@ -1495,7 +1495,7 @@
     {
       "id": "games",
       "description": "Global game services",
-      "rule_count": 788,
+      "rule_count": 787,
       "surge_path": "surge/games.list",
       "openclash_path": "openclash/games.yaml",
       "surge_non_ip_path": "surge/non_ip/games.list",
@@ -1520,7 +1520,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-!cn",
           "used_cache": false,
-          "rule_count": 788
+          "rule_count": 787
         },
         {
           "type": "v2fly_dlc",
@@ -2185,7 +2185,7 @@
     {
       "id": "socialmedia",
       "description": "Global social media",
-      "rule_count": 634,
+      "rule_count": 641,
       "surge_path": "surge/socialmedia.list",
       "openclash_path": "openclash/socialmedia.yaml",
       "surge_non_ip_path": "surge/non_ip/socialmedia.list",
@@ -2210,7 +2210,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-!cn",
           "used_cache": false,
-          "rule_count": 585
+          "rule_count": 592
         },
         {
           "type": "v2fly_dlc",
@@ -2305,7 +2305,7 @@
     {
       "id": "tiktok",
       "description": "TikTok",
-      "rule_count": 35,
+      "rule_count": 36,
       "surge_path": "surge/tiktok.list",
       "openclash_path": "openclash/tiktok.yaml",
       "surge_non_ip_path": "surge/non_ip/tiktok.list",
@@ -2330,7 +2330,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/tiktok",
           "used_cache": false,
-          "rule_count": 35
+          "rule_count": 36
         },
         {
           "type": "local_domain",
@@ -2596,7 +2596,7 @@
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 23672,
+      "rule_count": 23698,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
       "surge_non_ip_path": "surge/non_ip/global.list",
@@ -2621,7 +2621,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 23672
+          "rule_count": 23698
         },
         {
           "type": "local_domain",
@@ -2635,7 +2635,7 @@
     {
       "id": "direct",
       "description": "Merged direct rules for simplified deployment",
-      "rule_count": 18903,
+      "rule_count": 18918,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
       "surge_non_ip_path": "surge/non_ip/direct.list",
@@ -2674,7 +2674,7 @@
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10828
+          "rule_count": 10829
         },
         {
           "type": "plain_cidr",
@@ -2695,7 +2695,7 @@
           "authority": "official",
           "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
           "used_cache": false,
-          "rule_count": 379
+          "rule_count": 386
         },
         {
           "type": "gcp_ip_ranges",
@@ -2709,7 +2709,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn",
           "used_cache": false,
-          "rule_count": 6728
+          "rule_count": 6735
         },
         {
           "type": "local_domain",

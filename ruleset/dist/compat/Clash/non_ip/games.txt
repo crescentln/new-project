@@ -317,8 +317,6 @@ DOMAIN-SUFFIX,humancoexperience.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,hutpromos.com
 DOMAIN-SUFFIX,hyprsense.com
-DOMAIN-SUFFIX,illusion.co.jp
-DOMAIN-SUFFIX,illusion.jp
 DOMAIN-SUFFIX,industrialtoys.com
 DOMAIN-SUFFIX,instituteofwar.org
 DOMAIN-SUFFIX,itch.io
@@ -393,6 +391,7 @@ DOMAIN-SUFFIX,modernwarships.com
 DOMAIN-SUFFIX,modrinth.com
 DOMAIN-SUFFIX,mojang.com
 DOMAIN-SUFFIX,molesports.com
+DOMAIN-SUFFIX,muvluv-girls-garden.com
 DOMAIN-SUFFIX,mysims.com
 DOMAIN-SUFFIX,mysimsracing.com
 DOMAIN-SUFFIX,mythicentertainment.com

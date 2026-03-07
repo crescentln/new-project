@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 250,
   "recommended_note": "CDN 回源与就近访问优先直连",
-  "rule_count": 1297,
+  "rule_count": 1304,
   "paths": {
     "surge": "surge/cdn.list",
     "surge_non_ip": "surge/non_ip/cdn.list",
@@ -42,7 +42,7 @@
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "used_cache": false,
-      "rule_count": 379
+      "rule_count": 386
     },
     {
       "type": "gcp_ip_ranges",

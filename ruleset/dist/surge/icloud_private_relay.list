@@ -592,6 +592,11 @@ IP-CIDR,104.28.136.128/26,no-resolve
 IP-CIDR,104.28.136.16/28,no-resolve
 IP-CIDR,104.28.136.192/27,no-resolve
 IP-CIDR,104.28.136.2/31,no-resolve
+IP-CIDR,104.28.136.224/28,no-resolve
+IP-CIDR,104.28.136.240/29,no-resolve
+IP-CIDR,104.28.136.248/30,no-resolve
+IP-CIDR,104.28.136.252/31,no-resolve
+IP-CIDR,104.28.136.254/32,no-resolve
 IP-CIDR,104.28.136.32/27,no-resolve
 IP-CIDR,104.28.136.4/30,no-resolve
 IP-CIDR,104.28.136.64/26,no-resolve
