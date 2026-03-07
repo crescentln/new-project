@@ -130,6 +130,49 @@ jobs:
               --output ruleset/dist/CHANGELOG.md
           fi
 
+      - name: Generate workflow summary
+        if: always()
+        run: |
+          set -euo pipefail
+
+          if [ ! -f ruleset/dist/policy_reference.json ] || [ ! -f ruleset/dist/fetch_report.json ] || [ ! -f ruleset/dist/conflicts.json ]; then
+            echo "Ruleset summary unavailable: required outputs are missing." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          if [ -f /tmp/policy_reference.before.json ]; then
+            python3 ruleset/scripts/generate_run_summary.py \
+              --current-policy ruleset/dist/policy_reference.json \
+              --baseline-policy /tmp/policy_reference.before.json \
+              --conflicts ruleset/dist/conflicts.json \
+              --fetch-report ruleset/dist/fetch_report.json \
+              --minimums ruleset/config/min_rules.json \
+              --output /tmp/ruleset-workflow-summary.md
+          else
+            python3 ruleset/scripts/generate_run_summary.py \
+              --current-policy ruleset/dist/policy_reference.json \
+              --conflicts ruleset/dist/conflicts.json \
+              --fetch-report ruleset/dist/fetch_report.json \
+              --minimums ruleset/config/min_rules.json \
+              --output /tmp/ruleset-workflow-summary.md
+          fi
+
+          cat /tmp/ruleset-workflow-summary.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload run reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ruleset-run-${{ github.run_id }}
+          if-no-files-found: ignore
+          retention-days: 14
+          path: |
+            ruleset/dist/CHANGELOG.md
+            ruleset/dist/conflicts.json
+            ruleset/dist/fetch_report.json
+            ruleset/dist/policy_reference.json
+            /tmp/ruleset-workflow-summary.md
+
       - name: Commit dist changes
         id: commit_dist
         run: |
@@ -241,4 +284,3 @@ jobs:
             ruleset/dist/fetch_report.json
             ruleset/dist/policy_reference.json
             ruleset/dist/CHANGELOG.md
-

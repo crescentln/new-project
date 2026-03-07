@@ -4,12 +4,28 @@
     "direct",
     "github",
     "ai",
+    "apple_cn",
+    "apple_cdn",
+    "apple_proxy",
+    "microsoft",
+    "microsoft_cdn",
     "stream",
+    "stream_us",
+    "stream_jp",
+    "stream_hk",
+    "stream_tw",
     "vowifi",
     "apns",
+    "httpdns",
     "socialmedia",
     "socialmedia_cn",
     "anime",
+    "apple_tv",
+    "crypto",
+    "forum",
+    "games_cn",
+    "tiktok",
+    "douyin",
     "icloud_private_relay"
   ],
   "expect_rules": {
@@ -18,6 +34,18 @@
     ],
     "ai": [
       "DOMAIN-SUFFIX,openai.com"
+    ],
+    "apple_cdn": [
+      "DOMAIN-SUFFIX,mesu.apple.com"
+    ],
+    "apple_proxy": [
+      "DOMAIN-SUFFIX,icloud.com"
+    ],
+    "microsoft": [
+      "DOMAIN,azure.microsoft.com"
+    ],
+    "microsoft_cdn": [
+      "DOMAIN,download.microsoft.com"
     ],
     "youtube": [
       "DOMAIN-SUFFIX,youtube.com"
@@ -28,6 +56,21 @@
     "twitch": [
       "DOMAIN-SUFFIX,twitch.tv"
     ],
+    "httpdns": [
+      "DOMAIN-SUFFIX,httpdns-api.aliyuncs.com"
+    ],
+    "stream_us": [
+      "DOMAIN-SUFFIX,hulu.com"
+    ],
+    "stream_jp": [
+      "DOMAIN-SUFFIX,abema.tv"
+    ],
+    "stream_hk": [
+      "DOMAIN-SUFFIX,viu.tv"
+    ],
+    "stream_tw": [
+      "DOMAIN-SUFFIX,bahamut.com.tw"
+    ],
     "vowifi": [
       "DOMAIN-SUFFIX,pub.3gppnetwork.org",
       "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$"
@@ -35,13 +78,25 @@
     "apns": [
       "DOMAIN-SUFFIX,push.apple.com"
     ],
+    "apple_tv": [
+      "DOMAIN-SUFFIX,tv.apple.com"
+    ],
     "talkatone": [
       "DOMAIN-SUFFIX,talkatone.com"
+    ],
+    "crypto": [
+      "DOMAIN-SUFFIX,binance.com"
+    ],
+    "forum": [
+      "DOMAIN-SUFFIX,4chan.org"
     ],
     "anime": [
       "DOMAIN-SUFFIX,mangadex.org",
       "DOMAIN-SUFFIX,pornhub.com",
       "DOMAIN-SUFFIX,91porn.com"
+    ],
+    "games_cn": [
+      "DOMAIN-SUFFIX,4399.com"
     ],
     "icloud_private_relay": [
       "DOMAIN-SUFFIX,mask.icloud.com"
@@ -49,8 +104,14 @@
     "socialmedia_cn": [
       "DOMAIN-SUFFIX,bilibili.com"
     ],
+    "tiktok": [
+      "DOMAIN-SUFFIX,tiktok.com"
+    ],
     "telegram": [
       "DOMAIN-SUFFIX,telegram.org"
+    ],
+    "douyin": [
+      "DOMAIN-SUFFIX,douyin.com"
     ]
   }
 }
