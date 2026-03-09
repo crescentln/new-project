@@ -4,7 +4,7 @@
   "recommended_action": "REJECT",
   "recommended_priority": 100,
   "recommended_note": "广告、追踪、恶意基础拦截规则",
-  "rule_count": 333650,
+  "rule_count": 333653,
   "paths": {
     "surge": "surge/reject.list",
     "surge_non_ip": "surge/non_ip/reject.list",
@@ -27,28 +27,28 @@
       "type": "adblock",
       "authority": "curated-upstream",
       "ref": "https://easylist.to/easylist/easylist.txt",
-      "used_cache": true,
-      "rule_count": 59221
+      "used_cache": false,
+      "rule_count": 59223
     },
     {
       "type": "adblock",
       "authority": "curated-upstream",
       "ref": "https://easylist.to/easylist/easyprivacy.txt",
-      "used_cache": true,
-      "rule_count": 49929
+      "used_cache": false,
+      "rule_count": 49930
     },
     {
       "type": "adblock",
       "authority": "curated-upstream",
       "ref": "https://filters.adtidy.org/dns/filter_1.txt",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 158581
     },
     {
       "type": "adblock",
       "authority": "curated-upstream",
       "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 152500
     },
     {

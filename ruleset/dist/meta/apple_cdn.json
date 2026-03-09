@@ -27,14 +27,14 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-update",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 21
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-pki",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 10
     },
     {

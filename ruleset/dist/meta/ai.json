@@ -27,56 +27,56 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 17
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 6
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-gemini",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 36
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 1
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-intelligence",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 7
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 123
     },
     {

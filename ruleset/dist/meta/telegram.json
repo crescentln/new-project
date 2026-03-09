@@ -27,14 +27,14 @@
       "type": "telegram_cidr",
       "authority": "official",
       "ref": "https://core.telegram.org/resources/cidr.txt",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 14
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/telegram",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 20
     },
     {

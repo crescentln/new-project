@@ -27,28 +27,28 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 422
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/azure",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 58
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bing",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 27
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-dev",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 68
     },
     {

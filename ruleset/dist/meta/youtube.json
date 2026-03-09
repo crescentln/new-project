@@ -27,7 +27,7 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/youtube",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 176
     },
     {
