@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-07T00:44:29.758991+00:00",
+  "generated_at_utc": "2026-03-09T05:06:11.483269+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 330910
+      "rule_count": 331359
     },
     {
       "id": "reject_extra",
@@ -42,7 +42,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6735
+      "rule_count": 6743
     },
     {
       "id": "cncidr",
@@ -147,7 +147,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 321,
       "recommended_note": "iCloud Private Relay 推荐走代理（PROXY）",
-      "rule_count": 13364
+      "rule_count": 13358
     },
     {
       "id": "apple_services",
@@ -378,14 +378,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23698
+      "rule_count": 23703
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 18918
+      "rule_count": 18926
     }
   ]
 }

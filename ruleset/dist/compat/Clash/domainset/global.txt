@@ -147,7 +147,6 @@ cdn.ampproject.org
 cdn.apple-mapkit.com
 cdn.globalsigncdn.com.cdn.cloudflare.net
 cdn.js7k.com
-cdn.jsdelivr.net
 cdn.marketplaceimages.windowsphone.com
 cdn1.apple-mapkit.com
 cdn2.apple-mapkit.com
@@ -2913,6 +2912,7 @@ zeenews-fonts.s3.amazonaws.com
 +.aporntv.com
 +.apornvideo.com
 +.app-dynamics.com
++.app-pay.jp
 +.app-store.wang
 +.app0le.com
 +.app756.com
@@ -6701,6 +6701,7 @@ zeenews-fonts.s3.amazonaws.com
 +.customizedbeatsdre.com
 +.customnikeshoes.com
 +.cutt.ly
++.cve.org
 +.cw.com.tw
 +.cwcams.com
 +.cxacg.com
@@ -7796,6 +7797,7 @@ zeenews-fonts.s3.amazonaws.com
 +.dynamobuilds.com
 +.dynamopackages.com
 +.dynamoreach.com
++.dynatrace.com
 +.dyncdn.me
 +.dzcdn.net
 +.dzen.ru
@@ -8807,6 +8809,7 @@ zeenews-fonts.s3.amazonaws.com
 +.familypies.net
 +.familyporn.tv
 +.familypornhd.com
++.familysearch.org
 +.familysexsimulator.com
 +.familysimulator.com
 +.familysimulator.io
@@ -18399,6 +18402,7 @@ zeenews-fonts.s3.amazonaws.com
 +.samsunggalaxyfriends.com
 +.samsunghealth.com
 +.samsungiotcloud.com
++.samsungiots.com
 +.samsungknox.com
 +.samsungosp.com
 +.samsungqbe.com
@@ -19164,6 +19168,7 @@ zeenews-fonts.s3.amazonaws.com
 +.smartonesolutions.com.hk
 +.smartonesolutions.hk
 +.smartstream.ne.jp
++.smartthings.com
 +.smashed.xxx
 +.smbc.co.jp
 +.smbctb.co.jp
