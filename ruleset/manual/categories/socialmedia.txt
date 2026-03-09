@@ -6,3 +6,12 @@ DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,snapchat.com
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,whispersystems.org
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,lnkd.in
+DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.social
+DOMAIN-SUFFIX,bsky.network

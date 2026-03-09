@@ -1,5 +1,9 @@
 DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,aka.ms
+DOMAIN,azure.microsoft.com
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,windows.net

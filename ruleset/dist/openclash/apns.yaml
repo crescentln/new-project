@@ -5,4 +5,5 @@ payload:
   - 'DOMAIN,courier.push.apple.com'
   - 'DOMAIN,feedback.push.apple.com'
   - 'DOMAIN,gateway.push.apple.com'
+  - 'DOMAIN,identity.apple.com'
   - 'DOMAIN-SUFFIX,push.apple.com'

@@ -27,7 +27,7 @@
       "type": "iana_tld_list",
       "authority": "official",
       "ref": "https://data.iana.org/TLD/tlds-alpha-by-domain.txt",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 1433
     },
     {

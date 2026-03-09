@@ -90,6 +90,18 @@
           "url": "https://www.iana.org/assignments/iana-ipv6-special-registry/iana-ipv6-special-registry-1.csv"
         },
         {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/private",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/private"
+          ]
+        },
+        {
           "authority": "owner-controlled",
           "path": "manual/categories/lan.txt",
           "type": "local_domain"
@@ -106,10 +118,10 @@
             "@ads"
           ],
           "type": "v2fly_dlc",
-          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "fallback_urls": [
-            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/geolocation-cn",
-            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/geolocation-cn"
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/cn"
           ]
         },
         {
@@ -191,6 +203,30 @@
           "authority": "official",
           "type": "gcp_ip_ranges",
           "url": "https://www.gstatic.com/ipranges/cloud.json"
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cdn-cn",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-cdn-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-cdn-cn"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili-cdn",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili-cdn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili-cdn"
+          ]
         },
         {
           "authority": "owner-controlled",
@@ -910,6 +946,30 @@
             "@ads"
           ],
           "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-intelligence",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-intelligence",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-intelligence"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bytedance-ai-!cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bytedance-ai-!cn"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
           "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
           "fallback_urls": [
             "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-ai-!cn",
@@ -1110,6 +1170,45 @@
           "fallback_urls": [
             "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft",
             "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@cn",
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/azure",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/azure",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/azure"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@cn",
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bing",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bing",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bing"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@cn",
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-dev",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-dev",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-dev"
           ]
         },
         {
@@ -1894,6 +1993,43 @@
           ]
         },
         {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/signal",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/signal",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/signal"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@cn",
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/linkedin",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/linkedin",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/linkedin"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bluesky",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bluesky",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bluesky"
+          ]
+        },
+        {
           "authority": "owner-controlled",
           "path": "manual/categories/socialmedia.txt",
           "type": "local_domain"
@@ -1975,17 +2111,6 @@
         {
           "authority": "owner-controlled",
           "path": "manual/categories/dmca.txt",
-          "type": "local_domain"
-        }
-      ]
-    },
-    {
-      "description": "Talkatone",
-      "id": "talkatone",
-      "sources": [
-        {
-          "authority": "owner-controlled",
-          "path": "manual/categories/talkatone.txt",
           "type": "local_domain"
         }
       ]
@@ -2095,6 +2220,18 @@
           "authority": "official"
         },
         {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/private",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/private"
+          ]
+        },
+        {
           "type": "apnic_country_cidr",
           "url": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "country": "CN",
@@ -2126,14 +2263,179 @@
         },
         {
           "type": "v2fly_dlc",
-          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-cn",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cdn-cn",
           "authority": "community-curated",
           "exclude_attrs": [
             "@ads"
           ],
           "fallback_urls": [
-            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/geolocation-cn",
-            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/geolocation-cn"
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-cdn-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-cdn-cn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili-cdn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili-cdn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili-cdn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/cn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "include_attrs": [
+            "@cn"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-update",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-update",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-update"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-pki",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "include_attrs": [
+            "@cn"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-pki",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/apple-pki"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "include_attrs": [
+            "@cn"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-cn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-social-media-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-social-media-cn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sina",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/sina",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/sina"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zhihu",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/zhihu",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/zhihu"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/bilibili"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-cn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-games-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-games-cn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/douyin",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/douyin",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/douyin"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-android-app-download",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-android-app-download",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/category-android-app-download"
           ]
         },
         {

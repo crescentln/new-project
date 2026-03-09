@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 242,
   "recommended_note": "抖音国内流量直连",
-  "rule_count": 65,
+  "rule_count": 66,
   "paths": {
     "surge": "surge/douyin.list",
     "surge_non_ip": "surge/non_ip/douyin.list",
@@ -27,8 +27,8 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/douyin",
-      "used_cache": false,
-      "rule_count": 65
+      "used_cache": true,
+      "rule_count": 66
     },
     {
       "type": "local_domain",

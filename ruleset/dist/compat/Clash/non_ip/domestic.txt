@@ -924,6 +924,8 @@ DOMAIN-SUFFIX,bestincapi.com
 DOMAIN-SUFFIX,bestincapp.cn
 DOMAIN-SUFFIX,bestincapp.com
 DOMAIN-SUFFIX,bestopview.com
+DOMAIN-SUFFIX,bestpay.cn
+DOMAIN-SUFFIX,bestpay.com.cn
 DOMAIN-SUFFIX,bestrhy.com
 DOMAIN-SUFFIX,bestv.com.cn
 DOMAIN-SUFFIX,bestvcdn.cn
@@ -1206,6 +1208,7 @@ DOMAIN-SUFFIX,caiyu.com
 DOMAIN-SUFFIX,caiyun.com
 DOMAIN-SUFFIX,caiyunai.com
 DOMAIN-SUFFIX,caiyunapp.com
+DOMAIN-SUFFIX,calorietech.com
 DOMAIN-SUFFIX,camcard.com
 DOMAIN-SUFFIX,camscanner.com
 DOMAIN-SUFFIX,cang.com
@@ -1687,6 +1690,7 @@ DOMAIN-SUFFIX,cmicapm.com
 DOMAIN-SUFFIX,cmicrwx.cn
 DOMAIN-SUFFIX,cmicvip.cn
 DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,cmpay.com
 DOMAIN-SUFFIX,cmread.com
 DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,cn-ha.mqtt.io.mi.com
@@ -2133,6 +2137,7 @@ DOMAIN-SUFFIX,douyincloud.run
 DOMAIN-SUFFIX,douyinec.com
 DOMAIN-SUFFIX,douyinfe.com
 DOMAIN-SUFFIX,douyinliving.com
+DOMAIN-SUFFIX,douyinpay.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
@@ -2847,6 +2852,7 @@ DOMAIN-SUFFIX,heisha.net
 DOMAIN-SUFFIX,heiyan.com
 DOMAIN-SUFFIX,heiyanimg.com
 DOMAIN-SUFFIX,heiyu.space
+DOMAIN-SUFFIX,helipay.com
 DOMAIN-SUFFIX,hello-inc.com
 DOMAIN-SUFFIX,hellobike.com
 DOMAIN-SUFFIX,hellofont.cn
@@ -3660,6 +3666,8 @@ DOMAIN-SUFFIX,kdslife.com
 DOMAIN-SUFFIX,ke.com
 DOMAIN-SUFFIX,keboyunxiao.com
 DOMAIN-SUFFIX,kechuang.org
+DOMAIN-SUFFIX,keep.com
+DOMAIN-SUFFIX,keep.com.cn
 DOMAIN-SUFFIX,keepcdn.com
 DOMAIN-SUFFIX,kejet.net
 DOMAIN-SUFFIX,kekeniu.com
@@ -5006,6 +5014,7 @@ DOMAIN-SUFFIX,shengyizhuanjia.com
 DOMAIN-SUFFIX,shenjing.com
 DOMAIN-SUFFIX,shenmayouxi.com
 DOMAIN-SUFFIX,sheui.com
+DOMAIN-SUFFIX,shfft.com
 DOMAIN-SUFFIX,shgsec.com
 DOMAIN-SUFFIX,shhxzq.com
 DOMAIN-SUFFIX,shidianbaike.com
@@ -5742,6 +5751,7 @@ DOMAIN-SUFFIX,unaming.cn
 DOMAIN-SUFFIX,unaming.info
 DOMAIN-SUFFIX,unaming.net
 DOMAIN-SUFFIX,uncnn.cn
+DOMAIN-SUFFIX,unicompayment.com
 DOMAIN-SUFFIX,unihan.com.cn
 DOMAIN-SUFFIX,unionpay.com
 DOMAIN-SUFFIX,unionpay.net

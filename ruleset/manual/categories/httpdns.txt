@@ -1,2 +1,11 @@
 DOMAIN-SUFFIX,httpdns.alicdn.com
 DOMAIN-SUFFIX,httpdns.baidubce.com
+DOMAIN,resolvers-cn.httpdns.aliyuncs.com
+DOMAIN,httpdns.immomo.com
+DOMAIN-SUFFIX,dns.jd.com
+DOMAIN-SUFFIX,dns.weibo.cn
+DOMAIN-SUFFIX,dns.weixin.qq.com
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn
+DOMAIN-SUFFIX,doh.iqiyi.com
+DOMAIN-SUFFIX,doh.ptqy.gitv.tv
+DOMAIN-SUFFIX,hdns.ksyun.com

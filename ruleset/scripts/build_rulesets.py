@@ -637,33 +637,45 @@ def parse_v2fly_dlc_text(
 
 
 def parse_v2fly_dlc_source(
-    url: str,
+    source_urls: list[str],
     cache_dir: pathlib.Path,
     offline: bool,
     include_attrs: set[str],
     exclude_attrs: set[str],
     exclude_includes: set[str],
-) -> tuple[set[str], bool]:
+) -> tuple[set[str], bool, str]:
+    if not source_urls:
+        raise BuildError("v2fly_dlc source requires at least one URL")
+
     visited: set[str] = set()
     rules: set[str] = set()
     used_cache_only = True
+    base_urls = [candidate.rsplit("/", 1)[0] for candidate in source_urls]
+    root_name = source_urls[0].rsplit("/", 1)[-1]
+    resolved_root_url = source_urls[0]
 
-    def walk(current_url: str) -> set[str]:
+    def fetch_relative(name: str) -> tuple[bytes, bool, str]:
+        candidates = [f"{base}/{name}" for base in base_urls]
+        source = {"url": candidates[0], "fallback_urls": candidates[1:]}
+        return fetch_source_bytes(source, cache_dir, offline)
+
+    def walk(name: str) -> set[str]:
         nonlocal used_cache_only
-        if current_url in visited:
+        nonlocal resolved_root_url
+        if name in visited:
             return set()
-        visited.add(current_url)
+        visited.add(name)
 
-        data, used_cache = fetch_bytes(current_url, cache_dir, offline=offline)
+        data, used_cache, chosen_url = fetch_relative(name)
+        if name == root_name:
+            resolved_root_url = chosen_url
         used_cache_only = used_cache_only and used_cache
         text = decode_text(data)
-        base_url = current_url.rsplit("/", 1)[0]
 
         def include_handler(include_name: str) -> set[str]:
             if include_name in exclude_includes:
                 return set()
-            include_url = f"{base_url}/{include_name}"
-            return walk(include_url)
+            return walk(include_name)
 
         return parse_v2fly_dlc_text(
             text,
@@ -672,8 +684,8 @@ def parse_v2fly_dlc_source(
             include_handler=include_handler,
         )
 
-    rules.update(walk(url))
-    return rules, used_cache_only
+    rules.update(walk(root_name))
+    return rules, used_cache_only, resolved_root_url
 
 
 def fetch_bytes(url: str, cache_dir: pathlib.Path, offline: bool = False) -> tuple[bytes, bool]:
@@ -826,15 +838,15 @@ def load_source(
         exclude_includes = {
             str(item).strip() for item in source.get("exclude_includes", []) if str(item).strip()
         }
-        rules, used_cache_only = parse_v2fly_dlc_source(
-            source_ref,
+        rules, used_cache_only, resolved_source_ref = parse_v2fly_dlc_source(
+            collect_source_urls(source),
             cache_dir=cache_dir,
             offline=offline,
             include_attrs=include_attrs,
             exclude_attrs=exclude_attrs,
             exclude_includes=exclude_includes,
         )
-        return SourceBuildResult(rules, used_cache_only, source_ref)
+        return SourceBuildResult(rules, used_cache_only, resolved_source_ref)
 
     raise BuildError(f"unsupported source type: {source_type}")
 
@@ -1506,6 +1518,15 @@ def build_all_staged(
         if dist_dir.exists():
             shutil.rmtree(dist_dir)
         staging_dir.replace(dist_dir)
+        if not dist_dir.exists():
+            renamed_candidates = sorted(
+                path for path in dist_parent.glob(f"{dist_dir.name} *") if path.is_dir()
+            )
+            if len(renamed_candidates) == 1:
+                log(
+                    f"warning: dist directory was renamed to {renamed_candidates[0].name}; restoring expected path"
+                )
+                renamed_candidates[0].replace(dist_dir)
         return code
     finally:
         if staging_dir.exists():

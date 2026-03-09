@@ -1,11 +1,38 @@
 {
-  "generated_at_utc": "2026-03-09T05:06:11.473991+00:00",
-  "conflict_count": 402,
+  "generated_at_utc": "2026-03-09T23:31:27.717125+00:00",
+  "conflict_count": 479,
   "cross_action_conflict_count": 0,
   "high_severity_conflict_count": 0,
   "medium_severity_conflict_count": 0,
-  "low_severity_conflict_count": 402,
+  "low_severity_conflict_count": 479,
   "conflicts": [
+    {
+      "rule": "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
     {
       "rule": "DOMAIN-SUFFIX,bilibiligame.cn",
       "categories": [
@@ -75,6 +102,141 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilicdn1.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilicdn2.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilicdn3.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilicdn4.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilicdn5.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         },
@@ -169,12 +331,18 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN,manga.bilibili.com",
+      "rule": "DOMAIN-SUFFIX,biliimg.com",
       "categories": [
+        "cdn",
         "domestic",
         "socialmedia_cn"
       ],
       "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
         {
           "category": "domestic",
           "action": "DIRECT",
@@ -190,7 +358,301 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN,upos-hz-mirrorakam.akamaized.net",
+      "rule": "DOMAIN-SUFFIX,bilivideo.cn",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilivideo.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,bilivideo.net",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,hdslb.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,hdslb.org",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,maoercdn.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mincdn.com",
+      "categories": [
+        "cdn",
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,apple-relay.apple.com",
+      "categories": [
+        "ai",
+        "apple_intelligence"
+      ],
+      "actions": [
+        {
+          "category": "ai",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        },
+        {
+          "category": "apple_intelligence",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,apple-relay.cloudflare.com",
+      "categories": [
+        "ai",
+        "apple_intelligence"
+      ],
+      "actions": [
+        {
+          "category": "ai",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        },
+        {
+          "category": "apple_intelligence",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,apple-relay.fastly-edge.com",
+      "categories": [
+        "ai",
+        "apple_intelligence"
+      ],
+      "actions": [
+        {
+          "category": "ai",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        },
+        {
+          "category": "apple_intelligence",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,apple-relay.mask.apple-dns.net",
+      "categories": [
+        "ai",
+        "apple_intelligence"
+      ],
+      "actions": [
+        {
+          "category": "ai",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        },
+        {
+          "category": "apple_intelligence",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,gspe1-ssl.ls.apple.com",
+      "categories": [
+        "ai",
+        "apple_intelligence"
+      ],
+      "actions": [
+        {
+          "category": "ai",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        },
+        {
+          "category": "apple_intelligence",
+          "action": "PROXY",
+          "action_family": "PROXY"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN,manga.bilibili.com",
       "categories": [
         "domestic",
         "socialmedia_cn"
@@ -925,6 +1387,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,51cdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,5wyxi.com",
       "categories": [
         "domestic",
@@ -1009,6 +1492,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,8686c.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,97973.com",
       "categories": [
         "domestic",
@@ -1072,6 +1576,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,acadn.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,acadn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,acg.tv",
       "categories": [
         "domestic",
@@ -1127,6 +1673,27 @@
         },
         {
           "category": "douyin",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,aicdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -1555,6 +2122,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,bbbcdns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,bcfmglobal.com",
       "categories": [
         "domestic",
@@ -1975,111 +2563,6 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,bilicdn1.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,bilicdn2.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,bilicdn3.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,bilicdn4.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,bilicdn5.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
       "rule": "DOMAIN-SUFFIX,bilicomic.com",
       "categories": [
         "domestic",
@@ -2143,27 +2626,6 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,biliimg.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
       "rule": "DOMAIN-SUFFIX,biliintl.com",
       "categories": [
         "domestic",
@@ -2185,19 +2647,19 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,bilivideo.cn",
+      "rule": "DOMAIN-SUFFIX,bootcdn.cn",
       "categories": [
-        "domestic",
-        "socialmedia_cn"
+        "cdn",
+        "domestic"
       ],
       "actions": [
         {
-          "category": "domestic",
+          "category": "cdn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         },
         {
-          "category": "socialmedia_cn",
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -2206,19 +2668,19 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,bilivideo.com",
+      "rule": "DOMAIN-SUFFIX,bootcdn.net",
       "categories": [
-        "domestic",
-        "socialmedia_cn"
+        "cdn",
+        "domestic"
       ],
       "actions": [
         {
-          "category": "domestic",
+          "category": "cdn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         },
         {
-          "category": "socialmedia_cn",
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -2227,19 +2689,19 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,bilivideo.net",
+      "rule": "DOMAIN-SUFFIX,bootcss.com",
       "categories": [
-        "domestic",
-        "socialmedia_cn"
+        "cdn",
+        "domestic"
       ],
       "actions": [
         {
-          "category": "domestic",
+          "category": "cdn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         },
         {
-          "category": "socialmedia_cn",
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -2290,6 +2752,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,bsclink.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,buke999.com",
       "categories": [
         "domestic",
@@ -2332,6 +2815,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,cdn20.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,cdn30.org",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,cdncl.net",
       "categories": [
         "domestic",
@@ -2345,6 +2870,90 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,cdnmg.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,chinanetcenter.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,chuangcache.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,chuangcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -2521,6 +3130,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,dfyun.com.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,diandianlife.top",
       "categories": [
         "domestic",
@@ -2534,6 +3164,48 @@
         },
         {
           "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,dlgslb.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,dlgslb.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -2752,6 +3424,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,douyinpay.com",
+      "categories": [
+        "domestic",
+        "douyin"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "douyin",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,douyinpic.com",
       "categories": [
         "domestic",
@@ -2878,6 +3571,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,dwion.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,dwstatic.com",
       "categories": [
         "domestic",
@@ -2941,6 +3655,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,fastcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,fastcdn.com.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,ffbuddy.com",
       "categories": [
         "domestic",
@@ -2962,6 +3718,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,flxdns.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,flxdns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,forevernine.com",
       "categories": [
         "domestic",
@@ -2975,6 +3773,27 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,funcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -3277,6 +4096,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,globalcdn.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,goto-game.com",
       "categories": [
         "domestic",
@@ -3521,48 +4361,6 @@
         },
         {
           "category": "games_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,hdslb.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN-SUFFIX,hdslb.org",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -4537,6 +5335,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,jiashule.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,jiasule.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,jike.city",
       "categories": [
         "domestic",
@@ -4789,6 +5629,111 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,lxdns.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,lxdns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,lxdns.info",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,lxdns.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,lxdns.org",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,mahjongai.net",
       "categories": [
         "domestic",
@@ -4936,19 +5881,19 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,maoercdn.com",
+      "rule": "DOMAIN-SUFFIX,mcadn.cn",
       "categories": [
-        "domestic",
-        "socialmedia_cn"
+        "cdn",
+        "domestic"
       ],
       "actions": [
         {
-          "category": "domestic",
+          "category": "cdn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         },
         {
-          "category": "socialmedia_cn",
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -5230,27 +6175,6 @@
       "severity": "low"
     },
     {
-      "rule": "DOMAIN-SUFFIX,mincdn.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
       "rule": "DOMAIN-SUFFIX,miyoushe.com",
       "categories": [
         "domestic",
@@ -5348,6 +6272,48 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mwcdns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,mwcloudcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -5566,6 +6532,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,oncdp.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,ourdvsss.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,overseas.weibo.com",
       "categories": [
         "domestic",
@@ -5600,6 +6608,27 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,phpcomposer.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -5755,6 +6784,132 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,qingcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qiniu.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qiniucdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qiniudn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qiniudns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qiniup.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,qishui.cn",
       "categories": [
         "domestic",
@@ -5860,6 +7015,48 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,qnsdk.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qnssl.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,qq163.com",
       "categories": [
         "domestic",
@@ -5915,6 +7112,69 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qtlcdn.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qtlcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,qtlcdn.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -6574,6 +7834,90 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,speedws.info",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,speedws.org",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,staticfile.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,staticfile.org",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,supercachenet.com",
       "categories": [
         "domestic",
@@ -7183,6 +8527,69 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,tlgslb.cn",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,tlgslb.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,trpcdn.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,tuer123.com",
       "categories": [
         "domestic",
@@ -7259,6 +8666,90 @@
         },
         {
           "category": "douyin",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,upai.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,upaiyun.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,upcdn.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,upyun.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -7406,6 +8897,27 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wangsu.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -7813,6 +9325,174 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,wscdns.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wscdns.info",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wscdns.org",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wsdvs.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wsglb.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wsglb.net",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wswebcdn.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,wswebpic.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,xd.cn",
       "categories": [
         "domestic",
@@ -8183,6 +9863,27 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,yunaq.com",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }

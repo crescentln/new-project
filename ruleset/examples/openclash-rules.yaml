@@ -298,12 +298,6 @@ rule-providers:
     path: ./rule_provider/apns.yaml
     url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/openclash/apns.yaml
     interval: 86400
-  talkatone:
-    type: http
-    behavior: classical
-    path: ./rule_provider/talkatone.yaml
-    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/openclash/talkatone.yaml
-    interval: 86400
   vowifi:
     type: http
     behavior: classical
@@ -367,7 +361,6 @@ rules:
   - RULE-SET,anime,PROXY
   - RULE-SET,tiktok,PROXY
   - RULE-SET,apns,PROXY
-  - RULE-SET,talkatone,PROXY
   - RULE-SET,vowifi,PROXY
   - RULE-SET,tld_proxy,PROXY
   - RULE-SET,gfw,PROXY

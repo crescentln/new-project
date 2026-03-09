@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 340,
   "recommended_note": "国际社交网络走代理",
-  "rule_count": 641,
+  "rule_count": 649,
   "paths": {
     "surge": "surge/socialmedia.list",
     "surge_non_ip": "surge/non_ip/socialmedia.list",
@@ -27,64 +27,85 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-!cn",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 592
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/facebook",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 394
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/instagram",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 72
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/twitter",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 23
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/discord",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 28
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/reddit",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 12
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/quora",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/medium",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/signal",
+      "used_cache": true,
+      "rule_count": 8
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/linkedin",
+      "used_cache": true,
+      "rule_count": 10
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bluesky",
+      "used_cache": true,
+      "rule_count": 3
     },
     {
       "type": "local_domain",
       "authority": "owner-controlled",
       "ref": "manual/categories/socialmedia.txt",
       "used_cache": false,
-      "rule_count": 8
+      "rule_count": 17
     }
   ]
 }

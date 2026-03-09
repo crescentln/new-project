@@ -119,7 +119,7 @@
     "ai": {
       "action": "PROXY",
       "priority": 320,
-      "note": "AI 服务走代理"
+      "note": "AI 服务走代理（含 Apple Intelligence 聚合）"
     },
     "apple_proxy": {
       "action": "PROXY",
@@ -139,7 +139,7 @@
     "apple_intelligence": {
       "action": "PROXY",
       "priority": 323,
-      "note": "Apple Intelligence 走代理"
+      "note": "Apple Intelligence 走代理（同时并入 ai 聚合类）"
     },
     "microsoft": {
       "action": "PROXY",
@@ -240,11 +240,6 @@
       "action": "PROXY",
       "priority": 342,
       "note": "APNS 连接域名（关键端点集合，按你当前策略走代理）"
-    },
-    "talkatone": {
-      "action": "PROXY",
-      "priority": 343,
-      "note": "Talkatone 专项域名（单 suffix 覆盖全部子域，集合小属正常）"
     },
     "vowifi": {
       "action": "PROXY",

@@ -3,8 +3,8 @@
   "description": "AI services",
   "recommended_action": "PROXY",
   "recommended_priority": 320,
-  "recommended_note": "AI 服务走代理",
-  "rule_count": 123,
+  "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
+  "rule_count": 130,
   "paths": {
     "surge": "surge/ai.list",
     "surge_non_ip": "surge/non_ip/ai.list",
@@ -27,42 +27,56 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/openai",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 17
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/anthropic",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 6
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/perplexity",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google-gemini",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 36
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github-copilot",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 1
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-intelligence",
+      "used_cache": true,
+      "rule_count": 5
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bytedance-ai-!cn",
+      "used_cache": true,
+      "rule_count": 7
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 123
     },
     {
@@ -70,7 +84,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/ai.txt",
       "used_cache": false,
-      "rule_count": 9
+      "rule_count": 13
     }
   ]
 }

@@ -32,8 +32,12 @@
     "github": [
       "DOMAIN-SUFFIX,github.com"
     ],
+    "lan": [
+      "DOMAIN-SUFFIX,home.arpa"
+    ],
     "ai": [
-      "DOMAIN-SUFFIX,openai.com"
+      "DOMAIN-SUFFIX,openai.com",
+      "DOMAIN,apple-relay.apple.com"
     ],
     "apple_cdn": [
       "DOMAIN-SUFFIX,mesu.apple.com"
@@ -81,9 +85,6 @@
     "apple_tv": [
       "DOMAIN-SUFFIX,tv.apple.com"
     ],
-    "talkatone": [
-      "DOMAIN-SUFFIX,talkatone.com"
-    ],
     "crypto": [
       "DOMAIN-SUFFIX,binance.com"
     ],
@@ -103,6 +104,9 @@
     ],
     "socialmedia_cn": [
       "DOMAIN-SUFFIX,bilibili.com"
+    ],
+    "socialmedia": [
+      "DOMAIN-SUFFIX,signal.org"
     ],
     "tiktok": [
       "DOMAIN-SUFFIX,tiktok.com"

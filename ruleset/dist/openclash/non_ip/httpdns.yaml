@@ -1,4 +1,6 @@
 payload:
+  - 'DOMAIN,httpdns.immomo.com'
+  - 'DOMAIN,resolvers-cn.httpdns.aliyuncs.com'
   - 'DOMAIN-SUFFIX,apidns.kwd.inkuai.com'
   - 'DOMAIN-SUFFIX,dns.iqiyi.com'
   - 'DOMAIN-SUFFIX,dns.jd.com'

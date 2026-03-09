@@ -555,6 +555,13 @@ st-ok.cdn-vk.ru
 +.redkix.com
 +.rocksdb.org
 +.shopfacebook.com
++.signal.art
++.signal.group
++.signal.link
++.signal.me
++.signal.org
++.signal.tube
++.signalusers.org
 +.snapchat.com
 +.sportsfacebook.com
 +.sportstream.com
@@ -627,6 +634,7 @@ st-ok.cdn-vk.ru
 +.watchanimeattheoffice.com
 +.web-instagram.net
 +.whatsapp.com
++.whispersystems.org
 +.whyfacebook.com
 +.workplace.com
 +.workplaceusecases.com

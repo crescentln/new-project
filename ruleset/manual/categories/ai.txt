@@ -8,3 +8,7 @@ perplexity.ai
 gemini.google.com
 copilot.microsoft.com
 githubcopilot.com
+apple-relay.apple.com
+gspe1-ssl.ls.apple.com
+coze.com
+trae.ai

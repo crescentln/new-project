@@ -1,3 +1,5 @@
+httpdns.immomo.com
+resolvers-cn.httpdns.aliyuncs.com
 +.apidns.kwd.inkuai.com
 +.dns.iqiyi.com
 +.dns.jd.com

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-09T05:06:11.483269+00:00",
+  "generated_at_utc": "2026-03-09T23:31:27.723607+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 331359
+      "rule_count": 333650
     },
     {
       "id": "reject_extra",
@@ -35,21 +35,21 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 200,
       "recommended_note": "局域网与特殊保留地址直连",
-      "rule_count": 33
+      "rule_count": 155
     },
     {
       "id": "domestic",
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6743
+      "rule_count": 6753
     },
     {
       "id": "cncidr",
       "recommended_action": "DIRECT",
       "recommended_priority": 220,
       "recommended_note": "中国大陆 IP 段直连（IP-focused）",
-      "rule_count": 10829
+      "rule_count": 10831
     },
     {
       "id": "telegram",
@@ -63,7 +63,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 250,
       "recommended_note": "CDN 回源与就近访问优先直连",
-      "rule_count": 1304
+      "rule_count": 1409
     },
     {
       "id": "download",
@@ -118,8 +118,8 @@
       "id": "ai",
       "recommended_action": "PROXY",
       "recommended_priority": 320,
-      "recommended_note": "AI 服务走代理",
-      "rule_count": 123
+      "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
+      "rule_count": 130
     },
     {
       "id": "apple_cn",
@@ -160,7 +160,7 @@
       "id": "apple_intelligence",
       "recommended_action": "PROXY",
       "recommended_priority": 323,
-      "recommended_note": "Apple Intelligence 走代理",
+      "recommended_note": "Apple Intelligence 走代理（同时并入 ai 聚合类）",
       "rule_count": 5
     },
     {
@@ -189,7 +189,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 150,
       "recommended_note": "HTTPDNS 常用于绕过本地 DNS 分流，默认建议拦截",
-      "rule_count": 49
+      "rule_count": 51
     },
     {
       "id": "games_cn",
@@ -308,7 +308,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 340,
       "recommended_note": "国际社交网络走代理",
-      "rule_count": 641
+      "rule_count": 649
     },
     {
       "id": "anime",
@@ -329,14 +329,14 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 242,
       "recommended_note": "抖音国内流量直连",
-      "rule_count": 65
+      "rule_count": 66
     },
     {
       "id": "apns",
       "recommended_action": "PROXY",
       "recommended_priority": 342,
       "recommended_note": "APNS 连接域名（关键端点集合，按你当前策略走代理）",
-      "rule_count": 7
+      "rule_count": 8
     },
     {
       "id": "dmca",
@@ -344,13 +344,6 @@
       "recommended_priority": 243,
       "recommended_note": "按你当前 Surge 配置作为直连类",
       "rule_count": 5
-    },
-    {
-      "id": "talkatone",
-      "recommended_action": "PROXY",
-      "recommended_priority": 343,
-      "recommended_note": "Talkatone 专项域名（单 suffix 覆盖全部子域，集合小属正常）",
-      "rule_count": 1
     },
     {
       "id": "vowifi",
@@ -385,7 +378,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 18926
+      "rule_count": 19544
     }
   ]
 }

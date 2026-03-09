@@ -3,7 +3,7 @@
   "description": "Apple intelligence routing",
   "recommended_action": "PROXY",
   "recommended_priority": 323,
-  "recommended_note": "Apple Intelligence 走代理",
+  "recommended_note": "Apple Intelligence 走代理（同时并入 ai 聚合类）",
   "rule_count": 5,
   "paths": {
     "surge": "surge/apple_intelligence.list",
@@ -27,7 +27,7 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/apple-intelligence",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {

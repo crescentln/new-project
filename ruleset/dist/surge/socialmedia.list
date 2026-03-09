@@ -555,6 +555,13 @@ DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redkix.com
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,shopfacebook.com
+DOMAIN-SUFFIX,signal.art
+DOMAIN-SUFFIX,signal.group
+DOMAIN-SUFFIX,signal.link
+DOMAIN-SUFFIX,signal.me
+DOMAIN-SUFFIX,signal.org
+DOMAIN-SUFFIX,signal.tube
+DOMAIN-SUFFIX,signalusers.org
 DOMAIN-SUFFIX,snapchat.com
 DOMAIN-SUFFIX,sportsfacebook.com
 DOMAIN-SUFFIX,sportstream.com
@@ -627,6 +634,7 @@ DOMAIN-SUFFIX,vkvideo.ru
 DOMAIN-SUFFIX,watchanimeattheoffice.com
 DOMAIN-SUFFIX,web-instagram.net
 DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whispersystems.org
 DOMAIN-SUFFIX,whyfacebook.com
 DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusecases.com
