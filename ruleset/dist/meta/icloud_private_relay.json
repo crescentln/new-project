@@ -27,14 +27,14 @@
       "type": "csv_cidr_first_column",
       "authority": "official",
       "ref": "https://mask-api.icloud.com/egress-ip-ranges.csv",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 13353
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/icloudprivaterelay",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 3
     },
     {

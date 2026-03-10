@@ -27,28 +27,28 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-cn",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 75
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sina",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 30
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/zhihu",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 50
     },
     {
