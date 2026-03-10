@@ -27,7 +27,7 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/googlefcm",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 12
     },
     {

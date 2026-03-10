@@ -1,5 +1,11 @@
+DOMAIN,aedns.weixin.qq.com
+DOMAIN,dnspod.meituan.httpdns.qcloud.com
+DOMAIN,dnspod.meituan.httpdns.start.qcloud.com
 DOMAIN,httpdns.immomo.com
+DOMAIN,httpdnsmultiapi.meituan.com
+DOMAIN,httpdnsmultiapivip.meituan.com
 DOMAIN,resolvers-cn.httpdns.aliyuncs.com
+DOMAIN,yuyin-httpdns.gslb.yy.com
 DOMAIN-SUFFIX,apidns.kwd.inkuai.com
 DOMAIN-SUFFIX,dns.iqiyi.com
 DOMAIN-SUFFIX,dns.jd.com

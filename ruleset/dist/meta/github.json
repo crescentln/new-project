@@ -27,35 +27,35 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/github",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 32
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gitlab",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/gitee",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/codeberg",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sourcehut",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {

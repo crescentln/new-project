@@ -49,7 +49,11 @@
       "DOMAIN,azure.microsoft.com"
     ],
     "microsoft_cdn": [
-      "DOMAIN,download.microsoft.com"
+      "DOMAIN,download.microsoft.com",
+      "DOMAIN,crl.microsoft.com"
+    ],
+    "cdn": [
+      "DOMAIN-SUFFIX,amazonaws.cn"
     ],
     "youtube": [
       "DOMAIN-SUFFIX,youtube.com"
@@ -61,7 +65,8 @@
       "DOMAIN-SUFFIX,twitch.tv"
     ],
     "httpdns": [
-      "DOMAIN-SUFFIX,httpdns-api.aliyuncs.com"
+      "DOMAIN-SUFFIX,httpdns-api.aliyuncs.com",
+      "DOMAIN,aedns.weixin.qq.com"
     ],
     "stream_us": [
       "DOMAIN-SUFFIX,hulu.com"

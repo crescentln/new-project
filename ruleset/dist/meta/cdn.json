@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 250,
   "recommended_note": "CDN 回源与就近访问优先直连",
-  "rule_count": 1409,
+  "rule_count": 1438,
   "paths": {
     "surge": "surge/cdn.list",
     "surge_non_ip": "surge/non_ip/cdn.list",
@@ -27,43 +27,57 @@
       "type": "plain_cidr",
       "authority": "official",
       "ref": "https://www.cloudflare.com/ips-v4",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 15
     },
     {
       "type": "plain_cidr",
       "authority": "official",
       "ref": "https://www.cloudflare.com/ips-v6",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 7
     },
     {
       "type": "aws_ip_ranges",
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 386
     },
     {
       "type": "gcp_ip_ranges",
       "authority": "official",
       "ref": "https://www.gstatic.com/ipranges/cloud.json",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 896
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-cdn-cn",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 91
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bilibili-cdn",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 14
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aws-cn",
+      "used_cache": true,
+      "rule_count": 27
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pagecdn",
+      "used_cache": true,
+      "rule_count": 2
     },
     {
       "type": "local_domain",

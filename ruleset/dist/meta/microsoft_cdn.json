@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 232,
   "recommended_note": "微软中国区与更新/CDN 域名直连",
-  "rule_count": 171,
+  "rule_count": 176,
   "paths": {
     "surge": "surge/microsoft_cdn.list",
     "surge_non_ip": "surge/non_ip/microsoft_cdn.list",
@@ -27,8 +27,15 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 168
+    },
+    {
+      "type": "v2fly_dlc",
+      "authority": "community-curated",
+      "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-pki",
+      "used_cache": true,
+      "rule_count": 6
     },
     {
       "type": "local_domain",

@@ -229,6 +229,30 @@
           ]
         },
         {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aws-cn",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/aws-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/aws-cn"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pagecdn",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/pagecdn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/pagecdn"
+          ]
+        },
+        {
           "authority": "owner-controlled",
           "path": "manual/categories/cdn.txt",
           "type": "local_domain"
@@ -1235,6 +1259,18 @@
           "fallback_urls": [
             "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft",
             "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft"
+          ]
+        },
+        {
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-pki",
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-pki",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-pki"
           ]
         },
         {
@@ -2287,6 +2323,30 @@
         },
         {
           "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/aws-cn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/aws-cn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/aws-cn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/pagecdn",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/pagecdn",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/pagecdn"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
           "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "authority": "community-curated",
           "exclude_attrs": [
@@ -2352,6 +2412,18 @@
           "fallback_urls": [
             "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft",
             "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft"
+          ]
+        },
+        {
+          "type": "v2fly_dlc",
+          "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-pki",
+          "authority": "community-curated",
+          "exclude_attrs": [
+            "@ads"
+          ],
+          "fallback_urls": [
+            "https://cdn.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-pki",
+            "https://testingcf.jsdelivr.net/gh/v2fly/domain-list-community@master/data/microsoft-pki"
           ]
         },
         {

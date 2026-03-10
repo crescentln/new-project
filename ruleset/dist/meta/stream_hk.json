@@ -27,21 +27,21 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/mytvsuper",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/viu",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 7
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/now",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 6
     },
     {

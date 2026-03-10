@@ -72,6 +72,7 @@
     "google": 680,
     "microsoft": 380,
     "apple_cdn": 25,
+    "microsoft_cdn": 150,
     "github": 40,
     "ai": 125,
     "vowifi": 22,

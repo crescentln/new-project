@@ -77,6 +77,7 @@ DOMAIN,configuration.apple.com
 DOMAIN,configuration.apple.com.akadns.net
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
+DOMAIN,crl.microsoft.com
 DOMAIN,cstat.apple.com
 DOMAIN,cstat.cdn-apple.com
 DOMAIN,ctldl.windowsupdate.com
@@ -174,6 +175,7 @@ DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,miwifi.com
 DOMAIN,ml.cdn-apple.com
 DOMAIN,moocs.unipus.cn
+DOMAIN,mscrl.microsoft.com
 DOMAIN,music.apple.com
 DOMAIN,musicstatus.music.apple.com
 DOMAIN,mvod.itunes.apple.com
@@ -197,10 +199,12 @@ DOMAIN,ntp7.aliyun.com
 DOMAIN,oasisauth.h3c.com
 DOMAIN,ocsp-lb.apple.com.akadns.net
 DOMAIN,ocsp.apple.com
+DOMAIN,ocsp.microsoft.com
 DOMAIN,ocsp2-lb.apple.com.akadns.net
 DOMAIN,ocsp2.apple.com
 DOMAIN,oemsoc.download.prss.microsoft.com
 DOMAIN,officecdn.microsoft.com
+DOMAIN,oneocsp.microsoft.com
 DOMAIN,opencourse.pku.edu.cn
 DOMAIN,oscdn.apple.com
 DOMAIN,oscdn.origin-apple.com.akadns.net
@@ -4822,6 +4826,7 @@ DOMAIN-SUFFIX,msjyfund.com.cn
 DOMAIN-SUFFIX,msmartlife.cn
 DOMAIN-SUFFIX,msmartlife.com
 DOMAIN-SUFFIX,msn.cn
+DOMAIN-SUFFIX,msocsp.com
 DOMAIN-SUFFIX,mspil.cn
 DOMAIN-SUFFIX,msra.cn
 DOMAIN-SUFFIX,msstatic.com
@@ -5133,6 +5138,8 @@ DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,p2peye.com
 DOMAIN-SUFFIX,p5w.net
 DOMAIN-SUFFIX,pacmantwo.com
+DOMAIN-SUFFIX,pagecdn.com
+DOMAIN-SUFFIX,pagecdn.io
 DOMAIN-SUFFIX,pagescube.cn
 DOMAIN-SUFFIX,pagescube.com
 DOMAIN-SUFFIX,paidaojia.cn
