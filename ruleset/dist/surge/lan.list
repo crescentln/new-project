@@ -119,7 +119,6 @@ DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,tplinkwifi.net
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,zte.home
-DOMAIN-REGEX,^[a-z]([a-z0-9-]{0,61}[a-z0-9])?$
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,0.0.0.0/8,no-resolve
 IP-CIDR,10.0.0.0/8,no-resolve

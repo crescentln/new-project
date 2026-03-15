@@ -44,4 +44,3 @@ DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,sourcehut.org
 DOMAIN-SUFFIX,sr.ht
 DOMAIN-SUFFIX,thegithubshop.com
-DOMAIN-REGEX,^github-production-release-asset-[0-9a-zA-Z]{6}\.s3\.amazonaws\.com$

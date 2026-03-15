@@ -12,4 +12,3 @@ DOMAIN-SUFFIX,nowe.hk
 DOMAIN-SUFFIX,tvb.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.tv
-DOMAIN-REGEX,^ewcdn[0-9]+\.nowe\.com$

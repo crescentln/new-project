@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-15T03:36:20.501409+00:00",
+  "generated_at_utc": "2026-03-15T04:22:31.183280+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 337987,
+      "rule_count": 337996,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,14 +36,14 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 60753
+          "rule_count": 60759
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 49959
+          "rule_count": 49962
         },
         {
           "type": "adblock",

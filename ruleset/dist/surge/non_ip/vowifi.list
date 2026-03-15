@@ -17,16 +17,3 @@ DOMAIN,ss.epdg.epc.mnc480.mcc311.pub.3gppnetwork.org
 DOMAIN,vvm.mobile.att.net
 DOMAIN,wo.vzwwo.com
 DOMAIN-SUFFIX,pub.3gppnetwork.org
-DOMAIN-REGEX,^bsf\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^epdg(\\.epc)?\\.mnc[0-9]{3}\\.mcc31[0-6]\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^epdg\\.epc\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^epdg\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^ims\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^mmtel\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^pcscf\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^sip\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^sos\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc31[0-6]\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^sos\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^ss\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc31[0-6]\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^ss\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$
-DOMAIN-REGEX,^xcap\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
