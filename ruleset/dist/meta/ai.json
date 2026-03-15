@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 320,
   "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
-  "rule_count": 134,
+  "rule_count": 135,
   "paths": {
     "surge": "surge/ai.list",
     "surge_non_ip": "surge/non_ip/ai.list",
@@ -77,7 +77,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
       "used_cache": false,
-      "rule_count": 127
+      "rule_count": 128
     },
     {
       "type": "local_domain",

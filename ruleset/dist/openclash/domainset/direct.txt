@@ -1389,6 +1389,7 @@ xp.apple.com
 +.beisenapp.com
 +.beisencloud.com
 +.beisenpaas.com
++.bemanicn.com
 +.bendibao.com
 +.benfuip.com
 +.bengbeng.com
@@ -1737,6 +1738,7 @@ xp.apple.com
 +.cczq.net
 +.cd.file.myqcloud.com
 +.cd120.com
++.cdkeynogap.com
 +.cdn-go.cn
 +.cdn20.com
 +.cdn30.org
@@ -6385,6 +6387,7 @@ xp.apple.com
 +.unionpaysecure.com
 +.uniontech.cn
 +.uniontech.com
++.unipus.cn
 +.unity.cn
 +.unity3dcloud.cn
 +.unitychina.cn
@@ -6799,6 +6802,7 @@ xp.apple.com
 +.xd.com
 +.xdcdn.net
 +.xdqtech.com
++.xdrtc.com
 +.xdtool.com
 +.xdwan.com
 +.xedge.cc
@@ -7213,6 +7217,7 @@ xp.apple.com
 +.zealer.com
 +.zebracdn.com
 +.zeekrlife.com
++.zgbk.com
 +.zgcbank.com
 +.zggbdszt.cn
 +.zggbdszt.com.cn
@@ -7311,6 +7316,7 @@ xp.apple.com
 +.zjcdn.com
 +.zjfcdn.com
 +.zjgslb.com
++.zjlib.cn
 +.zjstv.com
 +.zjytxd.cn
 +.zjytxp.cn

@@ -1,1 +1,3 @@
-payload: []
+payload:
+  - 'IP-CIDR,141.207.0.0/16,no-resolve'
+  - 'IP-CIDR,208.54.0.0/16,no-resolve'

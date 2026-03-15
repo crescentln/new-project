@@ -31,3 +31,5 @@ payload:
   - 'DOMAIN-REGEX,^ss\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc31[0-6]\\.pub\\.3gppnetwork\\.org$'
   - 'DOMAIN-REGEX,^ss\\.epdg\\.epc\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$'
   - 'DOMAIN-REGEX,^xcap\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$'
+  - 'IP-CIDR,141.207.0.0/16,no-resolve'
+  - 'IP-CIDR,208.54.0.0/16,no-resolve'

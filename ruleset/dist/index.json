@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-15T04:22:31.183280+00:00",
+  "generated_at_utc": "2026-03-15T14:06:51.164462+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 337996,
+      "rule_count": 338159,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,28 +36,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 60759
+          "rule_count": 60885
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 49962
+          "rule_count": 49963
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 160793
+          "rule_count": 161126
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 154387
+          "rule_count": 154411
         },
         {
           "type": "local_domain",
@@ -220,7 +220,7 @@
     {
       "id": "domestic",
       "description": "Mainland China domains (domain-focused direct set)",
-      "rule_count": 6763,
+      "rule_count": 6769,
       "surge_path": "surge/domestic.list",
       "openclash_path": "openclash/domestic.yaml",
       "surge_non_ip_path": "surge/non_ip/domestic.list",
@@ -245,7 +245,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6763
+          "rule_count": 6769
         },
         {
           "type": "local_domain",
@@ -992,7 +992,7 @@
     {
       "id": "ai",
       "description": "AI services",
-      "rule_count": 134,
+      "rule_count": 135,
       "surge_path": "surge/ai.list",
       "openclash_path": "openclash/ai.yaml",
       "surge_non_ip_path": "surge/non_ip/ai.list",
@@ -1066,7 +1066,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ai-!cn",
           "used_cache": false,
-          "rule_count": 127
+          "rule_count": 128
         },
         {
           "type": "local_domain",
@@ -2170,7 +2170,7 @@
     {
       "id": "forum",
       "description": "Forums",
-      "rule_count": 97,
+      "rule_count": 98,
       "surge_path": "surge/forum.list",
       "openclash_path": "openclash/forum.yaml",
       "surge_non_ip_path": "surge/non_ip/forum.list",
@@ -2195,7 +2195,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-forums",
           "used_cache": false,
-          "rule_count": 97
+          "rule_count": 98
         },
         {
           "type": "local_domain",
@@ -2552,7 +2552,7 @@
     {
       "id": "vowifi",
       "description": "VoWiFi / IMS / ePDG domains",
-      "rule_count": 32,
+      "rule_count": 34,
       "surge_path": "surge/vowifi.list",
       "openclash_path": "openclash/vowifi.yaml",
       "surge_non_ip_path": "surge/non_ip/vowifi.list",
@@ -2577,7 +2577,7 @@
           "authority": "owner-controlled",
           "ref": "manual/categories/vowifi.txt",
           "used_cache": false,
-          "rule_count": 32
+          "rule_count": 34
         }
       ]
     },
@@ -2669,7 +2669,7 @@
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 23708,
+      "rule_count": 23712,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
       "surge_non_ip_path": "surge/non_ip/global.list",
@@ -2694,7 +2694,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 23708
+          "rule_count": 23712
         },
         {
           "type": "local_domain",
@@ -2708,7 +2708,7 @@
     {
       "id": "direct",
       "description": "Merged direct rules for simplified deployment",
-      "rule_count": 19562,
+      "rule_count": 19568,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
       "surge_non_ip_path": "surge/non_ip/direct.list",
@@ -2817,7 +2817,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6763
+          "rule_count": 6769
         },
         {
           "type": "v2fly_dlc",

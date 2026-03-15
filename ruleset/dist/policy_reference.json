@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-15T04:22:31.185959+00:00",
+  "generated_at_utc": "2026-03-15T14:06:51.167181+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 337996
+      "rule_count": 338159
     },
     {
       "id": "reject_extra",
@@ -42,7 +42,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6763
+      "rule_count": 6769
     },
     {
       "id": "cncidr",
@@ -119,7 +119,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 320,
       "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
-      "rule_count": 134
+      "rule_count": 135
     },
     {
       "id": "apple_cn",
@@ -294,7 +294,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 339,
       "recommended_note": "国际论坛走代理",
-      "rule_count": 97
+      "rule_count": 98
     },
     {
       "id": "socialmedia_cn",
@@ -350,7 +350,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 344,
       "recommended_note": "VoWiFi/IMS/ePDG 相关域名走代理（3GPP 命名 + 美国运营商样例）",
-      "rule_count": 32
+      "rule_count": 34
     },
     {
       "id": "tld_proxy",
@@ -371,14 +371,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23708
+      "rule_count": 23712
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 19562
+      "rule_count": 19568
     }
   ]
 }
