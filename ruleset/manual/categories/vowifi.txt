@@ -45,3 +45,7 @@ DOMAIN,vvm.mobile.att.net
 DOMAIN,wo.vzwwo.com
 DOMAIN,sg.vzwfemto.com
 DOMAIN,spg.vzw.com
+
+# Verified fallback CIDR used by current production clients
+IP-CIDR,208.54.0.0/16
+IP-CIDR,141.207.0.0/16
