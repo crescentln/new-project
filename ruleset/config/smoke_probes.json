@@ -99,7 +99,6 @@
     ],
     "vowifi": [
       "DOMAIN-SUFFIX,pub.3gppnetwork.org",
-      "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$",
       "DOMAIN,epdg.epc.att.net"
     ],
     "apns": [
@@ -151,6 +150,11 @@
     ],
     "douyin": [
       "DOMAIN-SUFFIX,douyin.com"
+    ]
+  },
+  "expect_rules_openclash": {
+    "vowifi": [
+      "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$"
     ]
   }
 }

@@ -148,6 +148,30 @@ def purge_duplicate_artifacts(base_dir: pathlib.Path) -> int:
     return removed
 
 
+def purge_duplicate_sibling_artifacts(target_path: pathlib.Path) -> int:
+    parent = target_path.parent
+    if not parent.exists():
+        return 0
+
+    removed = 0
+    prefix = f"{target_path.name} "
+    for candidate in sorted(parent.iterdir(), key=lambda p: len(p.parts), reverse=True):
+        if candidate.name == target_path.name:
+            continue
+        if not candidate.name.startswith(prefix):
+            continue
+        if not DUPLICATE_ARTIFACT_RE.fullmatch(candidate.name):
+            continue
+        if candidate.is_dir():
+            shutil.rmtree(candidate)
+            removed += 1
+            continue
+        if candidate.is_file():
+            candidate.unlink()
+            removed += 1
+    return removed
+
+
 def normalize_domain(value: str) -> str | None:
     value = value.strip().strip("\"'").lower()
     if not value:
@@ -894,6 +918,12 @@ def write_openclash_rules(path: pathlib.Path, rules: list[str]) -> None:
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def filter_surge_compatible_rules(rules: list[str]) -> list[str]:
+    # Surge external rulesets currently reject DOMAIN-REGEX lines. Keep the
+    # canonical rules for OpenClash, but strip regex lines from Surge/List outputs.
+    return [rule for rule in rules if not rule.startswith("DOMAIN-REGEX,")]
+
+
 def split_rules(rules: list[str]) -> tuple[list[str], list[str], list[str], list[str], list[str]]:
     non_ip_rules: list[str] = []
     ip_rules: list[str] = []
@@ -1223,13 +1253,15 @@ def build_all(
 
         surge_file = surge_dir / f"{category_id}.list"
         openclash_file = openclash_dir / f"{category_id}.yaml"
-        write_surge_rules(surge_file, rules)
+        surge_rules = filter_surge_compatible_rules(rules)
+        write_surge_rules(surge_file, surge_rules)
         write_openclash_rules(openclash_file, rules)
 
-        non_ip_rules, ip_rules, domainset_lines_oc, ipcidr_lines, domainset_lines_surge = split_rules(rules)
+        surge_non_ip_rules, surge_ip_rules, _, _, domainset_lines_surge = split_rules(surge_rules)
+        non_ip_rules, ip_rules, domainset_lines_oc, ipcidr_lines, _ = split_rules(rules)
 
-        write_surge_rules(dist_dir / "surge" / "non_ip" / f"{category_id}.list", non_ip_rules)
-        write_surge_rules(dist_dir / "surge" / "ip" / f"{category_id}.list", ip_rules)
+        write_surge_rules(dist_dir / "surge" / "non_ip" / f"{category_id}.list", surge_non_ip_rules)
+        write_surge_rules(dist_dir / "surge" / "ip" / f"{category_id}.list", surge_ip_rules)
         write_plain_lines(dist_dir / "surge" / "domainset" / f"{category_id}.conf", domainset_lines_surge)
 
         write_openclash_rules(dist_dir / "openclash" / "non_ip" / f"{category_id}.yaml", non_ip_rules)
@@ -1241,8 +1273,8 @@ def build_all(
         write_surge_rules(dist_dir / "compat" / "Clash" / "non_ip" / f"{category_id}.txt", non_ip_rules)
         write_surge_rules(dist_dir / "compat" / "Clash" / "ip" / f"{category_id}.txt", ip_rules)
         write_plain_lines(dist_dir / "compat" / "Clash" / "domainset" / f"{category_id}.txt", domainset_lines_oc)
-        write_surge_rules(dist_dir / "compat" / "List" / "non_ip" / f"{category_id}.conf", non_ip_rules)
-        write_surge_rules(dist_dir / "compat" / "List" / "ip" / f"{category_id}.conf", ip_rules)
+        write_surge_rules(dist_dir / "compat" / "List" / "non_ip" / f"{category_id}.conf", surge_non_ip_rules)
+        write_surge_rules(dist_dir / "compat" / "List" / "ip" / f"{category_id}.conf", surge_ip_rules)
         write_plain_lines(dist_dir / "compat" / "List" / "domainset" / f"{category_id}.conf", domainset_lines_surge)
 
         metadata_categories.append(
@@ -1549,6 +1581,9 @@ def build_all_staged(
                     f"warning: dist directory was renamed to {renamed_candidates[0].name}; restoring expected path"
                 )
                 renamed_candidates[0].replace(dist_dir)
+        removed_sibling_duplicates = purge_duplicate_sibling_artifacts(dist_dir)
+        if removed_sibling_duplicates > 0:
+            log(f"removed {removed_sibling_duplicates} duplicate sibling artifacts for {dist_dir.name}")
         return code
     finally:
         if staging_dir.exists():

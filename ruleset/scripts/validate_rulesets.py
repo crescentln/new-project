@@ -32,6 +32,7 @@ RULE_TYPES = {
     "NETWORK",
     "PROTOCOL",
 }
+SURGE_EXTERNAL_UNSUPPORTED_RULE_TYPES = {"DOMAIN-REGEX"}
 
 DOMAIN_RE = re.compile(
     r"^(?=.{1,253}$)(?!-)(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z0-9][a-z0-9-]{0,62}$"
@@ -89,6 +90,18 @@ def validate_classical_file(path: pathlib.Path) -> list[str]:
     return errors
 
 
+def validate_surge_external_file(path: pathlib.Path) -> list[str]:
+    errors: list[str] = []
+    for idx, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1):
+        line = strip_comment(raw)
+        if not line or "," not in line:
+            continue
+        rule_type = line.split(",", 1)[0]
+        if rule_type in SURGE_EXTERNAL_UNSUPPORTED_RULE_TYPES:
+            errors.append(f"{path}:{idx} unsupported for Surge external ruleset: {rule_type}")
+    return errors
+
+
 def validate_domainset_file(path: pathlib.Path) -> list[str]:
     errors: list[str] = []
     for idx, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1):
@@ -130,7 +143,9 @@ def validate_yaml_classical_file(path: pathlib.Path) -> list[str]:
     return errors
 
 
-def collect_files(dist_dir: pathlib.Path) -> tuple[list[pathlib.Path], list[pathlib.Path], list[pathlib.Path]]:
+def collect_files(
+    dist_dir: pathlib.Path,
+) -> tuple[list[pathlib.Path], list[pathlib.Path], list[pathlib.Path], list[pathlib.Path]]:
     classical_patterns = [
         "surge/*.list",
         "surge/non_ip/*.list",
@@ -151,17 +166,27 @@ def collect_files(dist_dir: pathlib.Path) -> tuple[list[pathlib.Path], list[path
         "openclash/non_ip/*.yaml",
         "openclash/ip/*.yaml",
     ]
+    surge_external_patterns = [
+        "surge/*.list",
+        "surge/non_ip/*.list",
+        "surge/ip/*.list",
+        "compat/List/non_ip/*.conf",
+        "compat/List/ip/*.conf",
+    ]
 
     classical = []
     domainset = []
     yaml_files = []
+    surge_external = []
     for pattern in classical_patterns:
         classical.extend(sorted(dist_dir.glob(pattern)))
     for pattern in domainset_patterns:
         domainset.extend(sorted(dist_dir.glob(pattern)))
     for pattern in yaml_patterns:
         yaml_files.extend(sorted(dist_dir.glob(pattern)))
-    return classical, domainset, yaml_files
+    for pattern in surge_external_patterns:
+        surge_external.extend(sorted(dist_dir.glob(pattern)))
+    return classical, domainset, yaml_files, surge_external
 
 
 def main() -> int:
@@ -174,7 +199,7 @@ def main() -> int:
         print(f"[validate] dist dir not found: {dist_dir}")
         return 1
 
-    classical_files, domainset_files, yaml_files = collect_files(dist_dir)
+    classical_files, domainset_files, yaml_files, surge_external_files = collect_files(dist_dir)
 
     errors: list[str] = []
     for path in classical_files:
@@ -183,9 +208,15 @@ def main() -> int:
         errors.extend(validate_domainset_file(path))
     for path in yaml_files:
         errors.extend(validate_yaml_classical_file(path))
+    for path in surge_external_files:
+        errors.extend(validate_surge_external_file(path))
 
     print(
-        f"[validate] checked classical={len(classical_files)} domainset={len(domainset_files)} yaml={len(yaml_files)}"
+        "[validate] checked "
+        f"classical={len(classical_files)} "
+        f"domainset={len(domainset_files)} "
+        f"yaml={len(yaml_files)} "
+        f"surge_external={len(surge_external_files)}"
     )
     if errors:
         print(f"[validate] failed with {len(errors)} error(s)")
