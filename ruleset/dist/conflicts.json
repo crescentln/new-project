@@ -1,10 +1,10 @@
 {
-  "generated_at_utc": "2026-03-15T14:06:51.156344+00:00",
-  "conflict_count": 479,
+  "generated_at_utc": "2026-03-15T19:14:59.732177+00:00",
+  "conflict_count": 489,
   "cross_action_conflict_count": 0,
   "high_severity_conflict_count": 0,
   "medium_severity_conflict_count": 0,
-  "low_severity_conflict_count": 479,
+  "low_severity_conflict_count": 489,
   "conflicts": [
     {
       "rule": "DOMAIN,upos-hz-mirrorakam.akamaized.net",
@@ -967,6 +967,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,4399.com",
+      "categories": [
+        "domestic",
+        "games_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,4399.net",
       "categories": [
         "domestic",
@@ -1526,6 +1547,27 @@
         },
         {
           "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,9game.cn",
+      "categories": [
+        "domestic",
+        "games_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "games_cn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -6784,6 +6826,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,qbox.me",
+      "categories": [
+        "cdn",
+        "domestic"
+      ],
+      "actions": [
+        {
+          "category": "cdn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,qingcdn.com",
       "categories": [
         "cdn",
@@ -7666,6 +7729,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,sina.com.cn",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,sina.net",
       "categories": [
         "domestic",
@@ -7751,6 +7835,27 @@
     },
     {
       "rule": "DOMAIN-SUFFIX,sinaimg.com",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,sinajs.cn",
       "categories": [
         "domestic",
         "socialmedia_cn"
@@ -8926,6 +9031,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,wanmei.com",
+      "categories": [
+        "domestic",
+        "games_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,wanwan4399.com",
       "categories": [
         "domestic",
@@ -9128,6 +9254,48 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,weibo.cn",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,weibo.com",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }
@@ -9682,6 +9850,27 @@
       "severity": "low"
     },
     {
+      "rule": "DOMAIN-SUFFIX,xiaohongshu.com",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
       "rule": "DOMAIN-SUFFIX,xindong.com",
       "categories": [
         "domestic",
@@ -10094,6 +10283,27 @@
         },
         {
           "category": "games_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,zhihu.com",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
           "action": "DIRECT",
           "action_family": "DIRECT"
         }

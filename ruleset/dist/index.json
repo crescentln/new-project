@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-03-15T14:06:51.164462+00:00",
+  "generated_at_utc": "2026-03-15T19:14:59.740612+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
-  "conflict_count": 479,
+  "conflict_count": 489,
   "cross_action_conflict_count": 0,
   "high_severity_conflict_count": 0,
   "fetch_report_path": "fetch_report.json",
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 338159,
+      "rule_count": 334060,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,28 +36,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 60885
+          "rule_count": 59530
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 49963
+          "rule_count": 46878
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 161126
+          "rule_count": 161201
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 154411
+          "rule_count": 154484
         },
         {
           "type": "local_domain",
@@ -2092,7 +2092,7 @@
     {
       "id": "ecommerce",
       "description": "E-commerce services",
-      "rule_count": 1094,
+      "rule_count": 1096,
       "surge_path": "surge/ecommerce.list",
       "openclash_path": "openclash/ecommerce.yaml",
       "surge_non_ip_path": "surge/non_ip/ecommerce.list",
@@ -2124,7 +2124,7 @@
           "authority": "owner-controlled",
           "ref": "manual/categories/ecommerce.txt",
           "used_cache": false,
-          "rule_count": 9
+          "rule_count": 11
         }
       ]
     },
@@ -2701,7 +2701,7 @@
           "authority": "owner-controlled",
           "ref": "manual/categories/global.txt",
           "used_cache": false,
-          "rule_count": 0
+          "rule_count": 4
         }
       ]
     },
