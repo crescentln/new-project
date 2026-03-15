@@ -27,77 +27,77 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-social-media-!cn",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 592
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/facebook",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 394
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/instagram",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 72
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/twitter",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 23
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/discord",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 28
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/reddit",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 12
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/quora",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/medium",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/signal",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 8
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/linkedin",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 10
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bluesky",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 3
     },
     {

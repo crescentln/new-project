@@ -27,35 +27,35 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/binance",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 38
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bybit",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 16
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/okx",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 7
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/kraken",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/huobi",
-      "used_cache": true,
+      "used_cache": false,
       "rule_count": 10
     },
     {

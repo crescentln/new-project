@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-03-15T03:22:36.675762+00:00",
+  "generated_at_utc": "2026-03-15T03:28:35.841289+00:00",
   "url_count": 1357,
-  "network_success_count": 0,
-  "offline_cache_count": 1357,
+  "network_success_count": 1357,
+  "offline_cache_count": 0,
   "fallback_cache_count": 0,
   "fallback_events": []
 }
