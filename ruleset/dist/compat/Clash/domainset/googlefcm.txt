@@ -6,7 +6,10 @@ alt5-mtalk.google.com
 alt6-mtalk.google.com
 alt7-mtalk.google.com
 alt8-mtalk.google.com
+android.apis.google.com
+device-provisioning.googleapis.com
 fcm.googleapis.com
+firebaseinstallations.googleapis.com
 mtalk-dev.google.com
 mtalk-staging.google.com
 mtalk.google.com

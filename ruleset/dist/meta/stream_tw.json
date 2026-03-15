@@ -27,28 +27,28 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bahamut",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hamivideo",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 8
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/catchplay",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/litv",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 11
     },
     {

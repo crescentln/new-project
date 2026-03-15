@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 210,
   "recommended_note": "中国大陆域名集合直连（domain-focused）",
-  "rule_count": 6753,
+  "rule_count": 6763,
   "paths": {
     "surge": "surge/domestic.list",
     "surge_non_ip": "surge/non_ip/domestic.list",
@@ -27,8 +27,8 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
-      "used_cache": false,
-      "rule_count": 6753
+      "used_cache": true,
+      "rule_count": 6763
     },
     {
       "type": "local_domain",

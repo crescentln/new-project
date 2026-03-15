@@ -4,3 +4,7 @@
 # - DOMAIN,exact.example.com
 # - IP-CIDR,1.2.3.0/24,no-resolve
 # - plain domain token: example.com
+DOMAIN,cloud.oracle.com
+DOMAIN,developer.apple.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,testflight.apple.com

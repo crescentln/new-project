@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-10T00:10:21.010548+00:00",
+  "generated_at_utc": "2026-03-15T03:22:36.676326+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 334048
+      "rule_count": 337980
     },
     {
       "id": "reject_extra",
@@ -42,7 +42,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 210,
       "recommended_note": "中国大陆域名集合直连（domain-focused）",
-      "rule_count": 6753
+      "rule_count": 6763
     },
     {
       "id": "cncidr",
@@ -63,14 +63,14 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 250,
       "recommended_note": "CDN 回源与就近访问优先直连",
-      "rule_count": 1438
+      "rule_count": 1459
     },
     {
       "id": "download",
       "recommended_action": "DIRECT",
       "recommended_priority": 251,
       "recommended_note": "安卓应用下载集合默认直连（游戏平台流量归 games）",
-      "rule_count": 14
+      "rule_count": 15
     },
     {
       "id": "stream",
@@ -119,7 +119,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 320,
       "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
-      "rule_count": 130
+      "rule_count": 134
     },
     {
       "id": "apple_cn",
@@ -168,7 +168,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 324,
       "recommended_note": "微软国际服务走代理（中国区与更新/CDN 见 microsoft_cdn 直连）",
-      "rule_count": 422
+      "rule_count": 425
     },
     {
       "id": "microsoft_cdn",
@@ -252,14 +252,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 333,
       "recommended_note": "Google 主服务走代理",
-      "rule_count": 727
+      "rule_count": 728
     },
     {
       "id": "googlefcm",
       "recommended_action": "PROXY",
       "recommended_priority": 334,
       "recommended_note": "Google FCM 推送走代理",
-      "rule_count": 15
+      "rule_count": 18
     },
     {
       "id": "paypal",
@@ -336,7 +336,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 342,
       "recommended_note": "APNS 连接域名（关键端点集合，按你当前策略走代理）",
-      "rule_count": 8
+      "rule_count": 11
     },
     {
       "id": "dmca",
@@ -350,7 +350,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 344,
       "recommended_note": "VoWiFi/IMS/ePDG 相关域名走代理（3GPP 命名 + 美国运营商样例）",
-      "rule_count": 26
+      "rule_count": 32
     },
     {
       "id": "tld_proxy",
@@ -364,21 +364,21 @@
       "recommended_action": "PROXY",
       "recommended_priority": 346,
       "recommended_note": "GFW 列表走代理",
-      "rule_count": 109
+      "rule_count": 113
     },
     {
       "id": "global",
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23703
+      "rule_count": 23708
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 19551
+      "rule_count": 19562
     }
   ]
 }

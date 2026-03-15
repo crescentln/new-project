@@ -103,6 +103,7 @@ payload:
   - 'DOMAIN,scholar.google.sk'
   - 'DOMAIN,scholar.googleusercontent.com'
   - 'DOMAIN,scholar.l.google.com'
+  - 'DOMAIN,voice.telephony.goog'
   - 'DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com'
   - 'DOMAIN-SUFFIX,0emm.com'
   - 'DOMAIN-SUFFIX,1e100.net'

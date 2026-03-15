@@ -9,18 +9,24 @@
     "apple_proxy",
     "microsoft",
     "microsoft_cdn",
+    "google",
+    "googlefcm",
     "stream",
     "stream_us",
     "stream_jp",
     "stream_hk",
     "stream_tw",
+    "download",
     "vowifi",
     "apns",
     "httpdns",
     "socialmedia",
     "socialmedia_cn",
+    "games",
+    "gfw",
     "anime",
     "apple_tv",
+    "apple_intelligence",
     "crypto",
     "forum",
     "games_cn",
@@ -46,7 +52,8 @@
       "DOMAIN-SUFFIX,icloud.com"
     ],
     "microsoft": [
-      "DOMAIN,azure.microsoft.com"
+      "DOMAIN,azure.microsoft.com",
+      "DOMAIN,dev.azure.com"
     ],
     "microsoft_cdn": [
       "DOMAIN,download.microsoft.com",
@@ -54,6 +61,16 @@
     ],
     "cdn": [
       "DOMAIN-SUFFIX,amazonaws.cn"
+    ],
+    "download": [
+      "DOMAIN-SUFFIX,apkmirrorusercontent.com"
+    ],
+    "google": [
+      "DOMAIN,voice.telephony.goog"
+    ],
+    "googlefcm": [
+      "DOMAIN,mtalk.google.com",
+      "DOMAIN,firebaseinstallations.googleapis.com"
     ],
     "youtube": [
       "DOMAIN-SUFFIX,youtube.com"
@@ -82,10 +99,16 @@
     ],
     "vowifi": [
       "DOMAIN-SUFFIX,pub.3gppnetwork.org",
-      "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$"
+      "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$",
+      "DOMAIN,epdg.epc.att.net"
     ],
     "apns": [
-      "DOMAIN-SUFFIX,push.apple.com"
+      "DOMAIN-SUFFIX,push.apple.com",
+      "DOMAIN,courier.sandbox.push.apple.com"
+    ],
+    "apple_intelligence": [
+      "DOMAIN,apple-relay.apple.com",
+      "DOMAIN,gspe1-ssl.ls.apple.com"
     ],
     "apple_tv": [
       "DOMAIN-SUFFIX,tv.apple.com"
@@ -104,8 +127,15 @@
     "games_cn": [
       "DOMAIN-SUFFIX,4399.com"
     ],
+    "games": [
+      "DOMAIN-SUFFIX,steampowered.com"
+    ],
+    "gfw": [
+      "DOMAIN,cloud.oracle.com"
+    ],
     "icloud_private_relay": [
-      "DOMAIN-SUFFIX,mask.icloud.com"
+      "DOMAIN-SUFFIX,mask.icloud.com",
+      "DOMAIN-SUFFIX,mask-h2.icloud.com"
     ],
     "socialmedia_cn": [
       "DOMAIN-SUFFIX,bilibili.com"

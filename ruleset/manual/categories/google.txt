@@ -3,3 +3,4 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gmail.com
+DOMAIN,voice.telephony.goog

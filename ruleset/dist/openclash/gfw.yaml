@@ -1,4 +1,8 @@
 payload:
+  - 'DOMAIN,cloud.oracle.com'
+  - 'DOMAIN,developer.apple.com'
+  - 'DOMAIN,login.microsoftonline.com'
+  - 'DOMAIN,testflight.apple.com'
   - 'DOMAIN-SUFFIX,4everland.io'
   - 'DOMAIN-SUFFIX,ahmia.fi'
   - 'DOMAIN-SUFFIX,akasha.world'

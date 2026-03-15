@@ -205,6 +205,11 @@
           "url": "https://www.gstatic.com/ipranges/cloud.json"
         },
         {
+          "authority": "official",
+          "type": "fastly_public_ip_list",
+          "url": "https://api.fastly.com/public-ip-list"
+        },
+        {
           "authority": "community-curated",
           "exclude_attrs": [
             "@ads"

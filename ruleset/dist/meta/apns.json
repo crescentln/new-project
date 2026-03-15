@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 342,
   "recommended_note": "APNS 连接域名（关键端点集合，按你当前策略走代理）",
-  "rule_count": 8,
+  "rule_count": 11,
   "paths": {
     "surge": "surge/apns.list",
     "surge_non_ip": "surge/non_ip/apns.list",
@@ -28,7 +28,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/apns.txt",
       "used_cache": false,
-      "rule_count": 8
+      "rule_count": 11
     }
   ]
 }

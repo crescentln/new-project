@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 324,
   "recommended_note": "微软国际服务走代理（中国区与更新/CDN 见 microsoft_cdn 直连）",
-  "rule_count": 422,
+  "rule_count": 425,
   "paths": {
     "surge": "surge/microsoft.list",
     "surge_non_ip": "surge/non_ip/microsoft.list",
@@ -27,28 +27,28 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 422
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/azure",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 58
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/bing",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 27
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/microsoft-dev",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 68
     },
     {
@@ -56,7 +56,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/microsoft.txt",
       "used_cache": false,
-      "rule_count": 9
+      "rule_count": 12
     }
   ]
 }

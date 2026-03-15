@@ -4,6 +4,7 @@ DOMAIN,azuremarketplace.microsoft.com
 DOMAIN,bingsettingssearch.trafficmanager.net
 DOMAIN,crl.microsoft.com
 DOMAIN,default.exp-tas.com
+DOMAIN,dev.azure.com
 DOMAIN,developer.microsoft.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,dtlgalleryint.cloudapp.net
@@ -281,6 +282,7 @@ DOMAIN-SUFFIX,mpnevolution.com
 DOMAIN-SUFFIX,ms-studiosmedia.com
 DOMAIN-SUFFIX,ms365surfaceoffer.com
 DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msauthimages.net
 DOMAIN-SUFFIX,mschallenge2018.com
 DOMAIN-SUFFIX,msdn.com
 DOMAIN-SUFFIX,msecnd.net
@@ -291,6 +293,7 @@ DOMAIN-SUFFIX,msftauth.net
 DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,msftconnecttest.com
 DOMAIN-SUFFIX,msfteducation.ca
+DOMAIN-SUFFIX,msftidentity.com
 DOMAIN-SUFFIX,msftncsi.com
 DOMAIN-SUFFIX,msftnet.org
 DOMAIN-SUFFIX,msgamesresearch.com

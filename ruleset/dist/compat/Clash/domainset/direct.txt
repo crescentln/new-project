@@ -663,6 +663,7 @@ xp.apple.com
 +.55bbs.com
 +.56.com
 +.56che.com
++.56img.com
 +.56laile.com
 +.576nt.cn
 +.58.com
@@ -1004,6 +1005,7 @@ xp.apple.com
 +.allawno.com
 +.allawntech.com
 +.allflow.cn
++.allhistory.com
 +.alloyteam.com
 +.allyes.com
 +.alookweb.com
@@ -1117,6 +1119,7 @@ xp.apple.com
 +.apk8.com
 +.apkcombo.com
 +.apkmirror.com
++.apkmirrorusercontent.com
 +.apkpure.com
 +.apkpure.net
 +.apkpures.xyz
@@ -1672,6 +1675,7 @@ xp.apple.com
 +.c.mi.com
 +.ca-east-201.myhuaweicloud.com
 +.ca.file.myqcloud.com
++.caac.gov.cn
 +.cabbagebox.com
 +.cache4ever.com
 +.cache666.com
@@ -1935,6 +1939,7 @@ xp.apple.com
 +.chicalot.cn
 +.china-chair.com
 +.china-nengyuan.com
++.china-sss.com
 +.china-tower.com
 +.china.com
 +.chinaaet.com
@@ -4530,6 +4535,7 @@ xp.apple.com
 +.longre.com
 +.longtugame.com
 +.longzhu.com
++.loongair.cn
 +.lorhf.com
 +.lotpc.com
 +.loupan.com
@@ -4596,6 +4602,8 @@ xp.apple.com
 +.mahjongcup.net
 +.mail4399.com
 +.maimai.cn
++.maimemo.com
++.maimemostatus.com
 +.maindown4399.com
 +.maisanqi.com
 +.maitix.com
@@ -4616,6 +4624,7 @@ xp.apple.com
 +.maoyuncloud.cn
 +.maoyuncloud.com
 +.mapbar.com
++.markji.com
 +.marscode.cn
 +.marscode.com
 +.marscode.com.cn
@@ -5546,6 +5555,7 @@ xp.apple.com
 +.scsentry.cn
 +.scsjb.cn
 +.sczsxx.com
++.sda.cn
 +.sdgdwljt.com
 +.sdo.com
 +.searchstatic.com
@@ -5612,6 +5622,7 @@ xp.apple.com
 +.shengyizhuanjia.com
 +.shenjing.com
 +.shenmayouxi.com
++.shenzhenair.com
 +.sheui.com
 +.shfft.com
 +.shgsec.com
@@ -5755,6 +5766,7 @@ xp.apple.com
 +.speedws.info
 +.speedws.org
 +.speiyou.com
++.springairlines.com
 +.springtour.com
 +.sq.cc
 +.sqqnh.cn
@@ -7141,6 +7153,7 @@ xp.apple.com
 +.yunqishi.net
 +.yunshipei.com
 +.yunxiao.com
++.yunxindns.com
 +.yunxinfw.com
 +.yunzhijia.com
 +.yunzhuxue.com
@@ -7287,7 +7300,6 @@ xp.apple.com
 +.zijiewap.com
 +.zijiewap.net
 +.zilrms.com
-+.zimuzu.io
 +.ziroom.com
 +.ziroomapartment.com
 +.zixiaomao.com
@@ -7316,7 +7328,6 @@ xp.apple.com
 +.zoomyou.cn
 +.zpb365.com
 +.zqrb.cn
-+.zrblog.net
 +.zs-jlc.com
 +.zsxq.com
 +.zszq.com

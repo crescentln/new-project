@@ -539,6 +539,26 @@ def parse_gcp_ip_ranges(data: bytes) -> set[str]:
     return rules
 
 
+def parse_fastly_public_ip_list(data: bytes) -> set[str]:
+    rules: set[str] = set()
+    payload = json.loads(data.decode("utf-8"))
+
+    for key in ("addresses", "ipv6_addresses"):
+        entries = payload.get(key, [])
+        if not isinstance(entries, list):
+            continue
+        for item in entries:
+            prefix = str(item).strip()
+            if not prefix:
+                continue
+            try:
+                rules.add(format_ip_rule(ipaddress.ip_network(prefix, strict=False)))
+            except ValueError:
+                continue
+
+    return rules
+
+
 def parse_iana_tld_list_text(text: str, exclude_tlds: set[str]) -> set[str]:
     rules: set[str] = set()
     excluded = {item.lower() for item in exclude_tlds}
@@ -829,6 +849,8 @@ def load_source(
         return SourceBuildResult(parse_aws_ip_ranges(data, services), used_cache, source_ref)
     if source_type == "gcp_ip_ranges":
         return SourceBuildResult(parse_gcp_ip_ranges(data), used_cache, source_ref)
+    if source_type == "fastly_public_ip_list":
+        return SourceBuildResult(parse_fastly_public_ip_list(data), used_cache, source_ref)
     if source_type == "iana_tld_list":
         exclude_tlds = {str(item).strip().lower() for item in source.get("exclude_tlds", []) if str(item).strip()}
         return SourceBuildResult(parse_iana_tld_list_text(text, exclude_tlds), used_cache, source_ref)

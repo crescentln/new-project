@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 333,
   "recommended_note": "Google 主服务走代理",
-  "rule_count": 727,
+  "rule_count": 728,
   "paths": {
     "surge": "surge/google.list",
     "surge_non_ip": "surge/non_ip/google.list",
@@ -27,7 +27,7 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/google",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 727
     },
     {
@@ -35,7 +35,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/google.txt",
       "used_cache": false,
-      "rule_count": 5
+      "rule_count": 6
     }
   ]
 }

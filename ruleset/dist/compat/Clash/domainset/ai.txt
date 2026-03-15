@@ -39,10 +39,12 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.cici.com
 +.ciciai.com
 +.ciciaicdn.com
++.clau.de
 +.claude.ai
 +.claude.com
 +.claudemcpclient.com
 +.claudeusercontent.com
++.clawhub.ai
 +.clipdrop.co
 +.codeium.com
 +.codeiumdata.com
@@ -81,6 +83,7 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.grok.x.com
 +.groq.com
 +.gspe1-ssl.ls.apple.com
++.h2o.ai
 +.hf.co
 +.hf.space
 +.host.livekit.cloud
@@ -109,6 +112,7 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.openai.com
 +.openai.com.cdn.cloudflare.net
 +.openart.ai
++.openclaw.ai
 +.openrouter.ai
 +.oystermercury.top
 +.perplexity.ai

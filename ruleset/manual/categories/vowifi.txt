@@ -37,3 +37,11 @@ DOMAIN,epdg.epc.mnc160.mcc310.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc240.mcc310.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc220.mcc311.pub.3gppnetwork.org
 DOMAIN,epdg.epc.mnc580.mcc311.pub.3gppnetwork.org
+
+# Explicit carrier endpoints observed in active VoWiFi deployments
+DOMAIN,epdg.epc.att.net
+DOMAIN,sentitlement2.mobile.att.net
+DOMAIN,vvm.mobile.att.net
+DOMAIN,wo.vzwwo.com
+DOMAIN,sg.vzwfemto.com
+DOMAIN,spg.vzw.com

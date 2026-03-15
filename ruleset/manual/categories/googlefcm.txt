@@ -1,3 +1,6 @@
 DOMAIN,fcm.googleapis.com
+DOMAIN,android.apis.google.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,firebaseinstallations.googleapis.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,firebaseio.com

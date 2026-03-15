@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 344,
   "recommended_note": "VoWiFi/IMS/ePDG 相关域名走代理（3GPP 命名 + 美国运营商样例）",
-  "rule_count": 26,
+  "rule_count": 32,
   "paths": {
     "surge": "surge/vowifi.list",
     "surge_non_ip": "surge/non_ip/vowifi.list",
@@ -28,7 +28,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/vowifi.txt",
       "used_cache": false,
-      "rule_count": 26
+      "rule_count": 32
     }
   ]
 }

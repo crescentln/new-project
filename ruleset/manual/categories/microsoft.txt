@@ -7,3 +7,6 @@ DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,outlook.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,windows.net
+DOMAIN,dev.azure.com
+DOMAIN-SUFFIX,msauthimages.net
+DOMAIN-SUFFIX,msftidentity.com

@@ -27,77 +27,77 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/netflix",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 28
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hulu",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 48
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/disney",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 160
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/hbo",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 63
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/discoveryplus",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 3
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/plutotv",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/roku",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 6
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/tubi",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 4
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/sling",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 5
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/showtimeanytime",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 2
     },
     {
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/nbcuniversal",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 17
     },
     {

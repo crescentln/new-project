@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 251,
   "recommended_note": "安卓应用下载集合默认直连（游戏平台流量归 games）",
-  "rule_count": 14,
+  "rule_count": 15,
   "paths": {
     "surge": "surge/download.list",
     "surge_non_ip": "surge/non_ip/download.list",
@@ -27,7 +27,7 @@
       "type": "v2fly_dlc",
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-android-app-download",
-      "used_cache": false,
+      "used_cache": true,
       "rule_count": 11
     },
     {
@@ -35,7 +35,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/download.txt",
       "used_cache": false,
-      "rule_count": 7
+      "rule_count": 8
     }
   ]
 }

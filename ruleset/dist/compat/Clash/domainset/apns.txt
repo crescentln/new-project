@@ -2,7 +2,10 @@ api.development.push.apple.com
 api.push.apple.com
 api.sandbox.push.apple.com
 courier.push.apple.com
+courier.sandbox.push.apple.com
 feedback.push.apple.com
+feedback.sandbox.push.apple.com
 gateway.push.apple.com
+gateway.sandbox.push.apple.com
 identity.apple.com
 +.push.apple.com
