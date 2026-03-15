@@ -4,3 +4,7 @@
 # - DOMAIN,exact.example.com
 # - IP-CIDR,1.2.3.0/24,no-resolve
 # - plain domain token: example.com
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.net
+DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yimg.com

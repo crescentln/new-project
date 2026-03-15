@@ -7,3 +7,5 @@ DOMAIN-SUFFIX,target.com
 DOMAIN-SUFFIX,bestbuy.com
 DOMAIN-SUFFIX,costco.com
 DOMAIN-SUFFIX,etsy.com
+DOMAIN-SUFFIX,newegg.com
+DOMAIN-SUFFIX,neweggimages.com

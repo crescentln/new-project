@@ -21,3 +21,14 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,abema-tv.com
 DOMAIN-SUFFIX,ameba.jp
 DOMAIN-SUFFIX,ameblo.jp
+DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,yahoo.net
+DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yimg.com
+DOMAIN-SUFFIX,mail.yahoo.com
+DOMAIN-SUFFIX,gpt.mail.yahoo.net
+DOMAIN-SUFFIX,newegg.com
+DOMAIN-SUFFIX,neweggimages.com
+DOMAIN-SUFFIX,pf.newegg.com
+DOMAIN-SUFFIX,ih.newegg.com
+DOMAIN-SUFFIX,imk.neweggimages.com

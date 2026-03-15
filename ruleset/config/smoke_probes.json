@@ -65,6 +65,10 @@
     "download": [
       "DOMAIN-SUFFIX,apkmirrorusercontent.com"
     ],
+    "ecommerce": [
+      "DOMAIN-SUFFIX,newegg.com",
+      "DOMAIN-SUFFIX,neweggimages.com"
+    ],
     "google": [
       "DOMAIN,voice.telephony.goog"
     ],
@@ -129,6 +133,11 @@
     "games": [
       "DOMAIN-SUFFIX,steampowered.com"
     ],
+    "global": [
+      "DOMAIN-SUFFIX,yahoo.com",
+      "DOMAIN-SUFFIX,yahooapis.com",
+      "DOMAIN-SUFFIX,yimg.com"
+    ],
     "gfw": [
       "DOMAIN,cloud.oracle.com"
     ],
@@ -155,6 +164,60 @@
   "expect_rules_openclash": {
     "vowifi": [
       "DOMAIN-REGEX,^epdg(\\\\.epc)?\\\\.mnc[0-9]{3}\\\\.mcc31[0-6]\\\\.pub\\\\.3gppnetwork\\\\.org$"
+    ]
+  },
+  "forbid_rules": {
+    "reject": [
+      "DOMAIN-SUFFIX,yahoo.com",
+      "DOMAIN-SUFFIX,yahoo.net",
+      "DOMAIN-SUFFIX,yahooapis.com",
+      "DOMAIN-SUFFIX,yimg.com",
+      "DOMAIN-SUFFIX,mail.yahoo.com",
+      "DOMAIN-SUFFIX,gpt.mail.yahoo.net",
+      "DOMAIN-SUFFIX,newegg.com",
+      "DOMAIN-SUFFIX,neweggimages.com",
+      "DOMAIN-SUFFIX,pf.newegg.com",
+      "DOMAIN-SUFFIX,ih.newegg.com",
+      "DOMAIN-SUFFIX,imk.neweggimages.com"
+    ],
+    "reject_extra": [
+      "DOMAIN-SUFFIX,yahoo.com",
+      "DOMAIN-SUFFIX,yahoo.net",
+      "DOMAIN-SUFFIX,yahooapis.com",
+      "DOMAIN-SUFFIX,yimg.com",
+      "DOMAIN-SUFFIX,mail.yahoo.com",
+      "DOMAIN-SUFFIX,gpt.mail.yahoo.net",
+      "DOMAIN-SUFFIX,newegg.com",
+      "DOMAIN-SUFFIX,neweggimages.com",
+      "DOMAIN-SUFFIX,pf.newegg.com",
+      "DOMAIN-SUFFIX,ih.newegg.com",
+      "DOMAIN-SUFFIX,imk.neweggimages.com"
+    ],
+    "reject_drop": [
+      "DOMAIN-SUFFIX,yahoo.com",
+      "DOMAIN-SUFFIX,yahoo.net",
+      "DOMAIN-SUFFIX,yahooapis.com",
+      "DOMAIN-SUFFIX,yimg.com",
+      "DOMAIN-SUFFIX,mail.yahoo.com",
+      "DOMAIN-SUFFIX,gpt.mail.yahoo.net",
+      "DOMAIN-SUFFIX,newegg.com",
+      "DOMAIN-SUFFIX,neweggimages.com",
+      "DOMAIN-SUFFIX,pf.newegg.com",
+      "DOMAIN-SUFFIX,ih.newegg.com",
+      "DOMAIN-SUFFIX,imk.neweggimages.com"
+    ],
+    "reject_no_drop": [
+      "DOMAIN-SUFFIX,yahoo.com",
+      "DOMAIN-SUFFIX,yahoo.net",
+      "DOMAIN-SUFFIX,yahooapis.com",
+      "DOMAIN-SUFFIX,yimg.com",
+      "DOMAIN-SUFFIX,mail.yahoo.com",
+      "DOMAIN-SUFFIX,gpt.mail.yahoo.net",
+      "DOMAIN-SUFFIX,newegg.com",
+      "DOMAIN-SUFFIX,neweggimages.com",
+      "DOMAIN-SUFFIX,pf.newegg.com",
+      "DOMAIN-SUFFIX,ih.newegg.com",
+      "DOMAIN-SUFFIX,imk.neweggimages.com"
     ]
   }
 }

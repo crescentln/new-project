@@ -411,16 +411,26 @@ def parse_adblock_text(text: str) -> set[str]:
         if line.startswith(("|http://", "|https://")):
             url = line.lstrip("|")
             try:
-                hostname = urllib.parse.urlparse(url).hostname or ""
+                parsed_url = urllib.parse.urlparse(url)
             except ValueError:
-                hostname = ""
-            domain = normalize_domain(hostname)
+                parsed_url = None
+            if parsed_url is None:
+                continue
+            # Do not upgrade path-specific URL filters into whole-domain DNS blocks.
+            if parsed_url.path not in {"", "/"} or parsed_url.params or parsed_url.query or parsed_url.fragment:
+                continue
+            domain = normalize_domain(parsed_url.hostname or "")
             if domain:
                 rules.add(f"DOMAIN,{domain}")
             continue
 
         if line.startswith("||"):
-            token = line[2:].split("^", 1)[0].split("/", 1)[0]
+            token = line[2:].split("^", 1)[0]
+            if "/" in token:
+                host, path = token.split("/", 1)
+                if path.strip("/"):
+                    continue
+                token = host
             domain = normalize_domain(token)
             if domain:
                 rules.add(f"DOMAIN-SUFFIX,{domain}")

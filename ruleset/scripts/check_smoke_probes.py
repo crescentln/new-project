@@ -73,6 +73,7 @@ def main() -> int:
     require_non_empty = payload.get("require_non_empty", [])
     expect_rules = payload.get("expect_rules", {})
     expect_rules_openclash = payload.get("expect_rules_openclash", {})
+    forbid_rules = payload.get("forbid_rules", {})
 
     if not isinstance(require_non_empty, list):
         raise SystemExit("[smoke] invalid config: require_non_empty must be array")
@@ -80,6 +81,8 @@ def main() -> int:
         raise SystemExit("[smoke] invalid config: expect_rules must be object")
     if not isinstance(expect_rules_openclash, dict):
         raise SystemExit("[smoke] invalid config: expect_rules_openclash must be object")
+    if not isinstance(forbid_rules, dict):
+        raise SystemExit("[smoke] invalid config: forbid_rules must be object")
 
     violations: list[str] = []
 
@@ -133,6 +136,25 @@ def main() -> int:
             if needle and needle not in rules:
                 violations.append(f"missing expected openclash rule in {cid}: {needle}")
 
+    for category, forbidden in forbid_rules.items():
+        cid = str(category).strip()
+        if not cid:
+            continue
+        if not isinstance(forbidden, list):
+            violations.append(f"invalid forbidden list for category: {cid}")
+            continue
+
+        path = args.surge_dir / f"{cid}.list"
+        if not path.exists():
+            violations.append(f"missing output file: {path}")
+            continue
+
+        rules = set(read_rules(path))
+        for item in forbidden:
+            needle = str(item).strip()
+            if needle and needle in rules:
+                violations.append(f"forbidden rule present in {cid}: {needle}")
+
     if violations:
         log(f"FAILED with {len(violations)} violation(s)")
         for msg in violations:
@@ -142,11 +164,13 @@ def main() -> int:
     total_non_empty = len([str(x).strip() for x in require_non_empty if str(x).strip()])
     total_expected = sum(len(v) for v in expect_rules.values() if isinstance(v, list))
     total_expected_openclash = sum(len(v) for v in expect_rules_openclash.values() if isinstance(v, list))
+    total_forbidden = sum(len(v) for v in forbid_rules.values() if isinstance(v, list))
     log(
         "passed: "
         f"non_empty_checks={total_non_empty} "
         f"expected_rule_checks={total_expected} "
-        f"openclash_rule_checks={total_expected_openclash}"
+        f"openclash_rule_checks={total_expected_openclash} "
+        f"forbidden_rule_checks={total_forbidden}"
     )
     return 0
 
