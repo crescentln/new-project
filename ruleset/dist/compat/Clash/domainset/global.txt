@@ -4353,6 +4353,7 @@ zeenews-fonts.s3.amazonaws.com
 +.beeg.rest
 +.beegfree.com
 +.beejp.net
++.beeline.tv
 +.beforeigners.com
 +.befuck.com
 +.befuck.net
@@ -4419,6 +4420,7 @@ zeenews-fonts.s3.amazonaws.com
 +.bestbuyus.com
 +.bestcamsites.net
 +.bestclouddrive.com
++.bestdori.com
 +.besterpornos.com
 +.bestescortgirls.nl
 +.bestfreecams.club
@@ -20406,6 +20408,11 @@ zeenews-fonts.s3.amazonaws.com
 +.tiktokv.us
 +.tiktokw.eu
 +.tiktokw.us
++.tilda.cc
++.tilda.ru
++.tilda.ws
++.tildaapi.com
++.tildacdn.com
 +.tiltbrush.com
 +.time.gov
 +.time.nrc.ca
@@ -22237,6 +22244,7 @@ zeenews-fonts.s3.amazonaws.com
 +.woolite.us
 +.woolitecarpet.com
 +.wordpress.com
++.wordpress.net
 +.wordpress.org
 +.wordpress.tv
 +.workers.dev
@@ -23460,6 +23468,7 @@ zeenews-fonts.s3.amazonaws.com
 +.zhuichaguoji.org
 +.zhuzhushipin-app.com
 +.zibacity.com
++.ziglang.org
 +.zigzag.kr
 +.zind.cloud
 +.zingtruyen.net

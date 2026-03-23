@@ -755,6 +755,7 @@ xp.apple.com
 +.84.100.in-addr.arpa
 +.84399.com
 +.85.100.in-addr.arpa
++.8531.cn
 +.86.100.in-addr.arpa
 +.8686c.com
 +.87.100.in-addr.arpa
@@ -2236,6 +2237,7 @@ xp.apple.com
 +.computeinit.com
 +.comsenz.com
 +.con-c-hybris.lenovo.com
++.conac.cn
 +.configuration.apple.com
 +.contentchina.com
 +.cookicut.com
@@ -2806,10 +2808,8 @@ xp.apple.com
 +.erp321.net
 +.ersjk.com
 +.esp8266.cn
-+.esp8266.com
 +.esp8266.com.cn
 +.espressif.cn
-+.espressif.com
 +.espressif.com.cn
 +.essence.com.cn
 +.essurl.com
@@ -3303,6 +3303,7 @@ xp.apple.com
 +.gzctyiptv.cn
 +.gzurl.cn
 +.gzwanju.com
++.gzyowin.com
 +.h2os.com
 +.h5uc.com
 +.ha.api.io.mi.com
@@ -4163,6 +4164,8 @@ xp.apple.com
 +.jxedt.com
 +.jxksw.net
 +.jxpp.com
++.jyeoo.com
++.jyeoo.net
 +.jyimg.com
 +.jyzq.cn
 +.jzfz.net
@@ -5219,6 +5222,7 @@ xp.apple.com
 +.pipixiaha.com
 +.pishu.com.cn
 +.pixeldance.com
++.piyao.org.cn
 +.piyipiba.com
 +.pkoplink.com
 +.pkuh6.cn
@@ -6114,6 +6118,7 @@ xp.apple.com
 +.tidb.ai
 +.tidb.net
 +.tidbcloud.com
++.tidenews.com.cn
 +.tieba.baidu.com
 +.tieba.com
 +.tiebaimg.com
@@ -6811,6 +6816,7 @@ xp.apple.com
 +.xfdown.com
 +.xfyun.cn
 +.xhaiwai.com
++.xhby.net
 +.xhlsgs.com
 +.xhscdn.com
 +.xhscdn.net
@@ -7182,6 +7188,7 @@ xp.apple.com
 +.yystv.cn
 +.yytcdn.com
 +.yzcdn.cn
++.yzwb.net
 +.yzyxgame.com
 +.z-bank.com
 +.z.ai

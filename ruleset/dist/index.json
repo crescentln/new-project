@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-16T05:30:30.477231+00:00",
+  "generated_at_utc": "2026-03-23T05:19:59.991305+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 333841,
+      "rule_count": 334696,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,28 +36,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 59423
+          "rule_count": 58054
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 46877
+          "rule_count": 46901
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 161086
+          "rule_count": 160014
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 154361
+          "rule_count": 156264
         },
         {
           "type": "local_domain",
@@ -220,7 +220,7 @@
     {
       "id": "domestic",
       "description": "Mainland China domains (domain-focused direct set)",
-      "rule_count": 6769,
+      "rule_count": 6762,
       "surge_path": "surge/domestic.list",
       "openclash_path": "openclash/domestic.yaml",
       "surge_non_ip_path": "surge/non_ip/domestic.list",
@@ -245,7 +245,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6769
+          "rule_count": 6762
         },
         {
           "type": "local_domain",
@@ -344,7 +344,7 @@
     {
       "id": "cdn",
       "description": "CDN domains and edge prefixes",
-      "rule_count": 1459,
+      "rule_count": 1460,
       "surge_path": "surge/cdn.list",
       "openclash_path": "openclash/cdn.yaml",
       "surge_non_ip_path": "surge/non_ip/cdn.list",
@@ -390,7 +390,7 @@
           "authority": "official",
           "ref": "https://www.gstatic.com/ipranges/cloud.json",
           "used_cache": false,
-          "rule_count": 896
+          "rule_count": 897
         },
         {
           "type": "fastly_public_ip_list",
@@ -2669,7 +2669,7 @@
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 23712,
+      "rule_count": 23721,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
       "surge_non_ip_path": "surge/non_ip/global.list",
@@ -2694,7 +2694,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 23712
+          "rule_count": 23721
         },
         {
           "type": "local_domain",
@@ -2708,7 +2708,7 @@
     {
       "id": "direct",
       "description": "Merged direct rules for simplified deployment",
-      "rule_count": 19568,
+      "rule_count": 19562,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
       "surge_non_ip_path": "surge/non_ip/direct.list",
@@ -2782,7 +2782,7 @@
           "authority": "official",
           "ref": "https://www.gstatic.com/ipranges/cloud.json",
           "used_cache": false,
-          "rule_count": 896
+          "rule_count": 897
         },
         {
           "type": "v2fly_dlc",
@@ -2817,7 +2817,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6769
+          "rule_count": 6762
         },
         {
           "type": "v2fly_dlc",

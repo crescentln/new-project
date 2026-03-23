@@ -755,6 +755,7 @@ DOMAIN-SUFFIX,83.100.in-addr.arpa
 DOMAIN-SUFFIX,84.100.in-addr.arpa
 DOMAIN-SUFFIX,84399.com
 DOMAIN-SUFFIX,85.100.in-addr.arpa
+DOMAIN-SUFFIX,8531.cn
 DOMAIN-SUFFIX,86.100.in-addr.arpa
 DOMAIN-SUFFIX,8686c.com
 DOMAIN-SUFFIX,87.100.in-addr.arpa
@@ -2236,6 +2237,7 @@ DOMAIN-SUFFIX,coloros.net
 DOMAIN-SUFFIX,computeinit.com
 DOMAIN-SUFFIX,comsenz.com
 DOMAIN-SUFFIX,con-c-hybris.lenovo.com
+DOMAIN-SUFFIX,conac.cn
 DOMAIN-SUFFIX,configuration.apple.com
 DOMAIN-SUFFIX,contentchina.com
 DOMAIN-SUFFIX,cookicut.com
@@ -2806,10 +2808,8 @@ DOMAIN-SUFFIX,erp321.com
 DOMAIN-SUFFIX,erp321.net
 DOMAIN-SUFFIX,ersjk.com
 DOMAIN-SUFFIX,esp8266.cn
-DOMAIN-SUFFIX,esp8266.com
 DOMAIN-SUFFIX,esp8266.com.cn
 DOMAIN-SUFFIX,espressif.cn
-DOMAIN-SUFFIX,espressif.com
 DOMAIN-SUFFIX,espressif.com.cn
 DOMAIN-SUFFIX,essence.com.cn
 DOMAIN-SUFFIX,essurl.com
@@ -3303,6 +3303,7 @@ DOMAIN-SUFFIX,gzcqs.com
 DOMAIN-SUFFIX,gzctyiptv.cn
 DOMAIN-SUFFIX,gzurl.cn
 DOMAIN-SUFFIX,gzwanju.com
+DOMAIN-SUFFIX,gzyowin.com
 DOMAIN-SUFFIX,h2os.com
 DOMAIN-SUFFIX,h5uc.com
 DOMAIN-SUFFIX,ha.api.io.mi.com
@@ -4163,6 +4164,8 @@ DOMAIN-SUFFIX,jvoice.cn
 DOMAIN-SUFFIX,jxedt.com
 DOMAIN-SUFFIX,jxksw.net
 DOMAIN-SUFFIX,jxpp.com
+DOMAIN-SUFFIX,jyeoo.com
+DOMAIN-SUFFIX,jyeoo.net
 DOMAIN-SUFFIX,jyimg.com
 DOMAIN-SUFFIX,jyzq.cn
 DOMAIN-SUFFIX,jzfz.net
@@ -5219,6 +5222,7 @@ DOMAIN-SUFFIX,pipix.com
 DOMAIN-SUFFIX,pipixiaha.com
 DOMAIN-SUFFIX,pishu.com.cn
 DOMAIN-SUFFIX,pixeldance.com
+DOMAIN-SUFFIX,piyao.org.cn
 DOMAIN-SUFFIX,piyipiba.com
 DOMAIN-SUFFIX,pkoplink.com
 DOMAIN-SUFFIX,pkuh6.cn
@@ -6114,6 +6118,7 @@ DOMAIN-SUFFIX,tidaas.com
 DOMAIN-SUFFIX,tidb.ai
 DOMAIN-SUFFIX,tidb.net
 DOMAIN-SUFFIX,tidbcloud.com
+DOMAIN-SUFFIX,tidenews.com.cn
 DOMAIN-SUFFIX,tieba.baidu.com
 DOMAIN-SUFFIX,tieba.com
 DOMAIN-SUFFIX,tiebaimg.com
@@ -6811,6 +6816,7 @@ DOMAIN-SUFFIX,xf-fund.com
 DOMAIN-SUFFIX,xfdown.com
 DOMAIN-SUFFIX,xfyun.cn
 DOMAIN-SUFFIX,xhaiwai.com
+DOMAIN-SUFFIX,xhby.net
 DOMAIN-SUFFIX,xhlsgs.com
 DOMAIN-SUFFIX,xhscdn.com
 DOMAIN-SUFFIX,xhscdn.net
@@ -7182,6 +7188,7 @@ DOMAIN-SUFFIX,yystatic.com
 DOMAIN-SUFFIX,yystv.cn
 DOMAIN-SUFFIX,yytcdn.com
 DOMAIN-SUFFIX,yzcdn.cn
+DOMAIN-SUFFIX,yzwb.net
 DOMAIN-SUFFIX,yzyxgame.com
 DOMAIN-SUFFIX,z-bank.com
 DOMAIN-SUFFIX,z.ai
@@ -17324,6 +17331,7 @@ IP-CIDR,8.229.0.0/16,no-resolve
 IP-CIDR,8.230.0.0/19,no-resolve
 IP-CIDR,8.230.32.0/19,no-resolve
 IP-CIDR,8.230.64.0/19,no-resolve
+IP-CIDR,8.230.96.0/19,no-resolve
 IP-CIDR,8.34.208.0/23,no-resolve
 IP-CIDR,8.34.210.0/24,no-resolve
 IP-CIDR,8.34.211.0/24,no-resolve

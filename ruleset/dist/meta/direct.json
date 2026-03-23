@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-  "rule_count": 19568,
+  "rule_count": 19562,
   "paths": {
     "surge": "surge/direct.list",
     "surge_non_ip": "surge/non_ip/direct.list",
@@ -77,7 +77,7 @@
       "authority": "official",
       "ref": "https://www.gstatic.com/ipranges/cloud.json",
       "used_cache": false,
-      "rule_count": 896
+      "rule_count": 897
     },
     {
       "type": "v2fly_dlc",
@@ -112,7 +112,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
       "used_cache": false,
-      "rule_count": 6769
+      "rule_count": 6762
     },
     {
       "type": "v2fly_dlc",

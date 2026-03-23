@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 250,
   "recommended_note": "CDN 回源与就近访问优先直连",
-  "rule_count": 1459,
+  "rule_count": 1460,
   "paths": {
     "surge": "surge/cdn.list",
     "surge_non_ip": "surge/non_ip/cdn.list",
@@ -49,7 +49,7 @@
       "authority": "official",
       "ref": "https://www.gstatic.com/ipranges/cloud.json",
       "used_cache": false,
-      "rule_count": 896
+      "rule_count": 897
     },
     {
       "type": "fastly_public_ip_list",
