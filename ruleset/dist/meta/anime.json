@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 340,
   "recommended_note": "海外动漫、漫画与成人站点走代理",
-  "rule_count": 52,
+  "rule_count": 49,
   "paths": {
     "surge": "surge/anime.list",
     "surge_non_ip": "surge/non_ip/anime.list",
@@ -28,7 +28,7 @@
       "authority": "owner-controlled",
       "ref": "manual/categories/anime.txt",
       "used_cache": false,
-      "rule_count": 52
+      "rule_count": 49
     }
   ]
 }

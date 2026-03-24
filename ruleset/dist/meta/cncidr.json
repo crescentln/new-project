@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 220,
   "recommended_note": "中国大陆 IP 段直连（IP-focused）",
-  "rule_count": 10831,
+  "rule_count": 10829,
   "paths": {
     "surge": "surge/cncidr.list",
     "surge_non_ip": "surge/non_ip/cncidr.list",
@@ -28,7 +28,7 @@
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10831
+      "rule_count": 10829
     },
     {
       "type": "local_domain",

@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-23T05:19:59.994069+00:00",
+  "generated_at_utc": "2026-03-24T00:32:30.041796+00:00",
   "policy_path": "config/policy_map.json",
   "categories": [
     {
@@ -7,7 +7,7 @@
       "recommended_action": "REJECT",
       "recommended_priority": 100,
       "recommended_note": "广告、追踪、恶意基础拦截规则",
-      "rule_count": 334696
+      "rule_count": 334981
     },
     {
       "id": "reject_extra",
@@ -49,7 +49,7 @@
       "recommended_action": "DIRECT",
       "recommended_priority": 220,
       "recommended_note": "中国大陆 IP 段直连（IP-focused）",
-      "rule_count": 10831
+      "rule_count": 10829
     },
     {
       "id": "telegram",
@@ -315,7 +315,7 @@
       "recommended_action": "PROXY",
       "recommended_priority": 340,
       "recommended_note": "海外动漫、漫画与成人站点走代理",
-      "rule_count": 52
+      "rule_count": 49
     },
     {
       "id": "tiktok",
@@ -371,14 +371,14 @@
       "recommended_action": "PROXY",
       "recommended_priority": 900,
       "recommended_note": "兜底代理集合（应放在较后顺序）",
-      "rule_count": 23721
+      "rule_count": 23723
     },
     {
       "id": "direct",
       "recommended_action": "DIRECT",
       "recommended_priority": 205,
       "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-      "rule_count": 19562
+      "rule_count": 19560
     }
   ]
 }

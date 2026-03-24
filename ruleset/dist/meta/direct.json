@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-  "rule_count": 19562,
+  "rule_count": 19560,
   "paths": {
     "surge": "surge/direct.list",
     "surge_non_ip": "surge/non_ip/direct.list",
@@ -49,7 +49,7 @@
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10831
+      "rule_count": 10829
     },
     {
       "type": "plain_cidr",

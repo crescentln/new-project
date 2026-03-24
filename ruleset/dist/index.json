@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-03-23T05:19:59.991305+00:00",
+  "generated_at_utc": "2026-03-24T00:32:30.041188+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -11,7 +11,7 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 334696,
+      "rule_count": 334981,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
       "surge_non_ip_path": "surge/non_ip/reject.list",
@@ -36,28 +36,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 58054
+          "rule_count": 58288
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 46901
+          "rule_count": 46907
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 160014
+          "rule_count": 160265
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 156264
+          "rule_count": 156299
         },
         {
           "type": "local_domain",
@@ -259,7 +259,7 @@
     {
       "id": "cncidr",
       "description": "Mainland China IPv4/IPv6 CIDR only (IP-focused direct set)",
-      "rule_count": 10831,
+      "rule_count": 10829,
       "surge_path": "surge/cncidr.list",
       "openclash_path": "openclash/cncidr.yaml",
       "surge_non_ip_path": "surge/non_ip/cncidr.list",
@@ -284,7 +284,7 @@
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10831
+          "rule_count": 10829
         },
         {
           "type": "local_domain",
@@ -2378,7 +2378,7 @@
     {
       "id": "anime",
       "description": "Anime, manga, and adult sites (overseas)",
-      "rule_count": 52,
+      "rule_count": 49,
       "surge_path": "surge/anime.list",
       "openclash_path": "openclash/anime.yaml",
       "surge_non_ip_path": "surge/non_ip/anime.list",
@@ -2403,7 +2403,7 @@
           "authority": "owner-controlled",
           "ref": "manual/categories/anime.txt",
           "used_cache": false,
-          "rule_count": 52
+          "rule_count": 49
         }
       ]
     },
@@ -2669,7 +2669,7 @@
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 23721,
+      "rule_count": 23723,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
       "surge_non_ip_path": "surge/non_ip/global.list",
@@ -2694,7 +2694,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 23721
+          "rule_count": 23723
         },
         {
           "type": "local_domain",
@@ -2708,7 +2708,7 @@
     {
       "id": "direct",
       "description": "Merged direct rules for simplified deployment",
-      "rule_count": 19562,
+      "rule_count": 19560,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
       "surge_non_ip_path": "surge/non_ip/direct.list",
@@ -2754,7 +2754,7 @@
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10831
+          "rule_count": 10829
         },
         {
           "type": "plain_cidr",

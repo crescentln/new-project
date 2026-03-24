@@ -43,9 +43,6 @@ DOMAIN-SUFFIX,gelbooru.com
 DOMAIN-SUFFIX,sankakucomplex.com
 
 # Adult video / tube
-DOMAIN-SUFFIX,pornhub.com
-DOMAIN-SUFFIX,phncdn.com
-DOMAIN-SUFFIX,pornhubpremium.com
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,xnxx.com

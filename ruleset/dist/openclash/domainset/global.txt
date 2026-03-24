@@ -312,6 +312,7 @@ download.qatp1.net
 download.tensorflow.google.com
 download.visualstudio.microsoft.com
 downloaddispatch.itunes.apple.com
+dqd0jw5gvbchn.cloudfront.net
 dqrpb9wgowsf5.cloudfront.net
 ds-linear-abematv.akamaized.net
 ds-vod-abematv.akamaized.net
@@ -16368,6 +16369,7 @@ zeenews-fonts.s3.amazonaws.com
 +.openlibrary.org
 +.openmaps.org
 +.openreality.com
++.openrec.tv
 +.openresty.org
 +.openreview.net
 +.openrouter.ai
