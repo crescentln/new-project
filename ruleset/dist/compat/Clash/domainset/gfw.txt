@@ -21,6 +21,7 @@ testflight.apple.com
 +.dweb.link
 +.eff.org
 +.epicbrowser.com
++.equinox.io
 +.ffprofile.com
 +.freebrowser.org
 +.freenetproject.org
@@ -56,6 +57,7 @@ testflight.apple.com
 +.lokinet.org
 +.metacubex.one
 +.nftstorage.link
++.ngrok-agent.com
 +.ngrok-free.app
 +.ngrok-free.dev
 +.ngrok-free.pizza

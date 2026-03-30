@@ -597,7 +597,7 @@ IP-CIDR,104.28.136.64/26,no-resolve
 IP-CIDR,104.28.136.8/29,no-resolve
 IP-CIDR,104.28.137.1/32,no-resolve
 IP-CIDR,104.28.137.2/31,no-resolve
-IP-CIDR,104.28.137.4/32,no-resolve
+IP-CIDR,104.28.137.4/30,no-resolve
 IP-CIDR,104.28.138.1/32,no-resolve
 IP-CIDR,104.28.138.128/28,no-resolve
 IP-CIDR,104.28.138.144/31,no-resolve

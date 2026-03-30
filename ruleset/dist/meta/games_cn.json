@@ -4,7 +4,7 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 241,
   "recommended_note": "国内游戏服务直连",
-  "rule_count": 228,
+  "rule_count": 229,
   "paths": {
     "surge": "surge/games_cn.list",
     "surge_non_ip": "surge/non_ip/games_cn.list",
@@ -28,7 +28,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-cn",
       "used_cache": false,
-      "rule_count": 228
+      "rule_count": 229
     },
     {
       "type": "local_domain",

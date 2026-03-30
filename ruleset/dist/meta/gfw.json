@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 346,
   "recommended_note": "GFW 列表走代理",
-  "rule_count": 113,
+  "rule_count": 115,
   "paths": {
     "surge": "surge/gfw.list",
     "surge_non_ip": "surge/non_ip/gfw.list",
@@ -35,7 +35,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-proxy-tunnels",
       "used_cache": false,
-      "rule_count": 14
+      "rule_count": 16
     },
     {
       "type": "local_domain",

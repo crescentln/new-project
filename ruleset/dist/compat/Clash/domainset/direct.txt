@@ -80,6 +80,7 @@ crl.apple.com
 crl.microsoft.com
 cstat.apple.com
 cstat.cdn-apple.com
+ctdsb.clouddiffuse.xyz
 ctldl.windowsupdate.com
 cueme-api.quark.cn
 dd-cdn.origin-apple.com.akadns.net
@@ -163,6 +164,7 @@ is5.mzstatic.com
 itunes-apple.com.akadns.net
 itunes.apple.com
 itunesconnect.apple.com
+izattime.qcomgeo2.com
 js-cdn.music.apple.com
 km.support.apple.com
 learn.microsoft.com
@@ -326,6 +328,7 @@ www.miwifi.com
 www.routerlogin.com
 www.support.apple.com
 xp.apple.com
+xtratime.qcomgeo2.com
 +.0033.cn
 +.00cdn.com
 +.0123456789.com
@@ -632,6 +635,7 @@ xp.apple.com
 +.51changxie.com
 +.51credit.com
 +.51cto.com
++.51ctocdn.cn
 +.51dzt.com
 +.51eshop.com
 +.51gaifang.com
@@ -766,6 +770,7 @@ xp.apple.com
 +.8btc.com
 +.8gcdp.cn
 +.8n82b.cn
++.8uri.cn
 +.9.e.f.ip6.arpa
 +.90.100.in-addr.arpa
 +.900.la
@@ -904,6 +909,7 @@ xp.apple.com
 +.airstarfinance.net
 +.aisee.tv
 +.aiskycn.com
++.aispeech.com
 +.aitcfw.com
 +.aitransfy.com
 +.aixcoder.com
@@ -1034,6 +1040,7 @@ xp.apple.com
 +.andfx.net
 +.anfensi.com
 +.anhuinews.com
++.anhuiyun.com
 +.animetamashi.cn
 +.animetamashi.com
 +.anitabi.cn
@@ -2314,6 +2321,7 @@ xp.apple.com
 +.ctdns.cn
 +.ctdns.com.cn
 +.ctdns.net
++.ctdsb.net
 +.ctecdn.cn
 +.ctecx.cn
 +.ctexcel.ca
@@ -3270,6 +3278,7 @@ xp.apple.com
 +.guaiguai.com
 +.guaiku.com
 +.guanaitong.com
++.guancha.cn
 +.guanggaotongapp.cn
 +.guanhaobio.com
 +.guanyierp.com
@@ -3703,6 +3712,7 @@ xp.apple.com
 +.icphoto.cn
 +.icplishi.com
 +.ics.design
++.icswb.com
 +.ictbda.cn
 +.ictbda.com
 +.icve.com.cn
@@ -3762,6 +3772,7 @@ xp.apple.com
 +.ijiandao.com
 +.ijinshan.com
 +.ikafan.com
++.ikanchai.com
 +.ilanzou.com
 +.ileapcloud.com
 +.iluckysf.net
@@ -4026,6 +4037,7 @@ xp.apple.com
 +.jikexueyuan.com
 +.jikipedia.com
 +.jin10.com
++.jinantimes.com.cn
 +.jindidata.com
 +.jingdong.com
 +.jingdongjinrong.com
@@ -4163,6 +4175,7 @@ xp.apple.com
 +.jvoice.cn
 +.jxedt.com
 +.jxksw.net
++.jxnews.com.cn
 +.jxpp.com
 +.jyeoo.com
 +.jyeoo.net
@@ -4242,6 +4255,7 @@ xp.apple.com
 +.kmop-cn-east-3.cn
 +.kmop-cn-north-4.cn
 +.knet.cn
++.knewsmart.com
 +.kolbuyer.cn
 +.kongfz.com
 +.koocdn.com
@@ -5169,8 +5183,10 @@ xp.apple.com
 +.paydxm.com
 +.pbiwebcontent.cn
 +.pc6.com
++.pcauto.com.cn
 +.pcbeta.com
 +.pchome.net
++.pchouse.com.cn
 +.pchpic.net
 +.pconline.com.cn
 +.pcpop.com
@@ -5461,6 +5477,7 @@ xp.apple.com
 +.r.bing.com
 +.r8zc9.cn
 +.rainclassroom.com
++.rainyun.com
 +.rdfybk.com
 +.rdnsdb.com
 +.reactorms.com.cn
@@ -5749,6 +5766,7 @@ xp.apple.com
 +.soku.com
 +.solidot.org
 +.somode.com
++.sootoo.com
 +.soso.com
 +.soso.com.cn
 +.sososnap.com
@@ -5866,6 +5884,7 @@ xp.apple.com
 +.sz-jlc.com
 +.szbdyd.com
 +.szfw.org
++.szhdy.com
 +.szhk.com
 +.szjlc.cn
 +.szlcsc.com
@@ -5997,6 +6016,7 @@ xp.apple.com
 +.tebiefuza.cn
 +.tebon.com.cn
 +.techo.chat
++.techwalker.com
 +.techweb.com.cn
 +.teemo.cn
 +.tefscloud.com
@@ -6854,7 +6874,6 @@ xp.apple.com
 +.xiaomidns.com.cn
 +.xiaomidns.net
 +.xiaomiev.com
-+.xiaomiflash.com
 +.xiaomiinc.cn
 +.xiaomiinc.com
 +.xiaomiinc.com.cn
@@ -6985,6 +7004,7 @@ xp.apple.com
 +.ycgame.com
 +.ycrx360.com
 +.yctdyy.com
++.ycwb.com
 +.ydamc.com
 +.ydsc.com.cn
 +.ydstatic.com
@@ -7257,6 +7277,7 @@ xp.apple.com
 +.zhibo8.cc
 +.zhichanli.com
 +.zhidemai.com
++.zhiding.cn
 +.zhiding.com.cn
 +.zhidx.com
 +.zhifang.com

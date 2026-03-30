@@ -162,6 +162,7 @@ xz.pphimalayanrt.com
 +.capturingreality.com
 +.championshipseriesleague.com
 +.chillingo.com
++.chunkbase.com
 +.clash.com
 +.clashmini.com
 +.clashofclans.com
@@ -378,6 +379,7 @@ xz.pphimalayanrt.com
 +.minecraft-services.net
 +.minecraft.net
 +.minecraft.wiki
++.minecraftforge.net
 +.minecraftservices.com
 +.minecraftshop.com
 +.mirrorsedge.com
@@ -398,6 +400,7 @@ xz.pphimalayanrt.com
 +.mythicentertainment.net
 +.mythicgames.com
 +.n0vadesktop.com
++.namemc.com
 +.needforspeed.com
 +.needforspeedboost.com
 +.needforspeeddriftkings.com
@@ -413,6 +416,7 @@ xz.pphimalayanrt.com
 +.needforspeedtimeattack.com
 +.needforspeedundergroundeast.com
 +.nentindo.net
++.neoforged.net
 +.newsupermariobrosu.com
 +.nexon.co.jp
 +.nexon.com
@@ -471,6 +475,7 @@ xz.pphimalayanrt.com
 +.offworldindustries.net
 +.omotenashi.cygames.jp
 +.op.gg
++.optifine.net
 +.origin.com
 +.origin.tv
 +.orithegame.com
@@ -618,6 +623,7 @@ xz.pphimalayanrt.com
 +.spearhead.kr
 +.speedhunters.com
 +.speedrun.com
++.spigotmc.org
 +.splatoon2tournament.com
 +.spore.com
 +.spyjinx.com

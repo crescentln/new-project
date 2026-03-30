@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 326,
   "recommended_note": "国际游戏服务走代理",
-  "rule_count": 787,
+  "rule_count": 793,
   "paths": {
     "surge": "surge/games.list",
     "surge_non_ip": "surge/non_ip/games.list",
@@ -28,7 +28,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-!cn",
       "used_cache": false,
-      "rule_count": 787
+      "rule_count": 793
     },
     {
       "type": "v2fly_dlc",

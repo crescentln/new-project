@@ -4,7 +4,7 @@
   "recommended_action": "PROXY",
   "recommended_priority": 337,
   "recommended_note": "跨境电商走代理",
-  "rule_count": 1096,
+  "rule_count": 1103,
   "paths": {
     "surge": "surge/ecommerce.list",
     "surge_non_ip": "surge/non_ip/ecommerce.list",
@@ -28,7 +28,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ecommerce",
       "used_cache": false,
-      "rule_count": 1092
+      "rule_count": 1099
     },
     {
       "type": "local_domain",
