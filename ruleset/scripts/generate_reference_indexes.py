@@ -57,8 +57,8 @@ def render_url_catalog(categories: list[dict[str, Any]], raw_base_url: str) -> s
         "",
         f"Raw Base: `{base}`",
         "",
-        "| Category | Action | Priority | Rules | OpenClash | Surge | Note |",
-        "|---|---|---:|---:|---|---|---|",
+        "| Category | Action | Priority | Rules | OpenClash | Surge | Stash | Note |",
+        "|---|---|---:|---:|---|---|---|---|",
     ]
 
     for row in categories:
@@ -69,12 +69,15 @@ def render_url_catalog(categories: list[dict[str, Any]], raw_base_url: str) -> s
         note = escape_cell(str(row.get("recommended_note", "")))
         openclash_path = str(row.get("openclash_path", ""))
         surge_path = str(row.get("surge_path", ""))
+        stash_path = str(row.get("stash_path", ""))
         openclash_url = f"{base}/{openclash_path}" if openclash_path else ""
         surge_url = f"{base}/{surge_path}" if surge_path else ""
+        stash_url = f"{base}/{stash_path}" if stash_path else ""
         openclash_cell = f"[{openclash_path}]({openclash_url})" if openclash_path else ""
         surge_cell = f"[{surge_path}]({surge_url})" if surge_path else ""
+        stash_cell = f"[{stash_path}]({stash_url})" if stash_path else ""
         lines.append(
-            f"| `{category_id}` | `{action}` | {priority} | {rule_count} | {openclash_cell} | {surge_cell} | {note} |"
+            f"| `{category_id}` | `{action}` | {priority} | {rule_count} | {openclash_cell} | {surge_cell} | {stash_cell} | {note} |"
         )
 
     lines.append("")

@@ -1,0 +1,6 @@
+pagead2.googlesyndication.com
++.ads.youtube.com
++.adservice.google.com
++.adservice.google.com.hk
++.adservice.google.com.sg
++.googleadservices.com

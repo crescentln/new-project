@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/stream.txt",
     "compat_list_non_ip": "compat/List/non_ip/stream.conf",
     "compat_list_ip": "compat/List/ip/stream.conf",
-    "compat_list_domainset": "compat/List/domainset/stream.conf"
+    "compat_list_domainset": "compat/List/domainset/stream.conf",
+    "stash": "stash/stream.list",
+    "stash_classical": "stash/classical/stream.list",
+    "stash_domainset": "stash/domainset/stream.txt",
+    "stash_ipcidr": "stash/ipcidr/stream.txt"
   },
   "sources": [
     {
@@ -177,5 +181,9 @@
       "used_cache": false,
       "rule_count": 5
     }
-  ]
+  ],
+  "stash_rule_count": 434,
+  "stash_classical_rule_count": 6,
+  "stash_domain_rule_count": 428,
+  "stash_ipcidr_rule_count": 0
 }

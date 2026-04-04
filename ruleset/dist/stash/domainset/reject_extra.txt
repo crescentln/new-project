@@ -1,0 +1,10 @@
++.adjust.com
++.app-measurement.com
++.appsflyer.com
++.branch.io
++.criteo.com
++.doubleclick.net
++.googletagmanager.com
++.outbrain.com
++.scorecardresearch.com
++.taboola.com

@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/spotify.txt",
     "compat_list_non_ip": "compat/List/non_ip/spotify.conf",
     "compat_list_ip": "compat/List/ip/spotify.conf",
-    "compat_list_domainset": "compat/List/domainset/spotify.conf"
+    "compat_list_domainset": "compat/List/domainset/spotify.conf",
+    "stash": "stash/spotify.list",
+    "stash_classical": "stash/classical/spotify.list",
+    "stash_domainset": "stash/domainset/spotify.txt",
+    "stash_ipcidr": "stash/ipcidr/spotify.txt"
   },
   "sources": [
     {
@@ -37,5 +41,9 @@
       "used_cache": false,
       "rule_count": 2
     }
-  ]
+  ],
+  "stash_rule_count": 23,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 23,
+  "stash_ipcidr_rule_count": 0
 }

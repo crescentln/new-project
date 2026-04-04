@@ -1,0 +1,299 @@
+# Generated file: recommended Stash template (classical rule-providers)
+# For Stash-native optimized usage, prefer ruleset/dist/stash/domainset + ipcidr + classical split paths.
+rule-providers:
+  reject:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject.list
+    interval: 86400
+  reject_extra:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject_extra.list
+    interval: 86400
+  reject_drop:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject_drop.list
+    interval: 86400
+  reject_no_drop:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject_no_drop.list
+    interval: 86400
+  httpdns:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/httpdns.list
+    interval: 86400
+  lan:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/lan.list
+    interval: 86400
+  direct:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/direct.list
+    interval: 86400
+  domestic:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domestic.list
+    interval: 86400
+  cncidr:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/cncidr.list
+    interval: 86400
+  apple_cn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_cn.list
+    interval: 86400
+  apple_cdn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_cdn.list
+    interval: 86400
+  microsoft_cdn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/microsoft_cdn.list
+    interval: 86400
+  socialmedia_cn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/socialmedia_cn.list
+    interval: 86400
+  games_cn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/games_cn.list
+    interval: 86400
+  douyin:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/douyin.list
+    interval: 86400
+  dmca:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/dmca.list
+    interval: 86400
+  cdn:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/cdn.list
+    interval: 86400
+  download:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/download.list
+    interval: 86400
+  telegram:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/telegram.list
+    interval: 86400
+  stream:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/stream.list
+    interval: 86400
+  ai:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ai.list
+    interval: 86400
+  apple_proxy:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_proxy.list
+    interval: 86400
+  icloud_private_relay:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/icloud_private_relay.list
+    interval: 86400
+  apple_services:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_services.list
+    interval: 86400
+  apple_intelligence:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_intelligence.list
+    interval: 86400
+  microsoft:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/microsoft.list
+    interval: 86400
+  github:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/github.list
+    interval: 86400
+  games:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/games.list
+    interval: 86400
+  youtube:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/youtube.list
+    interval: 86400
+  abema:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/abema.list
+    interval: 86400
+  apple_tv:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apple_tv.list
+    interval: 86400
+  primevideo:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/primevideo.list
+    interval: 86400
+  spotify:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/spotify.list
+    interval: 86400
+  twitch:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/twitch.list
+    interval: 86400
+  google:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/google.list
+    interval: 86400
+  googlefcm:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/googlefcm.list
+    interval: 86400
+  paypal:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/paypal.list
+    interval: 86400
+  crypto:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/crypto.list
+    interval: 86400
+  ecommerce:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ecommerce.list
+    interval: 86400
+  onedrive:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/onedrive.list
+    interval: 86400
+  forum:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/forum.list
+    interval: 86400
+  anime:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/anime.list
+    interval: 86400
+  socialmedia:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/socialmedia.list
+    interval: 86400
+  tiktok:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/tiktok.list
+    interval: 86400
+  apns:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/apns.list
+    interval: 86400
+  vowifi:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/vowifi.list
+    interval: 86400
+  tld_proxy:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/tld_proxy.list
+    interval: 86400
+  gfw:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/gfw.list
+    interval: 86400
+  global:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/global.list
+    interval: 86400
+rules:
+  - RULE-SET,reject,REJECT
+  - RULE-SET,reject_extra,REJECT
+  - RULE-SET,reject_drop,REJECT-DROP
+  - RULE-SET,reject_no_drop,REJECT-NO-DROP
+  - RULE-SET,httpdns,REJECT
+  - RULE-SET,lan,DIRECT
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,domestic,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,apple_cn,DIRECT
+  - RULE-SET,apple_cdn,DIRECT
+  - RULE-SET,microsoft_cdn,DIRECT
+  - RULE-SET,socialmedia_cn,DIRECT
+  - RULE-SET,games_cn,DIRECT
+  - RULE-SET,douyin,DIRECT
+  - RULE-SET,dmca,DIRECT
+  - RULE-SET,cdn,DIRECT
+  - RULE-SET,download,DIRECT
+  - RULE-SET,telegram,PROXY
+  - RULE-SET,stream,PROXY
+  - RULE-SET,ai,PROXY
+  - RULE-SET,apple_proxy,PROXY
+  - RULE-SET,icloud_private_relay,PROXY
+  - RULE-SET,apple_services,PROXY
+  - RULE-SET,apple_intelligence,PROXY
+  - RULE-SET,microsoft,PROXY
+  - RULE-SET,github,PROXY
+  - RULE-SET,games,PROXY
+  - RULE-SET,youtube,PROXY
+  - RULE-SET,abema,PROXY
+  - RULE-SET,apple_tv,PROXY
+  - RULE-SET,primevideo,PROXY
+  - RULE-SET,spotify,PROXY
+  - RULE-SET,twitch,PROXY
+  - RULE-SET,google,PROXY
+  - RULE-SET,googlefcm,PROXY
+  - RULE-SET,paypal,PROXY
+  - RULE-SET,crypto,PROXY
+  - RULE-SET,ecommerce,PROXY
+  - RULE-SET,onedrive,PROXY
+  - RULE-SET,forum,PROXY
+  - RULE-SET,anime,PROXY
+  - RULE-SET,socialmedia,PROXY
+  - RULE-SET,tiktok,PROXY
+  - RULE-SET,apns,PROXY
+  - RULE-SET,vowifi,PROXY
+  - RULE-SET,tld_proxy,PROXY
+  - RULE-SET,gfw,PROXY
+  - RULE-SET,global,PROXY
+  - MATCH,PROXY

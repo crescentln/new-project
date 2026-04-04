@@ -1,0 +1,39 @@
+# Example Stash rule-providers using Project_G Stash-native outputs.
+# Raw base:
+# https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist
+
+rule-providers:
+  direct-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/direct.txt
+    interval: 86400
+
+  direct-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/direct.txt
+    interval: 86400
+
+  direct-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/direct.list
+    interval: 86400
+
+  proxy-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/global.txt
+    interval: 86400
+
+  proxy-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/global.list
+    interval: 86400
+
+rules:
+  - RULE-SET,direct-domain,DIRECT
+  - RULE-SET,direct-classical,DIRECT
+  - RULE-SET,direct-ip,DIRECT,no-resolve
+  - RULE-SET,proxy-domain,PROXY
+  - RULE-SET,proxy-classical,PROXY
+  - MATCH,PROXY

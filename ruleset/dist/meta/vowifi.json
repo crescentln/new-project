@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/vowifi.txt",
     "compat_list_non_ip": "compat/List/non_ip/vowifi.conf",
     "compat_list_ip": "compat/List/ip/vowifi.conf",
-    "compat_list_domainset": "compat/List/domainset/vowifi.conf"
+    "compat_list_domainset": "compat/List/domainset/vowifi.conf",
+    "stash": "stash/vowifi.list",
+    "stash_classical": "stash/classical/vowifi.list",
+    "stash_domainset": "stash/domainset/vowifi.txt",
+    "stash_ipcidr": "stash/ipcidr/vowifi.txt"
   },
   "sources": [
     {
@@ -30,5 +34,9 @@
       "used_cache": false,
       "rule_count": 34
     }
-  ]
+  ],
+  "stash_rule_count": 34,
+  "stash_classical_rule_count": 13,
+  "stash_domain_rule_count": 19,
+  "stash_ipcidr_rule_count": 2
 }

@@ -2,6 +2,12 @@
 
 Auto-generated summary for `ruleset/dist` updates.
 
+## 2026-04-03T22:10:00+00:00
+
+- Added `stash/` distribution tree for Stash-specific consumption.
+- Added `recommended_stash.yaml` classical template.
+- Existing OpenClash / Surge output paths remain unchanged.
+
 ## 2026-03-30T05:39:36+00:00
 
 - Category Count: 54

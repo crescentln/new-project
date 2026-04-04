@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/paypal.txt",
     "compat_list_non_ip": "compat/List/non_ip/paypal.conf",
     "compat_list_ip": "compat/List/ip/paypal.conf",
-    "compat_list_domainset": "compat/List/domainset/paypal.conf"
+    "compat_list_domainset": "compat/List/domainset/paypal.conf",
+    "stash": "stash/paypal.list",
+    "stash_classical": "stash/classical/paypal.list",
+    "stash_domainset": "stash/domainset/paypal.txt",
+    "stash_ipcidr": "stash/ipcidr/paypal.txt"
   },
   "sources": [
     {
@@ -37,5 +41,9 @@
       "used_cache": false,
       "rule_count": 2
     }
-  ]
+  ],
+  "stash_rule_count": 233,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 233,
+  "stash_ipcidr_rule_count": 0
 }

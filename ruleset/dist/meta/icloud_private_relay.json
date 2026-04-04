@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/icloud_private_relay.txt",
     "compat_list_non_ip": "compat/List/non_ip/icloud_private_relay.conf",
     "compat_list_ip": "compat/List/ip/icloud_private_relay.conf",
-    "compat_list_domainset": "compat/List/domainset/icloud_private_relay.conf"
+    "compat_list_domainset": "compat/List/domainset/icloud_private_relay.conf",
+    "stash": "stash/icloud_private_relay.list",
+    "stash_classical": "stash/classical/icloud_private_relay.list",
+    "stash_domainset": "stash/domainset/icloud_private_relay.txt",
+    "stash_ipcidr": "stash/ipcidr/icloud_private_relay.txt"
   },
   "sources": [
     {
@@ -44,5 +48,9 @@
       "used_cache": false,
       "rule_count": 4
     }
-  ]
+  ],
+  "stash_rule_count": 13361,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 5,
+  "stash_ipcidr_rule_count": 13356
 }

@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/tld_proxy.txt",
     "compat_list_non_ip": "compat/List/non_ip/tld_proxy.conf",
     "compat_list_ip": "compat/List/ip/tld_proxy.conf",
-    "compat_list_domainset": "compat/List/domainset/tld_proxy.conf"
+    "compat_list_domainset": "compat/List/domainset/tld_proxy.conf",
+    "stash": "stash/tld_proxy.list",
+    "stash_classical": "stash/classical/tld_proxy.list",
+    "stash_domainset": "stash/domainset/tld_proxy.txt",
+    "stash_ipcidr": "stash/ipcidr/tld_proxy.txt"
   },
   "sources": [
     {
@@ -37,5 +41,9 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ]
+  ],
+  "stash_rule_count": 1433,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 1433,
+  "stash_ipcidr_rule_count": 0
 }

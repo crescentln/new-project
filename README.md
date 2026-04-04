@@ -1,6 +1,6 @@
 # Project_G Ruleset Distribution
 
-本仓库为公开发布仓库，仅用于发布 OpenClash / Surge 可直接抓取的规则产物。
+本仓库为公开发布仓库，仅用于发布 OpenClash / Surge / Stash 可直接抓取的规则产物。
 
 ## 可见性说明
 
@@ -12,6 +12,7 @@
 ## 兼容性说明
 
 - 现有 OpenClash 与 Surge 规则 URL 保持不变。
+- 新增 Stash 专用产物路径，不影响现有 OpenClash / Surge 抓取。
 - Raw Base（不变）：`https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist`
 
 ## 常用入口
@@ -20,3 +21,9 @@
 - OpenClash `direct`: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/openclash/direct.yaml`
 - Surge `reject`: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/surge/reject.list`
 - Surge `direct`: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/surge/direct.list`
+- Stash `reject`（classical 主入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject.list`
+- Stash `direct`（classical 主入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/direct.list`
+- Stash 原生拆分入口示例：
+  - `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/direct.txt`
+  - `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/direct.txt`
+  - `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/direct.list`

@@ -116,6 +116,22 @@ def validate_domainset_file(path: pathlib.Path) -> list[str]:
     return errors
 
 
+def validate_ipcidr_file(path: pathlib.Path) -> list[str]:
+    errors: list[str] = []
+    for idx, raw in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1):
+        line = strip_comment(raw)
+        if not line:
+            continue
+        if "," in line:
+            errors.append(f"{path}:{idx} ipcidr line must not contain comma: {line}")
+            continue
+        try:
+            ipaddress.ip_network(line, strict=False)
+        except ValueError:
+            errors.append(f"{path}:{idx} invalid CIDR token: {line}")
+    return errors
+
+
 def validate_yaml_classical_file(path: pathlib.Path) -> list[str]:
     errors: list[str] = []
     lines = path.read_text(encoding="utf-8", errors="ignore").splitlines()
@@ -145,11 +161,13 @@ def validate_yaml_classical_file(path: pathlib.Path) -> list[str]:
 
 def collect_files(
     dist_dir: pathlib.Path,
-) -> tuple[list[pathlib.Path], list[pathlib.Path], list[pathlib.Path], list[pathlib.Path]]:
+) -> tuple[list[pathlib.Path], list[pathlib.Path], list[pathlib.Path], list[pathlib.Path], list[pathlib.Path]]:
     classical_patterns = [
         "surge/*.list",
         "surge/non_ip/*.list",
         "surge/ip/*.list",
+        "stash/*.list",
+        "stash/classical/*.list",
         "compat/Clash/non_ip/*.txt",
         "compat/Clash/ip/*.txt",
         "compat/List/non_ip/*.conf",
@@ -157,9 +175,13 @@ def collect_files(
     ]
     domainset_patterns = [
         "surge/domainset/*.conf",
+        "stash/domainset/*.txt",
         "openclash/domainset/*.txt",
         "compat/Clash/domainset/*.txt",
         "compat/List/domainset/*.conf",
+    ]
+    ipcidr_patterns = [
+        "stash/ipcidr/*.txt",
     ]
     yaml_patterns = [
         "openclash/*.yaml",
@@ -176,17 +198,20 @@ def collect_files(
 
     classical = []
     domainset = []
+    ipcidr_files = []
     yaml_files = []
     surge_external = []
     for pattern in classical_patterns:
         classical.extend(sorted(dist_dir.glob(pattern)))
     for pattern in domainset_patterns:
         domainset.extend(sorted(dist_dir.glob(pattern)))
+    for pattern in ipcidr_patterns:
+        ipcidr_files.extend(sorted(dist_dir.glob(pattern)))
     for pattern in yaml_patterns:
         yaml_files.extend(sorted(dist_dir.glob(pattern)))
     for pattern in surge_external_patterns:
         surge_external.extend(sorted(dist_dir.glob(pattern)))
-    return classical, domainset, yaml_files, surge_external
+    return classical, domainset, ipcidr_files, yaml_files, surge_external
 
 
 def main() -> int:
@@ -199,13 +224,15 @@ def main() -> int:
         print(f"[validate] dist dir not found: {dist_dir}")
         return 1
 
-    classical_files, domainset_files, yaml_files, surge_external_files = collect_files(dist_dir)
+    classical_files, domainset_files, ipcidr_files, yaml_files, surge_external_files = collect_files(dist_dir)
 
     errors: list[str] = []
     for path in classical_files:
         errors.extend(validate_classical_file(path))
     for path in domainset_files:
         errors.extend(validate_domainset_file(path))
+    for path in ipcidr_files:
+        errors.extend(validate_ipcidr_file(path))
     for path in yaml_files:
         errors.extend(validate_yaml_classical_file(path))
     for path in surge_external_files:
@@ -215,6 +242,7 @@ def main() -> int:
         "[validate] checked "
         f"classical={len(classical_files)} "
         f"domainset={len(domainset_files)} "
+        f"ipcidr={len(ipcidr_files)} "
         f"yaml={len(yaml_files)} "
         f"surge_external={len(surge_external_files)}"
     )
@@ -226,7 +254,7 @@ def main() -> int:
             print(f"... and {len(errors) - 200} more")
         return 1
 
-    print("[validate] all outputs are format-valid for OpenClash/Surge consumption")
+    print("[validate] all outputs are format-valid for OpenClash/Surge/Stash consumption")
     return 0
 
 

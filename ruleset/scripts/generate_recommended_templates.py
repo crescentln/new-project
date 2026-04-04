@@ -110,6 +110,40 @@ def render_surge_template(
     return "\n".join(lines)
 
 
+def render_stash_template(
+    categories: list[dict[str, Any]],
+    raw_base_url: str,
+    interval: int,
+    proxy_policy: str,
+) -> str:
+    lines = [
+        "# Generated file: recommended Stash template (classical rule-providers)",
+        "# For Stash-native optimized usage, prefer ruleset/dist/stash/domainset + ipcidr + classical split paths.",
+        "rule-providers:",
+    ]
+
+    for row in categories:
+        category_id = str(row["id"])
+        lines.extend(
+            [
+                f"  {category_id}:",
+                "    behavior: classical",
+                "    format: text",
+                f"    url: {raw_base_url}/stash/{category_id}.list",
+                f"    interval: {interval}",
+            ]
+        )
+
+    lines.append("rules:")
+    for row in categories:
+        category_id = str(row["id"])
+        policy = normalize_policy(str(row["action"]), proxy_policy)
+        lines.append(f"  - RULE-SET,{category_id},{policy}")
+    lines.append(f"  - MATCH,{proxy_policy}")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate recommended OpenClash/Surge templates from policy reference.")
     parser.add_argument(
@@ -129,6 +163,12 @@ def parse_args() -> argparse.Namespace:
         type=pathlib.Path,
         default=pathlib.Path("ruleset/dist/recommended_surge.conf"),
         help="Output Surge template path",
+    )
+    parser.add_argument(
+        "--stash-out",
+        type=pathlib.Path,
+        default=pathlib.Path("ruleset/dist/recommended_stash.yaml"),
+        help="Output Stash template path",
     )
     parser.add_argument(
         "--raw-base-url",
@@ -166,13 +206,22 @@ def main() -> int:
         interval=args.interval,
         proxy_policy=args.proxy_policy,
     )
+    stash_text = render_stash_template(
+        categories=categories,
+        raw_base_url=args.raw_base_url.rstrip("/"),
+        interval=args.interval,
+        proxy_policy=args.proxy_policy,
+    )
 
     args.openclash_out.parent.mkdir(parents=True, exist_ok=True)
     args.surge_out.parent.mkdir(parents=True, exist_ok=True)
+    args.stash_out.parent.mkdir(parents=True, exist_ok=True)
     args.openclash_out.write_text(openclash_text, encoding="utf-8")
     args.surge_out.write_text(surge_text, encoding="utf-8")
+    args.stash_out.write_text(stash_text, encoding="utf-8")
     print(f"[templates] wrote {args.openclash_out}")
     print(f"[templates] wrote {args.surge_out}")
+    print(f"[templates] wrote {args.stash_out}")
     return 0
 
 

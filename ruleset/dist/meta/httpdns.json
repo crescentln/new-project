@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/httpdns.txt",
     "compat_list_non_ip": "compat/List/non_ip/httpdns.conf",
     "compat_list_ip": "compat/List/ip/httpdns.conf",
-    "compat_list_domainset": "compat/List/domainset/httpdns.conf"
+    "compat_list_domainset": "compat/List/domainset/httpdns.conf",
+    "stash": "stash/httpdns.list",
+    "stash_classical": "stash/classical/httpdns.list",
+    "stash_domainset": "stash/domainset/httpdns.txt",
+    "stash_ipcidr": "stash/ipcidr/httpdns.txt"
   },
   "sources": [
     {
@@ -37,5 +41,9 @@
       "used_cache": false,
       "rule_count": 21
     }
-  ]
+  ],
+  "stash_rule_count": 57,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 57,
+  "stash_ipcidr_rule_count": 0
 }

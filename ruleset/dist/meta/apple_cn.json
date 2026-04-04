@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/apple_cn.txt",
     "compat_list_non_ip": "compat/List/non_ip/apple_cn.conf",
     "compat_list_ip": "compat/List/ip/apple_cn.conf",
-    "compat_list_domainset": "compat/List/domainset/apple_cn.conf"
+    "compat_list_domainset": "compat/List/domainset/apple_cn.conf",
+    "stash": "stash/apple_cn.list",
+    "stash_classical": "stash/classical/apple_cn.list",
+    "stash_domainset": "stash/domainset/apple_cn.txt",
+    "stash_ipcidr": "stash/ipcidr/apple_cn.txt"
   },
   "sources": [
     {
@@ -37,5 +41,9 @@
       "used_cache": false,
       "rule_count": 2
     }
-  ]
+  ],
+  "stash_rule_count": 290,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 290,
+  "stash_ipcidr_rule_count": 0
 }

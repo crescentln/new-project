@@ -20,7 +20,11 @@
     "compat_clash_domainset": "compat/Clash/domainset/telegram.txt",
     "compat_list_non_ip": "compat/List/non_ip/telegram.conf",
     "compat_list_ip": "compat/List/ip/telegram.conf",
-    "compat_list_domainset": "compat/List/domainset/telegram.conf"
+    "compat_list_domainset": "compat/List/domainset/telegram.conf",
+    "stash": "stash/telegram.list",
+    "stash_classical": "stash/classical/telegram.list",
+    "stash_domainset": "stash/domainset/telegram.txt",
+    "stash_ipcidr": "stash/ipcidr/telegram.txt"
   },
   "sources": [
     {
@@ -44,5 +48,9 @@
       "used_cache": false,
       "rule_count": 8
     }
-  ]
+  ],
+  "stash_rule_count": 34,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 20,
+  "stash_ipcidr_rule_count": 14
 }

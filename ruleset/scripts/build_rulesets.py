@@ -965,6 +965,31 @@ def split_rules(rules: list[str]) -> tuple[list[str], list[str], list[str], list
     return non_ip_rules, ip_rules, domain_rules, ipcidr_payloads, surge_domainset_lines
 
 
+def split_stash_rules(rules: list[str]) -> tuple[list[str], list[str], list[str]]:
+    classical_rules: list[str] = []
+    ipcidr_payloads: list[str] = []
+    domain_lines: list[str] = []
+
+    for rule in rules:
+        if rule.startswith(("IP-CIDR,", "IP-CIDR6,")):
+            parts = rule.split(",", 2)
+            if len(parts) >= 2:
+                ipcidr_payloads.append(parts[1])
+            continue
+
+        if rule.startswith("DOMAIN,"):
+            domain_lines.append(rule.split(",", 1)[1])
+            continue
+
+        if rule.startswith("DOMAIN-SUFFIX,"):
+            domain_lines.append(f"+.{rule.split(',', 1)[1]}")
+            continue
+
+        classical_rules.append(rule)
+
+    return classical_rules, ipcidr_payloads, domain_lines
+
+
 def write_plain_lines(path: pathlib.Path, lines: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     content = "\n".join(lines)
@@ -1220,7 +1245,7 @@ def build_all(
     removed_duplicates = purge_duplicate_artifacts(dist_dir)
     if removed_duplicates > 0:
         log(f"removed {removed_duplicates} duplicate artifacts from dist directory")
-    for stale in (dist_dir / "surge", dist_dir / "openclash", dist_dir / "compat", dist_dir / "meta"):
+    for stale in (dist_dir / "surge", dist_dir / "openclash", dist_dir / "compat", dist_dir / "meta", dist_dir / "stash"):
         if stale.exists():
             shutil.rmtree(stale)
     for stale_file in (
@@ -1263,12 +1288,15 @@ def build_all(
 
         surge_file = surge_dir / f"{category_id}.list"
         openclash_file = openclash_dir / f"{category_id}.yaml"
+        stash_file = dist_dir / "stash" / f"{category_id}.list"
         surge_rules = filter_surge_compatible_rules(rules)
         write_surge_rules(surge_file, surge_rules)
         write_openclash_rules(openclash_file, rules)
+        write_surge_rules(stash_file, rules)
 
         surge_non_ip_rules, surge_ip_rules, _, _, domainset_lines_surge = split_rules(surge_rules)
         non_ip_rules, ip_rules, domainset_lines_oc, ipcidr_lines, _ = split_rules(rules)
+        stash_classical_rules, stash_ipcidr_lines, stash_domain_lines = split_stash_rules(rules)
 
         write_surge_rules(dist_dir / "surge" / "non_ip" / f"{category_id}.list", surge_non_ip_rules)
         write_surge_rules(dist_dir / "surge" / "ip" / f"{category_id}.list", surge_ip_rules)
@@ -1287,6 +1315,10 @@ def build_all(
         write_surge_rules(dist_dir / "compat" / "List" / "ip" / f"{category_id}.conf", surge_ip_rules)
         write_plain_lines(dist_dir / "compat" / "List" / "domainset" / f"{category_id}.conf", domainset_lines_surge)
 
+        write_surge_rules(dist_dir / "stash" / "classical" / f"{category_id}.list", stash_classical_rules)
+        write_plain_lines(dist_dir / "stash" / "domainset" / f"{category_id}.txt", stash_domain_lines)
+        write_plain_lines(dist_dir / "stash" / "ipcidr" / f"{category_id}.txt", stash_ipcidr_lines)
+
         metadata_categories.append(
             {
                 "id": category_id,
@@ -1294,6 +1326,7 @@ def build_all(
                 "rule_count": len(rules),
                 "surge_path": str(surge_file.relative_to(dist_dir)),
                 "openclash_path": str(openclash_file.relative_to(dist_dir)),
+                "stash_path": str(stash_file.relative_to(dist_dir)),
                 "surge_non_ip_path": str((dist_dir / "surge" / "non_ip" / f"{category_id}.list").relative_to(dist_dir)),
                 "surge_ip_path": str((dist_dir / "surge" / "ip" / f"{category_id}.list").relative_to(dist_dir)),
                 "surge_domainset_path": str((dist_dir / "surge" / "domainset" / f"{category_id}.conf").relative_to(dist_dir)),
@@ -1301,6 +1334,9 @@ def build_all(
                 "openclash_ip_path": str((dist_dir / "openclash" / "ip" / f"{category_id}.yaml").relative_to(dist_dir)),
                 "openclash_domainset_path": str((dist_dir / "openclash" / "domainset" / f"{category_id}.txt").relative_to(dist_dir)),
                 "openclash_ipcidr_path": str((dist_dir / "openclash" / "ipcidr" / f"{category_id}.txt").relative_to(dist_dir)),
+                "stash_classical_path": str((dist_dir / "stash" / "classical" / f"{category_id}.list").relative_to(dist_dir)),
+                "stash_domainset_path": str((dist_dir / "stash" / "domainset" / f"{category_id}.txt").relative_to(dist_dir)),
+                "stash_ipcidr_path": str((dist_dir / "stash" / "ipcidr" / f"{category_id}.txt").relative_to(dist_dir)),
                 "compat_clash_non_ip_path": str((dist_dir / "compat" / "Clash" / "non_ip" / f"{category_id}.txt").relative_to(dist_dir)),
                 "compat_clash_ip_path": str((dist_dir / "compat" / "Clash" / "ip" / f"{category_id}.txt").relative_to(dist_dir)),
                 "compat_clash_domainset_path": str((dist_dir / "compat" / "Clash" / "domainset" / f"{category_id}.txt").relative_to(dist_dir)),
@@ -1327,7 +1363,15 @@ def build_all(
                     "recommended_priority": priority,
                     "recommended_note": note,
                     "rule_count": len(rules),
+                    "stash_rule_count": len(rules),
+                    "stash_classical_rule_count": len(stash_classical_rules),
+                    "stash_domain_rule_count": len(stash_domain_lines),
+                    "stash_ipcidr_rule_count": len(stash_ipcidr_lines),
                     "paths": {
+                        "stash": str(stash_file.relative_to(dist_dir)),
+                        "stash_classical": str((dist_dir / "stash" / "classical" / f"{category_id}.list").relative_to(dist_dir)),
+                        "stash_domainset": str((dist_dir / "stash" / "domainset" / f"{category_id}.txt").relative_to(dist_dir)),
+                        "stash_ipcidr": str((dist_dir / "stash" / "ipcidr" / f"{category_id}.txt").relative_to(dist_dir)),
                         "surge": str(surge_file.relative_to(dist_dir)),
                         "surge_non_ip": str((dist_dir / "surge" / "non_ip" / f"{category_id}.list").relative_to(dist_dir)),
                         "surge_ip": str((dist_dir / "surge" / "ip" / f"{category_id}.list").relative_to(dist_dir)),

@@ -1,0 +1,5 @@
+reportcontent.google.com
+webforms.copyright.google.com
++.copyright.gov
++.dmca.com
++.lumendatabase.org

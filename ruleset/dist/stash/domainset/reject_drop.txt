@@ -1,0 +1,5 @@
++.burpcollaborator.net
++.ceye.io
++.dnslog.cn
++.interact.sh
++.oastify.com
