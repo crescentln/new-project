@@ -5,7 +5,15 @@
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
   "rule_count": 19580,
+  "stash_rule_count": 19580,
+  "stash_classical_rule_count": 4,
+  "stash_domain_rule_count": 7409,
+  "stash_ipcidr_rule_count": 12167,
   "paths": {
+    "stash": "stash/direct.list",
+    "stash_classical": "stash/classical/direct.list",
+    "stash_domainset": "stash/domainset/direct.txt",
+    "stash_ipcidr": "stash/ipcidr/direct.txt",
     "surge": "surge/direct.list",
     "surge_non_ip": "surge/non_ip/direct.list",
     "surge_ip": "surge/ip/direct.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/direct.txt",
     "compat_list_non_ip": "compat/List/non_ip/direct.conf",
     "compat_list_ip": "compat/List/ip/direct.conf",
-    "compat_list_domainset": "compat/List/domainset/direct.conf",
-    "stash": "stash/direct.list",
-    "stash_classical": "stash/classical/direct.list",
-    "stash_domainset": "stash/domainset/direct.txt",
-    "stash_ipcidr": "stash/ipcidr/direct.txt"
+    "compat_list_domainset": "compat/List/domainset/direct.conf"
   },
   "sources": [
     {
@@ -46,14 +50,14 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
       "used_cache": false,
-      "rule_count": 122
+      "rule_count": 121
     },
     {
       "type": "apnic_country_cidr",
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10828
+      "rule_count": 10829
     },
     {
       "type": "plain_cidr",
@@ -293,9 +297,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 19580,
-  "stash_classical_rule_count": 4,
-  "stash_domain_rule_count": 7410,
-  "stash_ipcidr_rule_count": 12166
+  ]
 }

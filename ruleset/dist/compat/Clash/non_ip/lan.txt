@@ -115,7 +115,6 @@ DOMAIN-SUFFIX,phicomm.me
 DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,tendawifi.com
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,tplinkwifi.net
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,zte.home

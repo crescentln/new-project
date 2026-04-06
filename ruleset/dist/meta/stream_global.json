@@ -5,7 +5,15 @@
   "recommended_priority": 314,
   "recommended_note": "国外流媒体高覆盖集合走代理（可选细分）",
   "rule_count": 288,
+  "stash_rule_count": 288,
+  "stash_classical_rule_count": 5,
+  "stash_domain_rule_count": 283,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/stream_global.list",
+    "stash_classical": "stash/classical/stream_global.list",
+    "stash_domainset": "stash/domainset/stream_global.txt",
+    "stash_ipcidr": "stash/ipcidr/stream_global.txt",
     "surge": "surge/stream_global.list",
     "surge_non_ip": "surge/non_ip/stream_global.list",
     "surge_ip": "surge/ip/stream_global.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/stream_global.txt",
     "compat_list_non_ip": "compat/List/non_ip/stream_global.conf",
     "compat_list_ip": "compat/List/ip/stream_global.conf",
-    "compat_list_domainset": "compat/List/domainset/stream_global.conf",
-    "stash": "stash/stream_global.list",
-    "stash_classical": "stash/classical/stream_global.list",
-    "stash_domainset": "stash/domainset/stream_global.txt",
-    "stash_ipcidr": "stash/ipcidr/stream_global.txt"
+    "compat_list_domainset": "compat/List/domainset/stream_global.conf"
   },
   "sources": [
     {
@@ -76,9 +80,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 288,
-  "stash_classical_rule_count": 5,
-  "stash_domain_rule_count": 283,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

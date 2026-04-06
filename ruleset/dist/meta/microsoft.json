@@ -5,7 +5,15 @@
   "recommended_priority": 324,
   "recommended_note": "微软国际服务走代理（中国区与更新/CDN 见 microsoft_cdn 直连）",
   "rule_count": 425,
+  "stash_rule_count": 425,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 425,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/microsoft.list",
+    "stash_classical": "stash/classical/microsoft.list",
+    "stash_domainset": "stash/domainset/microsoft.txt",
+    "stash_ipcidr": "stash/ipcidr/microsoft.txt",
     "surge": "surge/microsoft.list",
     "surge_non_ip": "surge/non_ip/microsoft.list",
     "surge_ip": "surge/ip/microsoft.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/microsoft.txt",
     "compat_list_non_ip": "compat/List/non_ip/microsoft.conf",
     "compat_list_ip": "compat/List/ip/microsoft.conf",
-    "compat_list_domainset": "compat/List/domainset/microsoft.conf",
-    "stash": "stash/microsoft.list",
-    "stash_classical": "stash/classical/microsoft.list",
-    "stash_domainset": "stash/domainset/microsoft.txt",
-    "stash_ipcidr": "stash/ipcidr/microsoft.txt"
+    "compat_list_domainset": "compat/List/domainset/microsoft.conf"
   },
   "sources": [
     {
@@ -62,9 +66,5 @@
       "used_cache": false,
       "rule_count": 12
     }
-  ],
-  "stash_rule_count": 425,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 425,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

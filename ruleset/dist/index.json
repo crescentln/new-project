@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-04T02:10:18.302526+00:00",
+  "generated_at_utc": "2026-04-06T05:37:16.844794+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -11,9 +11,10 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 336830,
+      "rule_count": 341046,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
+      "stash_path": "stash/reject.list",
       "surge_non_ip_path": "surge/non_ip/reject.list",
       "surge_ip_path": "surge/ip/reject.list",
       "surge_domainset_path": "surge/domainset/reject.conf",
@@ -21,6 +22,9 @@
       "openclash_ip_path": "openclash/ip/reject.yaml",
       "openclash_domainset_path": "openclash/domainset/reject.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/reject.txt",
+      "stash_classical_path": "stash/classical/reject.list",
+      "stash_domainset_path": "stash/domainset/reject.txt",
+      "stash_ipcidr_path": "stash/ipcidr/reject.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/reject.txt",
       "compat_clash_ip_path": "compat/Clash/ip/reject.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/reject.txt",
@@ -36,28 +40,28 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 60374
+          "rule_count": 59900
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easyprivacy.txt",
           "used_cache": false,
-          "rule_count": 46927
+          "rule_count": 46942
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 162463
+          "rule_count": 163685
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 155942
+          "rule_count": 158500
         },
         {
           "type": "local_domain",
@@ -66,11 +70,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/reject.list",
-      "stash_classical_path": "stash/classical/reject.list",
-      "stash_ipcidr_path": "stash/ipcidr/reject.txt",
-      "stash_domainset_path": "stash/domainset/reject.txt"
+      ]
     },
     {
       "id": "reject_extra",
@@ -78,6 +78,7 @@
       "rule_count": 10,
       "surge_path": "surge/reject_extra.list",
       "openclash_path": "openclash/reject_extra.yaml",
+      "stash_path": "stash/reject_extra.list",
       "surge_non_ip_path": "surge/non_ip/reject_extra.list",
       "surge_ip_path": "surge/ip/reject_extra.list",
       "surge_domainset_path": "surge/domainset/reject_extra.conf",
@@ -85,6 +86,9 @@
       "openclash_ip_path": "openclash/ip/reject_extra.yaml",
       "openclash_domainset_path": "openclash/domainset/reject_extra.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/reject_extra.txt",
+      "stash_classical_path": "stash/classical/reject_extra.list",
+      "stash_domainset_path": "stash/domainset/reject_extra.txt",
+      "stash_ipcidr_path": "stash/ipcidr/reject_extra.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/reject_extra.txt",
       "compat_clash_ip_path": "compat/Clash/ip/reject_extra.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/reject_extra.txt",
@@ -102,11 +106,7 @@
           "used_cache": false,
           "rule_count": 10
         }
-      ],
-      "stash_path": "stash/reject_extra.list",
-      "stash_classical_path": "stash/classical/reject_extra.list",
-      "stash_ipcidr_path": "stash/ipcidr/reject_extra.txt",
-      "stash_domainset_path": "stash/domainset/reject_extra.txt"
+      ]
     },
     {
       "id": "reject_drop",
@@ -114,6 +114,7 @@
       "rule_count": 5,
       "surge_path": "surge/reject_drop.list",
       "openclash_path": "openclash/reject_drop.yaml",
+      "stash_path": "stash/reject_drop.list",
       "surge_non_ip_path": "surge/non_ip/reject_drop.list",
       "surge_ip_path": "surge/ip/reject_drop.list",
       "surge_domainset_path": "surge/domainset/reject_drop.conf",
@@ -121,6 +122,9 @@
       "openclash_ip_path": "openclash/ip/reject_drop.yaml",
       "openclash_domainset_path": "openclash/domainset/reject_drop.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/reject_drop.txt",
+      "stash_classical_path": "stash/classical/reject_drop.list",
+      "stash_domainset_path": "stash/domainset/reject_drop.txt",
+      "stash_ipcidr_path": "stash/ipcidr/reject_drop.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/reject_drop.txt",
       "compat_clash_ip_path": "compat/Clash/ip/reject_drop.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/reject_drop.txt",
@@ -138,11 +142,7 @@
           "used_cache": false,
           "rule_count": 5
         }
-      ],
-      "stash_path": "stash/reject_drop.list",
-      "stash_classical_path": "stash/classical/reject_drop.list",
-      "stash_ipcidr_path": "stash/ipcidr/reject_drop.txt",
-      "stash_domainset_path": "stash/domainset/reject_drop.txt"
+      ]
     },
     {
       "id": "reject_no_drop",
@@ -150,6 +150,7 @@
       "rule_count": 6,
       "surge_path": "surge/reject_no_drop.list",
       "openclash_path": "openclash/reject_no_drop.yaml",
+      "stash_path": "stash/reject_no_drop.list",
       "surge_non_ip_path": "surge/non_ip/reject_no_drop.list",
       "surge_ip_path": "surge/ip/reject_no_drop.list",
       "surge_domainset_path": "surge/domainset/reject_no_drop.conf",
@@ -157,6 +158,9 @@
       "openclash_ip_path": "openclash/ip/reject_no_drop.yaml",
       "openclash_domainset_path": "openclash/domainset/reject_no_drop.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/reject_no_drop.txt",
+      "stash_classical_path": "stash/classical/reject_no_drop.list",
+      "stash_domainset_path": "stash/domainset/reject_no_drop.txt",
+      "stash_ipcidr_path": "stash/ipcidr/reject_no_drop.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/reject_no_drop.txt",
       "compat_clash_ip_path": "compat/Clash/ip/reject_no_drop.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/reject_no_drop.txt",
@@ -174,18 +178,15 @@
           "used_cache": false,
           "rule_count": 6
         }
-      ],
-      "stash_path": "stash/reject_no_drop.list",
-      "stash_classical_path": "stash/classical/reject_no_drop.list",
-      "stash_ipcidr_path": "stash/ipcidr/reject_no_drop.txt",
-      "stash_domainset_path": "stash/domainset/reject_no_drop.txt"
+      ]
     },
     {
       "id": "lan",
       "description": "LAN and non-globally-reachable special-use networks",
-      "rule_count": 155,
+      "rule_count": 154,
       "surge_path": "surge/lan.list",
       "openclash_path": "openclash/lan.yaml",
+      "stash_path": "stash/lan.list",
       "surge_non_ip_path": "surge/non_ip/lan.list",
       "surge_ip_path": "surge/ip/lan.list",
       "surge_domainset_path": "surge/domainset/lan.conf",
@@ -193,6 +194,9 @@
       "openclash_ip_path": "openclash/ip/lan.yaml",
       "openclash_domainset_path": "openclash/domainset/lan.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/lan.txt",
+      "stash_classical_path": "stash/classical/lan.list",
+      "stash_domainset_path": "stash/domainset/lan.txt",
+      "stash_ipcidr_path": "stash/ipcidr/lan.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/lan.txt",
       "compat_clash_ip_path": "compat/Clash/ip/lan.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/lan.txt",
@@ -222,7 +226,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
           "used_cache": false,
-          "rule_count": 122
+          "rule_count": 121
         },
         {
           "type": "local_domain",
@@ -231,11 +235,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/lan.list",
-      "stash_classical_path": "stash/classical/lan.list",
-      "stash_ipcidr_path": "stash/ipcidr/lan.txt",
-      "stash_domainset_path": "stash/domainset/lan.txt"
+      ]
     },
     {
       "id": "domestic",
@@ -243,6 +243,7 @@
       "rule_count": 6783,
       "surge_path": "surge/domestic.list",
       "openclash_path": "openclash/domestic.yaml",
+      "stash_path": "stash/domestic.list",
       "surge_non_ip_path": "surge/non_ip/domestic.list",
       "surge_ip_path": "surge/ip/domestic.list",
       "surge_domainset_path": "surge/domainset/domestic.conf",
@@ -250,6 +251,9 @@
       "openclash_ip_path": "openclash/ip/domestic.yaml",
       "openclash_domainset_path": "openclash/domainset/domestic.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/domestic.txt",
+      "stash_classical_path": "stash/classical/domestic.list",
+      "stash_domainset_path": "stash/domainset/domestic.txt",
+      "stash_ipcidr_path": "stash/ipcidr/domestic.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/domestic.txt",
       "compat_clash_ip_path": "compat/Clash/ip/domestic.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/domestic.txt",
@@ -274,18 +278,15 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/domestic.list",
-      "stash_classical_path": "stash/classical/domestic.list",
-      "stash_ipcidr_path": "stash/ipcidr/domestic.txt",
-      "stash_domainset_path": "stash/domainset/domestic.txt"
+      ]
     },
     {
       "id": "cncidr",
       "description": "Mainland China IPv4/IPv6 CIDR only (IP-focused direct set)",
-      "rule_count": 10828,
+      "rule_count": 10829,
       "surge_path": "surge/cncidr.list",
       "openclash_path": "openclash/cncidr.yaml",
+      "stash_path": "stash/cncidr.list",
       "surge_non_ip_path": "surge/non_ip/cncidr.list",
       "surge_ip_path": "surge/ip/cncidr.list",
       "surge_domainset_path": "surge/domainset/cncidr.conf",
@@ -293,6 +294,9 @@
       "openclash_ip_path": "openclash/ip/cncidr.yaml",
       "openclash_domainset_path": "openclash/domainset/cncidr.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/cncidr.txt",
+      "stash_classical_path": "stash/classical/cncidr.list",
+      "stash_domainset_path": "stash/domainset/cncidr.txt",
+      "stash_ipcidr_path": "stash/ipcidr/cncidr.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/cncidr.txt",
       "compat_clash_ip_path": "compat/Clash/ip/cncidr.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/cncidr.txt",
@@ -308,7 +312,7 @@
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10828
+          "rule_count": 10829
         },
         {
           "type": "local_domain",
@@ -317,11 +321,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/cncidr.list",
-      "stash_classical_path": "stash/classical/cncidr.list",
-      "stash_ipcidr_path": "stash/ipcidr/cncidr.txt",
-      "stash_domainset_path": "stash/domainset/cncidr.txt"
+      ]
     },
     {
       "id": "telegram",
@@ -329,6 +329,7 @@
       "rule_count": 34,
       "surge_path": "surge/telegram.list",
       "openclash_path": "openclash/telegram.yaml",
+      "stash_path": "stash/telegram.list",
       "surge_non_ip_path": "surge/non_ip/telegram.list",
       "surge_ip_path": "surge/ip/telegram.list",
       "surge_domainset_path": "surge/domainset/telegram.conf",
@@ -336,6 +337,9 @@
       "openclash_ip_path": "openclash/ip/telegram.yaml",
       "openclash_domainset_path": "openclash/domainset/telegram.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/telegram.txt",
+      "stash_classical_path": "stash/classical/telegram.list",
+      "stash_domainset_path": "stash/domainset/telegram.txt",
+      "stash_ipcidr_path": "stash/ipcidr/telegram.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/telegram.txt",
       "compat_clash_ip_path": "compat/Clash/ip/telegram.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/telegram.txt",
@@ -367,11 +371,7 @@
           "used_cache": false,
           "rule_count": 8
         }
-      ],
-      "stash_path": "stash/telegram.list",
-      "stash_classical_path": "stash/classical/telegram.list",
-      "stash_ipcidr_path": "stash/ipcidr/telegram.txt",
-      "stash_domainset_path": "stash/domainset/telegram.txt"
+      ]
     },
     {
       "id": "cdn",
@@ -379,6 +379,7 @@
       "rule_count": 1460,
       "surge_path": "surge/cdn.list",
       "openclash_path": "openclash/cdn.yaml",
+      "stash_path": "stash/cdn.list",
       "surge_non_ip_path": "surge/non_ip/cdn.list",
       "surge_ip_path": "surge/ip/cdn.list",
       "surge_domainset_path": "surge/domainset/cdn.conf",
@@ -386,6 +387,9 @@
       "openclash_ip_path": "openclash/ip/cdn.yaml",
       "openclash_domainset_path": "openclash/domainset/cdn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/cdn.txt",
+      "stash_classical_path": "stash/classical/cdn.list",
+      "stash_domainset_path": "stash/domainset/cdn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/cdn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/cdn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/cdn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/cdn.txt",
@@ -466,11 +470,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/cdn.list",
-      "stash_classical_path": "stash/classical/cdn.list",
-      "stash_ipcidr_path": "stash/ipcidr/cdn.txt",
-      "stash_domainset_path": "stash/domainset/cdn.txt"
+      ]
     },
     {
       "id": "download",
@@ -478,6 +478,7 @@
       "rule_count": 15,
       "surge_path": "surge/download.list",
       "openclash_path": "openclash/download.yaml",
+      "stash_path": "stash/download.list",
       "surge_non_ip_path": "surge/non_ip/download.list",
       "surge_ip_path": "surge/ip/download.list",
       "surge_domainset_path": "surge/domainset/download.conf",
@@ -485,6 +486,9 @@
       "openclash_ip_path": "openclash/ip/download.yaml",
       "openclash_domainset_path": "openclash/domainset/download.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/download.txt",
+      "stash_classical_path": "stash/classical/download.list",
+      "stash_domainset_path": "stash/domainset/download.txt",
+      "stash_ipcidr_path": "stash/ipcidr/download.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/download.txt",
       "compat_clash_ip_path": "compat/Clash/ip/download.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/download.txt",
@@ -509,11 +513,7 @@
           "used_cache": false,
           "rule_count": 8
         }
-      ],
-      "stash_path": "stash/download.list",
-      "stash_classical_path": "stash/classical/download.list",
-      "stash_ipcidr_path": "stash/ipcidr/download.txt",
-      "stash_domainset_path": "stash/domainset/download.txt"
+      ]
     },
     {
       "id": "stream",
@@ -521,6 +521,7 @@
       "rule_count": 434,
       "surge_path": "surge/stream.list",
       "openclash_path": "openclash/stream.yaml",
+      "stash_path": "stash/stream.list",
       "surge_non_ip_path": "surge/non_ip/stream.list",
       "surge_ip_path": "surge/ip/stream.list",
       "surge_domainset_path": "surge/domainset/stream.conf",
@@ -528,6 +529,9 @@
       "openclash_ip_path": "openclash/ip/stream.yaml",
       "openclash_domainset_path": "openclash/domainset/stream.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream.txt",
+      "stash_classical_path": "stash/classical/stream.list",
+      "stash_domainset_path": "stash/domainset/stream.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream.txt",
@@ -692,11 +696,7 @@
           "used_cache": false,
           "rule_count": 5
         }
-      ],
-      "stash_path": "stash/stream.list",
-      "stash_classical_path": "stash/classical/stream.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream.txt",
-      "stash_domainset_path": "stash/domainset/stream.txt"
+      ]
     },
     {
       "id": "stream_us",
@@ -704,6 +704,7 @@
       "rule_count": 340,
       "surge_path": "surge/stream_us.list",
       "openclash_path": "openclash/stream_us.yaml",
+      "stash_path": "stash/stream_us.list",
       "surge_non_ip_path": "surge/non_ip/stream_us.list",
       "surge_ip_path": "surge/ip/stream_us.list",
       "surge_domainset_path": "surge/domainset/stream_us.conf",
@@ -711,6 +712,9 @@
       "openclash_ip_path": "openclash/ip/stream_us.yaml",
       "openclash_domainset_path": "openclash/domainset/stream_us.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream_us.txt",
+      "stash_classical_path": "stash/classical/stream_us.list",
+      "stash_domainset_path": "stash/domainset/stream_us.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream_us.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream_us.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream_us.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream_us.txt",
@@ -805,11 +809,7 @@
           "used_cache": false,
           "rule_count": 10
         }
-      ],
-      "stash_path": "stash/stream_us.list",
-      "stash_classical_path": "stash/classical/stream_us.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream_us.txt",
-      "stash_domainset_path": "stash/domainset/stream_us.txt"
+      ]
     },
     {
       "id": "stream_jp",
@@ -817,6 +817,7 @@
       "rule_count": 25,
       "surge_path": "surge/stream_jp.list",
       "openclash_path": "openclash/stream_jp.yaml",
+      "stash_path": "stash/stream_jp.list",
       "surge_non_ip_path": "surge/non_ip/stream_jp.list",
       "surge_ip_path": "surge/ip/stream_jp.list",
       "surge_domainset_path": "surge/domainset/stream_jp.conf",
@@ -824,6 +825,9 @@
       "openclash_ip_path": "openclash/ip/stream_jp.yaml",
       "openclash_domainset_path": "openclash/domainset/stream_jp.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream_jp.txt",
+      "stash_classical_path": "stash/classical/stream_jp.list",
+      "stash_domainset_path": "stash/domainset/stream_jp.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream_jp.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream_jp.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream_jp.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream_jp.txt",
@@ -848,11 +852,7 @@
           "used_cache": false,
           "rule_count": 5
         }
-      ],
-      "stash_path": "stash/stream_jp.list",
-      "stash_classical_path": "stash/classical/stream_jp.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream_jp.txt",
-      "stash_domainset_path": "stash/domainset/stream_jp.txt"
+      ]
     },
     {
       "id": "stream_hk",
@@ -860,6 +860,7 @@
       "rule_count": 15,
       "surge_path": "surge/stream_hk.list",
       "openclash_path": "openclash/stream_hk.yaml",
+      "stash_path": "stash/stream_hk.list",
       "surge_non_ip_path": "surge/non_ip/stream_hk.list",
       "surge_ip_path": "surge/ip/stream_hk.list",
       "surge_domainset_path": "surge/domainset/stream_hk.conf",
@@ -867,6 +868,9 @@
       "openclash_ip_path": "openclash/ip/stream_hk.yaml",
       "openclash_domainset_path": "openclash/domainset/stream_hk.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream_hk.txt",
+      "stash_classical_path": "stash/classical/stream_hk.list",
+      "stash_domainset_path": "stash/domainset/stream_hk.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream_hk.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream_hk.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream_hk.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream_hk.txt",
@@ -905,11 +909,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/stream_hk.list",
-      "stash_classical_path": "stash/classical/stream_hk.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream_hk.txt",
-      "stash_domainset_path": "stash/domainset/stream_hk.txt"
+      ]
     },
     {
       "id": "stream_tw",
@@ -917,6 +917,7 @@
       "rule_count": 28,
       "surge_path": "surge/stream_tw.list",
       "openclash_path": "openclash/stream_tw.yaml",
+      "stash_path": "stash/stream_tw.list",
       "surge_non_ip_path": "surge/non_ip/stream_tw.list",
       "surge_ip_path": "surge/ip/stream_tw.list",
       "surge_domainset_path": "surge/domainset/stream_tw.conf",
@@ -924,6 +925,9 @@
       "openclash_ip_path": "openclash/ip/stream_tw.yaml",
       "openclash_domainset_path": "openclash/domainset/stream_tw.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream_tw.txt",
+      "stash_classical_path": "stash/classical/stream_tw.list",
+      "stash_domainset_path": "stash/domainset/stream_tw.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream_tw.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream_tw.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream_tw.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream_tw.txt",
@@ -969,11 +973,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/stream_tw.list",
-      "stash_classical_path": "stash/classical/stream_tw.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream_tw.txt",
-      "stash_domainset_path": "stash/domainset/stream_tw.txt"
+      ]
     },
     {
       "id": "stream_global",
@@ -981,6 +981,7 @@
       "rule_count": 288,
       "surge_path": "surge/stream_global.list",
       "openclash_path": "openclash/stream_global.yaml",
+      "stash_path": "stash/stream_global.list",
       "surge_non_ip_path": "surge/non_ip/stream_global.list",
       "surge_ip_path": "surge/ip/stream_global.list",
       "surge_domainset_path": "surge/domainset/stream_global.conf",
@@ -988,6 +989,9 @@
       "openclash_ip_path": "openclash/ip/stream_global.yaml",
       "openclash_domainset_path": "openclash/domainset/stream_global.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/stream_global.txt",
+      "stash_classical_path": "stash/classical/stream_global.list",
+      "stash_domainset_path": "stash/domainset/stream_global.txt",
+      "stash_ipcidr_path": "stash/ipcidr/stream_global.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/stream_global.txt",
       "compat_clash_ip_path": "compat/Clash/ip/stream_global.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/stream_global.txt",
@@ -1047,11 +1051,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/stream_global.list",
-      "stash_classical_path": "stash/classical/stream_global.list",
-      "stash_ipcidr_path": "stash/ipcidr/stream_global.txt",
-      "stash_domainset_path": "stash/domainset/stream_global.txt"
+      ]
     },
     {
       "id": "ai",
@@ -1059,6 +1059,7 @@
       "rule_count": 135,
       "surge_path": "surge/ai.list",
       "openclash_path": "openclash/ai.yaml",
+      "stash_path": "stash/ai.list",
       "surge_non_ip_path": "surge/non_ip/ai.list",
       "surge_ip_path": "surge/ip/ai.list",
       "surge_domainset_path": "surge/domainset/ai.conf",
@@ -1066,6 +1067,9 @@
       "openclash_ip_path": "openclash/ip/ai.yaml",
       "openclash_domainset_path": "openclash/domainset/ai.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/ai.txt",
+      "stash_classical_path": "stash/classical/ai.list",
+      "stash_domainset_path": "stash/domainset/ai.txt",
+      "stash_ipcidr_path": "stash/ipcidr/ai.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/ai.txt",
       "compat_clash_ip_path": "compat/Clash/ip/ai.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/ai.txt",
@@ -1139,11 +1143,7 @@
           "used_cache": false,
           "rule_count": 13
         }
-      ],
-      "stash_path": "stash/ai.list",
-      "stash_classical_path": "stash/classical/ai.list",
-      "stash_ipcidr_path": "stash/ipcidr/ai.txt",
-      "stash_domainset_path": "stash/domainset/ai.txt"
+      ]
     },
     {
       "id": "apple_cn",
@@ -1151,6 +1151,7 @@
       "rule_count": 290,
       "surge_path": "surge/apple_cn.list",
       "openclash_path": "openclash/apple_cn.yaml",
+      "stash_path": "stash/apple_cn.list",
       "surge_non_ip_path": "surge/non_ip/apple_cn.list",
       "surge_ip_path": "surge/ip/apple_cn.list",
       "surge_domainset_path": "surge/domainset/apple_cn.conf",
@@ -1158,6 +1159,9 @@
       "openclash_ip_path": "openclash/ip/apple_cn.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_cn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_cn.txt",
+      "stash_classical_path": "stash/classical/apple_cn.list",
+      "stash_domainset_path": "stash/domainset/apple_cn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_cn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_cn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_cn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_cn.txt",
@@ -1182,11 +1186,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/apple_cn.list",
-      "stash_classical_path": "stash/classical/apple_cn.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_cn.txt",
-      "stash_domainset_path": "stash/domainset/apple_cn.txt"
+      ]
     },
     {
       "id": "apple_cdn",
@@ -1194,6 +1194,7 @@
       "rule_count": 31,
       "surge_path": "surge/apple_cdn.list",
       "openclash_path": "openclash/apple_cdn.yaml",
+      "stash_path": "stash/apple_cdn.list",
       "surge_non_ip_path": "surge/non_ip/apple_cdn.list",
       "surge_ip_path": "surge/ip/apple_cdn.list",
       "surge_domainset_path": "surge/domainset/apple_cdn.conf",
@@ -1201,6 +1202,9 @@
       "openclash_ip_path": "openclash/ip/apple_cdn.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_cdn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_cdn.txt",
+      "stash_classical_path": "stash/classical/apple_cdn.list",
+      "stash_domainset_path": "stash/domainset/apple_cdn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_cdn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_cdn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_cdn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_cdn.txt",
@@ -1232,11 +1236,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/apple_cdn.list",
-      "stash_classical_path": "stash/classical/apple_cdn.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_cdn.txt",
-      "stash_domainset_path": "stash/domainset/apple_cdn.txt"
+      ]
     },
     {
       "id": "apple_proxy",
@@ -1244,6 +1244,7 @@
       "rule_count": 50,
       "surge_path": "surge/apple_proxy.list",
       "openclash_path": "openclash/apple_proxy.yaml",
+      "stash_path": "stash/apple_proxy.list",
       "surge_non_ip_path": "surge/non_ip/apple_proxy.list",
       "surge_ip_path": "surge/ip/apple_proxy.list",
       "surge_domainset_path": "surge/domainset/apple_proxy.conf",
@@ -1251,6 +1252,9 @@
       "openclash_ip_path": "openclash/ip/apple_proxy.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_proxy.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_proxy.txt",
+      "stash_classical_path": "stash/classical/apple_proxy.list",
+      "stash_domainset_path": "stash/domainset/apple_proxy.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_proxy.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_proxy.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_proxy.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_proxy.txt",
@@ -1275,18 +1279,15 @@
           "used_cache": false,
           "rule_count": 3
         }
-      ],
-      "stash_path": "stash/apple_proxy.list",
-      "stash_classical_path": "stash/classical/apple_proxy.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_proxy.txt",
-      "stash_domainset_path": "stash/domainset/apple_proxy.txt"
+      ]
     },
     {
       "id": "icloud_private_relay",
       "description": "Apple iCloud Private Relay endpoints",
-      "rule_count": 13361,
+      "rule_count": 13585,
       "surge_path": "surge/icloud_private_relay.list",
       "openclash_path": "openclash/icloud_private_relay.yaml",
+      "stash_path": "stash/icloud_private_relay.list",
       "surge_non_ip_path": "surge/non_ip/icloud_private_relay.list",
       "surge_ip_path": "surge/ip/icloud_private_relay.list",
       "surge_domainset_path": "surge/domainset/icloud_private_relay.conf",
@@ -1294,6 +1295,9 @@
       "openclash_ip_path": "openclash/ip/icloud_private_relay.yaml",
       "openclash_domainset_path": "openclash/domainset/icloud_private_relay.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/icloud_private_relay.txt",
+      "stash_classical_path": "stash/classical/icloud_private_relay.list",
+      "stash_domainset_path": "stash/domainset/icloud_private_relay.txt",
+      "stash_ipcidr_path": "stash/ipcidr/icloud_private_relay.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/icloud_private_relay.txt",
       "compat_clash_ip_path": "compat/Clash/ip/icloud_private_relay.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/icloud_private_relay.txt",
@@ -1309,7 +1313,7 @@
           "authority": "official",
           "ref": "https://mask-api.icloud.com/egress-ip-ranges.csv",
           "used_cache": false,
-          "rule_count": 13356
+          "rule_count": 13580
         },
         {
           "type": "v2fly_dlc",
@@ -1325,11 +1329,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/icloud_private_relay.list",
-      "stash_classical_path": "stash/classical/icloud_private_relay.list",
-      "stash_ipcidr_path": "stash/ipcidr/icloud_private_relay.txt",
-      "stash_domainset_path": "stash/domainset/icloud_private_relay.txt"
+      ]
     },
     {
       "id": "apple_services",
@@ -1337,6 +1337,7 @@
       "rule_count": 1501,
       "surge_path": "surge/apple_services.list",
       "openclash_path": "openclash/apple_services.yaml",
+      "stash_path": "stash/apple_services.list",
       "surge_non_ip_path": "surge/non_ip/apple_services.list",
       "surge_ip_path": "surge/ip/apple_services.list",
       "surge_domainset_path": "surge/domainset/apple_services.conf",
@@ -1344,6 +1345,9 @@
       "openclash_ip_path": "openclash/ip/apple_services.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_services.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_services.txt",
+      "stash_classical_path": "stash/classical/apple_services.list",
+      "stash_domainset_path": "stash/domainset/apple_services.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_services.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_services.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_services.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_services.txt",
@@ -1368,11 +1372,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/apple_services.list",
-      "stash_classical_path": "stash/classical/apple_services.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_services.txt",
-      "stash_domainset_path": "stash/domainset/apple_services.txt"
+      ]
     },
     {
       "id": "apple_intelligence",
@@ -1380,6 +1380,7 @@
       "rule_count": 5,
       "surge_path": "surge/apple_intelligence.list",
       "openclash_path": "openclash/apple_intelligence.yaml",
+      "stash_path": "stash/apple_intelligence.list",
       "surge_non_ip_path": "surge/non_ip/apple_intelligence.list",
       "surge_ip_path": "surge/ip/apple_intelligence.list",
       "surge_domainset_path": "surge/domainset/apple_intelligence.conf",
@@ -1387,6 +1388,9 @@
       "openclash_ip_path": "openclash/ip/apple_intelligence.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_intelligence.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_intelligence.txt",
+      "stash_classical_path": "stash/classical/apple_intelligence.list",
+      "stash_domainset_path": "stash/domainset/apple_intelligence.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_intelligence.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_intelligence.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_intelligence.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_intelligence.txt",
@@ -1411,11 +1415,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/apple_intelligence.list",
-      "stash_classical_path": "stash/classical/apple_intelligence.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_intelligence.txt",
-      "stash_domainset_path": "stash/domainset/apple_intelligence.txt"
+      ]
     },
     {
       "id": "microsoft",
@@ -1423,6 +1423,7 @@
       "rule_count": 425,
       "surge_path": "surge/microsoft.list",
       "openclash_path": "openclash/microsoft.yaml",
+      "stash_path": "stash/microsoft.list",
       "surge_non_ip_path": "surge/non_ip/microsoft.list",
       "surge_ip_path": "surge/ip/microsoft.list",
       "surge_domainset_path": "surge/domainset/microsoft.conf",
@@ -1430,6 +1431,9 @@
       "openclash_ip_path": "openclash/ip/microsoft.yaml",
       "openclash_domainset_path": "openclash/domainset/microsoft.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/microsoft.txt",
+      "stash_classical_path": "stash/classical/microsoft.list",
+      "stash_domainset_path": "stash/domainset/microsoft.txt",
+      "stash_ipcidr_path": "stash/ipcidr/microsoft.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/microsoft.txt",
       "compat_clash_ip_path": "compat/Clash/ip/microsoft.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/microsoft.txt",
@@ -1475,11 +1479,7 @@
           "used_cache": false,
           "rule_count": 12
         }
-      ],
-      "stash_path": "stash/microsoft.list",
-      "stash_classical_path": "stash/classical/microsoft.list",
-      "stash_ipcidr_path": "stash/ipcidr/microsoft.txt",
-      "stash_domainset_path": "stash/domainset/microsoft.txt"
+      ]
     },
     {
       "id": "microsoft_cdn",
@@ -1487,6 +1487,7 @@
       "rule_count": 176,
       "surge_path": "surge/microsoft_cdn.list",
       "openclash_path": "openclash/microsoft_cdn.yaml",
+      "stash_path": "stash/microsoft_cdn.list",
       "surge_non_ip_path": "surge/non_ip/microsoft_cdn.list",
       "surge_ip_path": "surge/ip/microsoft_cdn.list",
       "surge_domainset_path": "surge/domainset/microsoft_cdn.conf",
@@ -1494,6 +1495,9 @@
       "openclash_ip_path": "openclash/ip/microsoft_cdn.yaml",
       "openclash_domainset_path": "openclash/domainset/microsoft_cdn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/microsoft_cdn.txt",
+      "stash_classical_path": "stash/classical/microsoft_cdn.list",
+      "stash_domainset_path": "stash/domainset/microsoft_cdn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/microsoft_cdn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/microsoft_cdn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/microsoft_cdn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/microsoft_cdn.txt",
@@ -1525,11 +1529,7 @@
           "used_cache": false,
           "rule_count": 3
         }
-      ],
-      "stash_path": "stash/microsoft_cdn.list",
-      "stash_classical_path": "stash/classical/microsoft_cdn.list",
-      "stash_ipcidr_path": "stash/ipcidr/microsoft_cdn.txt",
-      "stash_domainset_path": "stash/domainset/microsoft_cdn.txt"
+      ]
     },
     {
       "id": "github",
@@ -1537,6 +1537,7 @@
       "rule_count": 47,
       "surge_path": "surge/github.list",
       "openclash_path": "openclash/github.yaml",
+      "stash_path": "stash/github.list",
       "surge_non_ip_path": "surge/non_ip/github.list",
       "surge_ip_path": "surge/ip/github.list",
       "surge_domainset_path": "surge/domainset/github.conf",
@@ -1544,6 +1545,9 @@
       "openclash_ip_path": "openclash/ip/github.yaml",
       "openclash_domainset_path": "openclash/domainset/github.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/github.txt",
+      "stash_classical_path": "stash/classical/github.list",
+      "stash_domainset_path": "stash/domainset/github.txt",
+      "stash_ipcidr_path": "stash/ipcidr/github.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/github.txt",
       "compat_clash_ip_path": "compat/Clash/ip/github.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/github.txt",
@@ -1596,11 +1600,7 @@
           "used_cache": false,
           "rule_count": 14
         }
-      ],
-      "stash_path": "stash/github.list",
-      "stash_classical_path": "stash/classical/github.list",
-      "stash_ipcidr_path": "stash/ipcidr/github.txt",
-      "stash_domainset_path": "stash/domainset/github.txt"
+      ]
     },
     {
       "id": "httpdns",
@@ -1608,6 +1608,7 @@
       "rule_count": 57,
       "surge_path": "surge/httpdns.list",
       "openclash_path": "openclash/httpdns.yaml",
+      "stash_path": "stash/httpdns.list",
       "surge_non_ip_path": "surge/non_ip/httpdns.list",
       "surge_ip_path": "surge/ip/httpdns.list",
       "surge_domainset_path": "surge/domainset/httpdns.conf",
@@ -1615,6 +1616,9 @@
       "openclash_ip_path": "openclash/ip/httpdns.yaml",
       "openclash_domainset_path": "openclash/domainset/httpdns.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/httpdns.txt",
+      "stash_classical_path": "stash/classical/httpdns.list",
+      "stash_domainset_path": "stash/domainset/httpdns.txt",
+      "stash_ipcidr_path": "stash/ipcidr/httpdns.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/httpdns.txt",
       "compat_clash_ip_path": "compat/Clash/ip/httpdns.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/httpdns.txt",
@@ -1639,11 +1643,7 @@
           "used_cache": false,
           "rule_count": 21
         }
-      ],
-      "stash_path": "stash/httpdns.list",
-      "stash_classical_path": "stash/classical/httpdns.list",
-      "stash_ipcidr_path": "stash/ipcidr/httpdns.txt",
-      "stash_domainset_path": "stash/domainset/httpdns.txt"
+      ]
     },
     {
       "id": "games_cn",
@@ -1651,6 +1651,7 @@
       "rule_count": 229,
       "surge_path": "surge/games_cn.list",
       "openclash_path": "openclash/games_cn.yaml",
+      "stash_path": "stash/games_cn.list",
       "surge_non_ip_path": "surge/non_ip/games_cn.list",
       "surge_ip_path": "surge/ip/games_cn.list",
       "surge_domainset_path": "surge/domainset/games_cn.conf",
@@ -1658,6 +1659,9 @@
       "openclash_ip_path": "openclash/ip/games_cn.yaml",
       "openclash_domainset_path": "openclash/domainset/games_cn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/games_cn.txt",
+      "stash_classical_path": "stash/classical/games_cn.list",
+      "stash_domainset_path": "stash/domainset/games_cn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/games_cn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/games_cn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/games_cn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/games_cn.txt",
@@ -1682,18 +1686,15 @@
           "used_cache": false,
           "rule_count": 3
         }
-      ],
-      "stash_path": "stash/games_cn.list",
-      "stash_classical_path": "stash/classical/games_cn.list",
-      "stash_ipcidr_path": "stash/ipcidr/games_cn.txt",
-      "stash_domainset_path": "stash/domainset/games_cn.txt"
+      ]
     },
     {
       "id": "games",
       "description": "Global game services",
-      "rule_count": 793,
+      "rule_count": 804,
       "surge_path": "surge/games.list",
       "openclash_path": "openclash/games.yaml",
+      "stash_path": "stash/games.list",
       "surge_non_ip_path": "surge/non_ip/games.list",
       "surge_ip_path": "surge/ip/games.list",
       "surge_domainset_path": "surge/domainset/games.conf",
@@ -1701,6 +1702,9 @@
       "openclash_ip_path": "openclash/ip/games.yaml",
       "openclash_domainset_path": "openclash/domainset/games.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/games.txt",
+      "stash_classical_path": "stash/classical/games.list",
+      "stash_domainset_path": "stash/domainset/games.txt",
+      "stash_ipcidr_path": "stash/ipcidr/games.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/games.txt",
       "compat_clash_ip_path": "compat/Clash/ip/games.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/games.txt",
@@ -1716,7 +1720,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-!cn",
           "used_cache": false,
-          "rule_count": 793
+          "rule_count": 804
         },
         {
           "type": "v2fly_dlc",
@@ -1781,11 +1785,7 @@
           "used_cache": false,
           "rule_count": 10
         }
-      ],
-      "stash_path": "stash/games.list",
-      "stash_classical_path": "stash/classical/games.list",
-      "stash_ipcidr_path": "stash/ipcidr/games.txt",
-      "stash_domainset_path": "stash/domainset/games.txt"
+      ]
     },
     {
       "id": "youtube",
@@ -1793,6 +1793,7 @@
       "rule_count": 176,
       "surge_path": "surge/youtube.list",
       "openclash_path": "openclash/youtube.yaml",
+      "stash_path": "stash/youtube.list",
       "surge_non_ip_path": "surge/non_ip/youtube.list",
       "surge_ip_path": "surge/ip/youtube.list",
       "surge_domainset_path": "surge/domainset/youtube.conf",
@@ -1800,6 +1801,9 @@
       "openclash_ip_path": "openclash/ip/youtube.yaml",
       "openclash_domainset_path": "openclash/domainset/youtube.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/youtube.txt",
+      "stash_classical_path": "stash/classical/youtube.list",
+      "stash_domainset_path": "stash/domainset/youtube.txt",
+      "stash_ipcidr_path": "stash/ipcidr/youtube.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/youtube.txt",
       "compat_clash_ip_path": "compat/Clash/ip/youtube.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/youtube.txt",
@@ -1824,11 +1828,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/youtube.list",
-      "stash_classical_path": "stash/classical/youtube.list",
-      "stash_ipcidr_path": "stash/ipcidr/youtube.txt",
-      "stash_domainset_path": "stash/domainset/youtube.txt"
+      ]
     },
     {
       "id": "abema",
@@ -1836,6 +1836,7 @@
       "rule_count": 21,
       "surge_path": "surge/abema.list",
       "openclash_path": "openclash/abema.yaml",
+      "stash_path": "stash/abema.list",
       "surge_non_ip_path": "surge/non_ip/abema.list",
       "surge_ip_path": "surge/ip/abema.list",
       "surge_domainset_path": "surge/domainset/abema.conf",
@@ -1843,6 +1844,9 @@
       "openclash_ip_path": "openclash/ip/abema.yaml",
       "openclash_domainset_path": "openclash/domainset/abema.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/abema.txt",
+      "stash_classical_path": "stash/classical/abema.list",
+      "stash_domainset_path": "stash/domainset/abema.txt",
+      "stash_ipcidr_path": "stash/ipcidr/abema.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/abema.txt",
       "compat_clash_ip_path": "compat/Clash/ip/abema.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/abema.txt",
@@ -1867,11 +1871,7 @@
           "used_cache": false,
           "rule_count": 1
         }
-      ],
-      "stash_path": "stash/abema.list",
-      "stash_classical_path": "stash/classical/abema.list",
-      "stash_ipcidr_path": "stash/ipcidr/abema.txt",
-      "stash_domainset_path": "stash/domainset/abema.txt"
+      ]
     },
     {
       "id": "apple_tv",
@@ -1879,6 +1879,7 @@
       "rule_count": 8,
       "surge_path": "surge/apple_tv.list",
       "openclash_path": "openclash/apple_tv.yaml",
+      "stash_path": "stash/apple_tv.list",
       "surge_non_ip_path": "surge/non_ip/apple_tv.list",
       "surge_ip_path": "surge/ip/apple_tv.list",
       "surge_domainset_path": "surge/domainset/apple_tv.conf",
@@ -1886,6 +1887,9 @@
       "openclash_ip_path": "openclash/ip/apple_tv.yaml",
       "openclash_domainset_path": "openclash/domainset/apple_tv.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apple_tv.txt",
+      "stash_classical_path": "stash/classical/apple_tv.list",
+      "stash_domainset_path": "stash/domainset/apple_tv.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apple_tv.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apple_tv.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apple_tv.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apple_tv.txt",
@@ -1910,11 +1914,7 @@
           "used_cache": false,
           "rule_count": 1
         }
-      ],
-      "stash_path": "stash/apple_tv.list",
-      "stash_classical_path": "stash/classical/apple_tv.list",
-      "stash_ipcidr_path": "stash/ipcidr/apple_tv.txt",
-      "stash_domainset_path": "stash/domainset/apple_tv.txt"
+      ]
     },
     {
       "id": "primevideo",
@@ -1922,6 +1922,7 @@
       "rule_count": 23,
       "surge_path": "surge/primevideo.list",
       "openclash_path": "openclash/primevideo.yaml",
+      "stash_path": "stash/primevideo.list",
       "surge_non_ip_path": "surge/non_ip/primevideo.list",
       "surge_ip_path": "surge/ip/primevideo.list",
       "surge_domainset_path": "surge/domainset/primevideo.conf",
@@ -1929,6 +1930,9 @@
       "openclash_ip_path": "openclash/ip/primevideo.yaml",
       "openclash_domainset_path": "openclash/domainset/primevideo.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/primevideo.txt",
+      "stash_classical_path": "stash/classical/primevideo.list",
+      "stash_domainset_path": "stash/domainset/primevideo.txt",
+      "stash_ipcidr_path": "stash/ipcidr/primevideo.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/primevideo.txt",
       "compat_clash_ip_path": "compat/Clash/ip/primevideo.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/primevideo.txt",
@@ -1953,11 +1957,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/primevideo.list",
-      "stash_classical_path": "stash/classical/primevideo.list",
-      "stash_ipcidr_path": "stash/ipcidr/primevideo.txt",
-      "stash_domainset_path": "stash/domainset/primevideo.txt"
+      ]
     },
     {
       "id": "spotify",
@@ -1965,6 +1965,7 @@
       "rule_count": 23,
       "surge_path": "surge/spotify.list",
       "openclash_path": "openclash/spotify.yaml",
+      "stash_path": "stash/spotify.list",
       "surge_non_ip_path": "surge/non_ip/spotify.list",
       "surge_ip_path": "surge/ip/spotify.list",
       "surge_domainset_path": "surge/domainset/spotify.conf",
@@ -1972,6 +1973,9 @@
       "openclash_ip_path": "openclash/ip/spotify.yaml",
       "openclash_domainset_path": "openclash/domainset/spotify.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/spotify.txt",
+      "stash_classical_path": "stash/classical/spotify.list",
+      "stash_domainset_path": "stash/domainset/spotify.txt",
+      "stash_ipcidr_path": "stash/ipcidr/spotify.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/spotify.txt",
       "compat_clash_ip_path": "compat/Clash/ip/spotify.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/spotify.txt",
@@ -1996,11 +2000,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/spotify.list",
-      "stash_classical_path": "stash/classical/spotify.list",
-      "stash_ipcidr_path": "stash/ipcidr/spotify.txt",
-      "stash_domainset_path": "stash/domainset/spotify.txt"
+      ]
     },
     {
       "id": "twitch",
@@ -2008,6 +2008,7 @@
       "rule_count": 32,
       "surge_path": "surge/twitch.list",
       "openclash_path": "openclash/twitch.yaml",
+      "stash_path": "stash/twitch.list",
       "surge_non_ip_path": "surge/non_ip/twitch.list",
       "surge_ip_path": "surge/ip/twitch.list",
       "surge_domainset_path": "surge/domainset/twitch.conf",
@@ -2015,6 +2016,9 @@
       "openclash_ip_path": "openclash/ip/twitch.yaml",
       "openclash_domainset_path": "openclash/domainset/twitch.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/twitch.txt",
+      "stash_classical_path": "stash/classical/twitch.list",
+      "stash_domainset_path": "stash/domainset/twitch.txt",
+      "stash_ipcidr_path": "stash/ipcidr/twitch.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/twitch.txt",
       "compat_clash_ip_path": "compat/Clash/ip/twitch.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/twitch.txt",
@@ -2039,11 +2043,7 @@
           "used_cache": false,
           "rule_count": 3
         }
-      ],
-      "stash_path": "stash/twitch.list",
-      "stash_classical_path": "stash/classical/twitch.list",
-      "stash_ipcidr_path": "stash/ipcidr/twitch.txt",
-      "stash_domainset_path": "stash/domainset/twitch.txt"
+      ]
     },
     {
       "id": "google",
@@ -2051,6 +2051,7 @@
       "rule_count": 728,
       "surge_path": "surge/google.list",
       "openclash_path": "openclash/google.yaml",
+      "stash_path": "stash/google.list",
       "surge_non_ip_path": "surge/non_ip/google.list",
       "surge_ip_path": "surge/ip/google.list",
       "surge_domainset_path": "surge/domainset/google.conf",
@@ -2058,6 +2059,9 @@
       "openclash_ip_path": "openclash/ip/google.yaml",
       "openclash_domainset_path": "openclash/domainset/google.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/google.txt",
+      "stash_classical_path": "stash/classical/google.list",
+      "stash_domainset_path": "stash/domainset/google.txt",
+      "stash_ipcidr_path": "stash/ipcidr/google.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/google.txt",
       "compat_clash_ip_path": "compat/Clash/ip/google.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/google.txt",
@@ -2082,11 +2086,7 @@
           "used_cache": false,
           "rule_count": 6
         }
-      ],
-      "stash_path": "stash/google.list",
-      "stash_classical_path": "stash/classical/google.list",
-      "stash_ipcidr_path": "stash/ipcidr/google.txt",
-      "stash_domainset_path": "stash/domainset/google.txt"
+      ]
     },
     {
       "id": "googlefcm",
@@ -2094,6 +2094,7 @@
       "rule_count": 18,
       "surge_path": "surge/googlefcm.list",
       "openclash_path": "openclash/googlefcm.yaml",
+      "stash_path": "stash/googlefcm.list",
       "surge_non_ip_path": "surge/non_ip/googlefcm.list",
       "surge_ip_path": "surge/ip/googlefcm.list",
       "surge_domainset_path": "surge/domainset/googlefcm.conf",
@@ -2101,6 +2102,9 @@
       "openclash_ip_path": "openclash/ip/googlefcm.yaml",
       "openclash_domainset_path": "openclash/domainset/googlefcm.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/googlefcm.txt",
+      "stash_classical_path": "stash/classical/googlefcm.list",
+      "stash_domainset_path": "stash/domainset/googlefcm.txt",
+      "stash_ipcidr_path": "stash/ipcidr/googlefcm.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/googlefcm.txt",
       "compat_clash_ip_path": "compat/Clash/ip/googlefcm.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/googlefcm.txt",
@@ -2125,11 +2129,7 @@
           "used_cache": false,
           "rule_count": 6
         }
-      ],
-      "stash_path": "stash/googlefcm.list",
-      "stash_classical_path": "stash/classical/googlefcm.list",
-      "stash_ipcidr_path": "stash/ipcidr/googlefcm.txt",
-      "stash_domainset_path": "stash/domainset/googlefcm.txt"
+      ]
     },
     {
       "id": "paypal",
@@ -2137,6 +2137,7 @@
       "rule_count": 233,
       "surge_path": "surge/paypal.list",
       "openclash_path": "openclash/paypal.yaml",
+      "stash_path": "stash/paypal.list",
       "surge_non_ip_path": "surge/non_ip/paypal.list",
       "surge_ip_path": "surge/ip/paypal.list",
       "surge_domainset_path": "surge/domainset/paypal.conf",
@@ -2144,6 +2145,9 @@
       "openclash_ip_path": "openclash/ip/paypal.yaml",
       "openclash_domainset_path": "openclash/domainset/paypal.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/paypal.txt",
+      "stash_classical_path": "stash/classical/paypal.list",
+      "stash_domainset_path": "stash/domainset/paypal.txt",
+      "stash_ipcidr_path": "stash/ipcidr/paypal.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/paypal.txt",
       "compat_clash_ip_path": "compat/Clash/ip/paypal.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/paypal.txt",
@@ -2168,11 +2172,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/paypal.list",
-      "stash_classical_path": "stash/classical/paypal.list",
-      "stash_ipcidr_path": "stash/ipcidr/paypal.txt",
-      "stash_domainset_path": "stash/domainset/paypal.txt"
+      ]
     },
     {
       "id": "crypto",
@@ -2180,6 +2180,7 @@
       "rule_count": 74,
       "surge_path": "surge/crypto.list",
       "openclash_path": "openclash/crypto.yaml",
+      "stash_path": "stash/crypto.list",
       "surge_non_ip_path": "surge/non_ip/crypto.list",
       "surge_ip_path": "surge/ip/crypto.list",
       "surge_domainset_path": "surge/domainset/crypto.conf",
@@ -2187,6 +2188,9 @@
       "openclash_ip_path": "openclash/ip/crypto.yaml",
       "openclash_domainset_path": "openclash/domainset/crypto.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/crypto.txt",
+      "stash_classical_path": "stash/classical/crypto.list",
+      "stash_domainset_path": "stash/domainset/crypto.txt",
+      "stash_ipcidr_path": "stash/ipcidr/crypto.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/crypto.txt",
       "compat_clash_ip_path": "compat/Clash/ip/crypto.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/crypto.txt",
@@ -2239,11 +2243,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/crypto.list",
-      "stash_classical_path": "stash/classical/crypto.list",
-      "stash_ipcidr_path": "stash/ipcidr/crypto.txt",
-      "stash_domainset_path": "stash/domainset/crypto.txt"
+      ]
     },
     {
       "id": "ecommerce",
@@ -2251,6 +2251,7 @@
       "rule_count": 1103,
       "surge_path": "surge/ecommerce.list",
       "openclash_path": "openclash/ecommerce.yaml",
+      "stash_path": "stash/ecommerce.list",
       "surge_non_ip_path": "surge/non_ip/ecommerce.list",
       "surge_ip_path": "surge/ip/ecommerce.list",
       "surge_domainset_path": "surge/domainset/ecommerce.conf",
@@ -2258,6 +2259,9 @@
       "openclash_ip_path": "openclash/ip/ecommerce.yaml",
       "openclash_domainset_path": "openclash/domainset/ecommerce.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/ecommerce.txt",
+      "stash_classical_path": "stash/classical/ecommerce.list",
+      "stash_domainset_path": "stash/domainset/ecommerce.txt",
+      "stash_ipcidr_path": "stash/ipcidr/ecommerce.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/ecommerce.txt",
       "compat_clash_ip_path": "compat/Clash/ip/ecommerce.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/ecommerce.txt",
@@ -2282,11 +2286,7 @@
           "used_cache": false,
           "rule_count": 11
         }
-      ],
-      "stash_path": "stash/ecommerce.list",
-      "stash_classical_path": "stash/classical/ecommerce.list",
-      "stash_ipcidr_path": "stash/ipcidr/ecommerce.txt",
-      "stash_domainset_path": "stash/domainset/ecommerce.txt"
+      ]
     },
     {
       "id": "onedrive",
@@ -2294,6 +2294,7 @@
       "rule_count": 11,
       "surge_path": "surge/onedrive.list",
       "openclash_path": "openclash/onedrive.yaml",
+      "stash_path": "stash/onedrive.list",
       "surge_non_ip_path": "surge/non_ip/onedrive.list",
       "surge_ip_path": "surge/ip/onedrive.list",
       "surge_domainset_path": "surge/domainset/onedrive.conf",
@@ -2301,6 +2302,9 @@
       "openclash_ip_path": "openclash/ip/onedrive.yaml",
       "openclash_domainset_path": "openclash/domainset/onedrive.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/onedrive.txt",
+      "stash_classical_path": "stash/classical/onedrive.list",
+      "stash_domainset_path": "stash/domainset/onedrive.txt",
+      "stash_ipcidr_path": "stash/ipcidr/onedrive.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/onedrive.txt",
       "compat_clash_ip_path": "compat/Clash/ip/onedrive.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/onedrive.txt",
@@ -2325,11 +2329,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/onedrive.list",
-      "stash_classical_path": "stash/classical/onedrive.list",
-      "stash_ipcidr_path": "stash/ipcidr/onedrive.txt",
-      "stash_domainset_path": "stash/domainset/onedrive.txt"
+      ]
     },
     {
       "id": "forum",
@@ -2337,6 +2337,7 @@
       "rule_count": 98,
       "surge_path": "surge/forum.list",
       "openclash_path": "openclash/forum.yaml",
+      "stash_path": "stash/forum.list",
       "surge_non_ip_path": "surge/non_ip/forum.list",
       "surge_ip_path": "surge/ip/forum.list",
       "surge_domainset_path": "surge/domainset/forum.conf",
@@ -2344,6 +2345,9 @@
       "openclash_ip_path": "openclash/ip/forum.yaml",
       "openclash_domainset_path": "openclash/domainset/forum.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/forum.txt",
+      "stash_classical_path": "stash/classical/forum.list",
+      "stash_domainset_path": "stash/domainset/forum.txt",
+      "stash_ipcidr_path": "stash/ipcidr/forum.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/forum.txt",
       "compat_clash_ip_path": "compat/Clash/ip/forum.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/forum.txt",
@@ -2368,11 +2372,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/forum.list",
-      "stash_classical_path": "stash/classical/forum.list",
-      "stash_ipcidr_path": "stash/ipcidr/forum.txt",
-      "stash_domainset_path": "stash/domainset/forum.txt"
+      ]
     },
     {
       "id": "socialmedia_cn",
@@ -2380,6 +2380,7 @@
       "rule_count": 125,
       "surge_path": "surge/socialmedia_cn.list",
       "openclash_path": "openclash/socialmedia_cn.yaml",
+      "stash_path": "stash/socialmedia_cn.list",
       "surge_non_ip_path": "surge/non_ip/socialmedia_cn.list",
       "surge_ip_path": "surge/ip/socialmedia_cn.list",
       "surge_domainset_path": "surge/domainset/socialmedia_cn.conf",
@@ -2387,6 +2388,9 @@
       "openclash_ip_path": "openclash/ip/socialmedia_cn.yaml",
       "openclash_domainset_path": "openclash/domainset/socialmedia_cn.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/socialmedia_cn.txt",
+      "stash_classical_path": "stash/classical/socialmedia_cn.list",
+      "stash_domainset_path": "stash/domainset/socialmedia_cn.txt",
+      "stash_ipcidr_path": "stash/ipcidr/socialmedia_cn.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/socialmedia_cn.txt",
       "compat_clash_ip_path": "compat/Clash/ip/socialmedia_cn.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/socialmedia_cn.txt",
@@ -2432,11 +2436,7 @@
           "used_cache": false,
           "rule_count": 14
         }
-      ],
-      "stash_path": "stash/socialmedia_cn.list",
-      "stash_classical_path": "stash/classical/socialmedia_cn.list",
-      "stash_ipcidr_path": "stash/ipcidr/socialmedia_cn.txt",
-      "stash_domainset_path": "stash/domainset/socialmedia_cn.txt"
+      ]
     },
     {
       "id": "socialmedia",
@@ -2444,6 +2444,7 @@
       "rule_count": 649,
       "surge_path": "surge/socialmedia.list",
       "openclash_path": "openclash/socialmedia.yaml",
+      "stash_path": "stash/socialmedia.list",
       "surge_non_ip_path": "surge/non_ip/socialmedia.list",
       "surge_ip_path": "surge/ip/socialmedia.list",
       "surge_domainset_path": "surge/domainset/socialmedia.conf",
@@ -2451,6 +2452,9 @@
       "openclash_ip_path": "openclash/ip/socialmedia.yaml",
       "openclash_domainset_path": "openclash/domainset/socialmedia.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/socialmedia.txt",
+      "stash_classical_path": "stash/classical/socialmedia.list",
+      "stash_domainset_path": "stash/domainset/socialmedia.txt",
+      "stash_ipcidr_path": "stash/ipcidr/socialmedia.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/socialmedia.txt",
       "compat_clash_ip_path": "compat/Clash/ip/socialmedia.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/socialmedia.txt",
@@ -2545,11 +2549,7 @@
           "used_cache": false,
           "rule_count": 17
         }
-      ],
-      "stash_path": "stash/socialmedia.list",
-      "stash_classical_path": "stash/classical/socialmedia.list",
-      "stash_ipcidr_path": "stash/ipcidr/socialmedia.txt",
-      "stash_domainset_path": "stash/domainset/socialmedia.txt"
+      ]
     },
     {
       "id": "anime",
@@ -2557,6 +2557,7 @@
       "rule_count": 49,
       "surge_path": "surge/anime.list",
       "openclash_path": "openclash/anime.yaml",
+      "stash_path": "stash/anime.list",
       "surge_non_ip_path": "surge/non_ip/anime.list",
       "surge_ip_path": "surge/ip/anime.list",
       "surge_domainset_path": "surge/domainset/anime.conf",
@@ -2564,6 +2565,9 @@
       "openclash_ip_path": "openclash/ip/anime.yaml",
       "openclash_domainset_path": "openclash/domainset/anime.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/anime.txt",
+      "stash_classical_path": "stash/classical/anime.list",
+      "stash_domainset_path": "stash/domainset/anime.txt",
+      "stash_ipcidr_path": "stash/ipcidr/anime.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/anime.txt",
       "compat_clash_ip_path": "compat/Clash/ip/anime.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/anime.txt",
@@ -2581,11 +2585,7 @@
           "used_cache": false,
           "rule_count": 49
         }
-      ],
-      "stash_path": "stash/anime.list",
-      "stash_classical_path": "stash/classical/anime.list",
-      "stash_ipcidr_path": "stash/ipcidr/anime.txt",
-      "stash_domainset_path": "stash/domainset/anime.txt"
+      ]
     },
     {
       "id": "tiktok",
@@ -2593,6 +2593,7 @@
       "rule_count": 36,
       "surge_path": "surge/tiktok.list",
       "openclash_path": "openclash/tiktok.yaml",
+      "stash_path": "stash/tiktok.list",
       "surge_non_ip_path": "surge/non_ip/tiktok.list",
       "surge_ip_path": "surge/ip/tiktok.list",
       "surge_domainset_path": "surge/domainset/tiktok.conf",
@@ -2600,6 +2601,9 @@
       "openclash_ip_path": "openclash/ip/tiktok.yaml",
       "openclash_domainset_path": "openclash/domainset/tiktok.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/tiktok.txt",
+      "stash_classical_path": "stash/classical/tiktok.list",
+      "stash_domainset_path": "stash/domainset/tiktok.txt",
+      "stash_ipcidr_path": "stash/ipcidr/tiktok.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/tiktok.txt",
       "compat_clash_ip_path": "compat/Clash/ip/tiktok.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/tiktok.txt",
@@ -2624,11 +2628,7 @@
           "used_cache": false,
           "rule_count": 3
         }
-      ],
-      "stash_path": "stash/tiktok.list",
-      "stash_classical_path": "stash/classical/tiktok.list",
-      "stash_ipcidr_path": "stash/ipcidr/tiktok.txt",
-      "stash_domainset_path": "stash/domainset/tiktok.txt"
+      ]
     },
     {
       "id": "douyin",
@@ -2636,6 +2636,7 @@
       "rule_count": 66,
       "surge_path": "surge/douyin.list",
       "openclash_path": "openclash/douyin.yaml",
+      "stash_path": "stash/douyin.list",
       "surge_non_ip_path": "surge/non_ip/douyin.list",
       "surge_ip_path": "surge/ip/douyin.list",
       "surge_domainset_path": "surge/domainset/douyin.conf",
@@ -2643,6 +2644,9 @@
       "openclash_ip_path": "openclash/ip/douyin.yaml",
       "openclash_domainset_path": "openclash/domainset/douyin.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/douyin.txt",
+      "stash_classical_path": "stash/classical/douyin.list",
+      "stash_domainset_path": "stash/domainset/douyin.txt",
+      "stash_ipcidr_path": "stash/ipcidr/douyin.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/douyin.txt",
       "compat_clash_ip_path": "compat/Clash/ip/douyin.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/douyin.txt",
@@ -2667,11 +2671,7 @@
           "used_cache": false,
           "rule_count": 2
         }
-      ],
-      "stash_path": "stash/douyin.list",
-      "stash_classical_path": "stash/classical/douyin.list",
-      "stash_ipcidr_path": "stash/ipcidr/douyin.txt",
-      "stash_domainset_path": "stash/domainset/douyin.txt"
+      ]
     },
     {
       "id": "apns",
@@ -2679,6 +2679,7 @@
       "rule_count": 11,
       "surge_path": "surge/apns.list",
       "openclash_path": "openclash/apns.yaml",
+      "stash_path": "stash/apns.list",
       "surge_non_ip_path": "surge/non_ip/apns.list",
       "surge_ip_path": "surge/ip/apns.list",
       "surge_domainset_path": "surge/domainset/apns.conf",
@@ -2686,6 +2687,9 @@
       "openclash_ip_path": "openclash/ip/apns.yaml",
       "openclash_domainset_path": "openclash/domainset/apns.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/apns.txt",
+      "stash_classical_path": "stash/classical/apns.list",
+      "stash_domainset_path": "stash/domainset/apns.txt",
+      "stash_ipcidr_path": "stash/ipcidr/apns.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/apns.txt",
       "compat_clash_ip_path": "compat/Clash/ip/apns.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/apns.txt",
@@ -2703,11 +2707,7 @@
           "used_cache": false,
           "rule_count": 11
         }
-      ],
-      "stash_path": "stash/apns.list",
-      "stash_classical_path": "stash/classical/apns.list",
-      "stash_ipcidr_path": "stash/ipcidr/apns.txt",
-      "stash_domainset_path": "stash/domainset/apns.txt"
+      ]
     },
     {
       "id": "dmca",
@@ -2715,6 +2715,7 @@
       "rule_count": 5,
       "surge_path": "surge/dmca.list",
       "openclash_path": "openclash/dmca.yaml",
+      "stash_path": "stash/dmca.list",
       "surge_non_ip_path": "surge/non_ip/dmca.list",
       "surge_ip_path": "surge/ip/dmca.list",
       "surge_domainset_path": "surge/domainset/dmca.conf",
@@ -2722,6 +2723,9 @@
       "openclash_ip_path": "openclash/ip/dmca.yaml",
       "openclash_domainset_path": "openclash/domainset/dmca.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/dmca.txt",
+      "stash_classical_path": "stash/classical/dmca.list",
+      "stash_domainset_path": "stash/domainset/dmca.txt",
+      "stash_ipcidr_path": "stash/ipcidr/dmca.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/dmca.txt",
       "compat_clash_ip_path": "compat/Clash/ip/dmca.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/dmca.txt",
@@ -2739,11 +2743,7 @@
           "used_cache": false,
           "rule_count": 5
         }
-      ],
-      "stash_path": "stash/dmca.list",
-      "stash_classical_path": "stash/classical/dmca.list",
-      "stash_ipcidr_path": "stash/ipcidr/dmca.txt",
-      "stash_domainset_path": "stash/domainset/dmca.txt"
+      ]
     },
     {
       "id": "vowifi",
@@ -2751,6 +2751,7 @@
       "rule_count": 34,
       "surge_path": "surge/vowifi.list",
       "openclash_path": "openclash/vowifi.yaml",
+      "stash_path": "stash/vowifi.list",
       "surge_non_ip_path": "surge/non_ip/vowifi.list",
       "surge_ip_path": "surge/ip/vowifi.list",
       "surge_domainset_path": "surge/domainset/vowifi.conf",
@@ -2758,6 +2759,9 @@
       "openclash_ip_path": "openclash/ip/vowifi.yaml",
       "openclash_domainset_path": "openclash/domainset/vowifi.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/vowifi.txt",
+      "stash_classical_path": "stash/classical/vowifi.list",
+      "stash_domainset_path": "stash/domainset/vowifi.txt",
+      "stash_ipcidr_path": "stash/ipcidr/vowifi.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/vowifi.txt",
       "compat_clash_ip_path": "compat/Clash/ip/vowifi.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/vowifi.txt",
@@ -2775,11 +2779,7 @@
           "used_cache": false,
           "rule_count": 34
         }
-      ],
-      "stash_path": "stash/vowifi.list",
-      "stash_classical_path": "stash/classical/vowifi.list",
-      "stash_ipcidr_path": "stash/ipcidr/vowifi.txt",
-      "stash_domainset_path": "stash/domainset/vowifi.txt"
+      ]
     },
     {
       "id": "tld_proxy",
@@ -2787,6 +2787,7 @@
       "rule_count": 1433,
       "surge_path": "surge/tld_proxy.list",
       "openclash_path": "openclash/tld_proxy.yaml",
+      "stash_path": "stash/tld_proxy.list",
       "surge_non_ip_path": "surge/non_ip/tld_proxy.list",
       "surge_ip_path": "surge/ip/tld_proxy.list",
       "surge_domainset_path": "surge/domainset/tld_proxy.conf",
@@ -2794,6 +2795,9 @@
       "openclash_ip_path": "openclash/ip/tld_proxy.yaml",
       "openclash_domainset_path": "openclash/domainset/tld_proxy.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/tld_proxy.txt",
+      "stash_classical_path": "stash/classical/tld_proxy.list",
+      "stash_domainset_path": "stash/domainset/tld_proxy.txt",
+      "stash_ipcidr_path": "stash/ipcidr/tld_proxy.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/tld_proxy.txt",
       "compat_clash_ip_path": "compat/Clash/ip/tld_proxy.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/tld_proxy.txt",
@@ -2818,11 +2822,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/tld_proxy.list",
-      "stash_classical_path": "stash/classical/tld_proxy.list",
-      "stash_ipcidr_path": "stash/ipcidr/tld_proxy.txt",
-      "stash_domainset_path": "stash/domainset/tld_proxy.txt"
+      ]
     },
     {
       "id": "gfw",
@@ -2830,6 +2830,7 @@
       "rule_count": 115,
       "surge_path": "surge/gfw.list",
       "openclash_path": "openclash/gfw.yaml",
+      "stash_path": "stash/gfw.list",
       "surge_non_ip_path": "surge/non_ip/gfw.list",
       "surge_ip_path": "surge/ip/gfw.list",
       "surge_domainset_path": "surge/domainset/gfw.conf",
@@ -2837,6 +2838,9 @@
       "openclash_ip_path": "openclash/ip/gfw.yaml",
       "openclash_domainset_path": "openclash/domainset/gfw.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/gfw.txt",
+      "stash_classical_path": "stash/classical/gfw.list",
+      "stash_domainset_path": "stash/domainset/gfw.txt",
+      "stash_ipcidr_path": "stash/ipcidr/gfw.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/gfw.txt",
       "compat_clash_ip_path": "compat/Clash/ip/gfw.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/gfw.txt",
@@ -2868,18 +2872,15 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/gfw.list",
-      "stash_classical_path": "stash/classical/gfw.list",
-      "stash_ipcidr_path": "stash/ipcidr/gfw.txt",
-      "stash_domainset_path": "stash/domainset/gfw.txt"
+      ]
     },
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 23745,
+      "rule_count": 23938,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
+      "stash_path": "stash/global.list",
       "surge_non_ip_path": "surge/non_ip/global.list",
       "surge_ip_path": "surge/ip/global.list",
       "surge_domainset_path": "surge/domainset/global.conf",
@@ -2887,6 +2888,9 @@
       "openclash_ip_path": "openclash/ip/global.yaml",
       "openclash_domainset_path": "openclash/domainset/global.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/global.txt",
+      "stash_classical_path": "stash/classical/global.list",
+      "stash_domainset_path": "stash/domainset/global.txt",
+      "stash_ipcidr_path": "stash/ipcidr/global.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/global.txt",
       "compat_clash_ip_path": "compat/Clash/ip/global.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/global.txt",
@@ -2902,7 +2906,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 23745
+          "rule_count": 23938
         },
         {
           "type": "local_domain",
@@ -2911,11 +2915,7 @@
           "used_cache": false,
           "rule_count": 4
         }
-      ],
-      "stash_path": "stash/global.list",
-      "stash_classical_path": "stash/classical/global.list",
-      "stash_ipcidr_path": "stash/ipcidr/global.txt",
-      "stash_domainset_path": "stash/domainset/global.txt"
+      ]
     },
     {
       "id": "direct",
@@ -2923,6 +2923,7 @@
       "rule_count": 19580,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
+      "stash_path": "stash/direct.list",
       "surge_non_ip_path": "surge/non_ip/direct.list",
       "surge_ip_path": "surge/ip/direct.list",
       "surge_domainset_path": "surge/domainset/direct.conf",
@@ -2930,6 +2931,9 @@
       "openclash_ip_path": "openclash/ip/direct.yaml",
       "openclash_domainset_path": "openclash/domainset/direct.txt",
       "openclash_ipcidr_path": "openclash/ipcidr/direct.txt",
+      "stash_classical_path": "stash/classical/direct.list",
+      "stash_domainset_path": "stash/domainset/direct.txt",
+      "stash_ipcidr_path": "stash/ipcidr/direct.txt",
       "compat_clash_non_ip_path": "compat/Clash/non_ip/direct.txt",
       "compat_clash_ip_path": "compat/Clash/ip/direct.txt",
       "compat_clash_domainset_path": "compat/Clash/domainset/direct.txt",
@@ -2959,14 +2963,14 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
           "used_cache": false,
-          "rule_count": 122
+          "rule_count": 121
         },
         {
           "type": "apnic_country_cidr",
           "authority": "official",
           "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
           "used_cache": false,
-          "rule_count": 10828
+          "rule_count": 10829
         },
         {
           "type": "plain_cidr",
@@ -3206,11 +3210,7 @@
           "used_cache": false,
           "rule_count": 0
         }
-      ],
-      "stash_path": "stash/direct.list",
-      "stash_classical_path": "stash/classical/direct.list",
-      "stash_ipcidr_path": "stash/ipcidr/direct.txt",
-      "stash_domainset_path": "stash/domainset/direct.txt"
+      ]
     }
   ]
 }

@@ -5,7 +5,15 @@
   "recommended_priority": 210,
   "recommended_note": "中国大陆域名集合直连（domain-focused）",
   "rule_count": 6783,
+  "stash_rule_count": 6783,
+  "stash_classical_rule_count": 3,
+  "stash_domain_rule_count": 6780,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/domestic.list",
+    "stash_classical": "stash/classical/domestic.list",
+    "stash_domainset": "stash/domainset/domestic.txt",
+    "stash_ipcidr": "stash/ipcidr/domestic.txt",
     "surge": "surge/domestic.list",
     "surge_non_ip": "surge/non_ip/domestic.list",
     "surge_ip": "surge/ip/domestic.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/domestic.txt",
     "compat_list_non_ip": "compat/List/non_ip/domestic.conf",
     "compat_list_ip": "compat/List/ip/domestic.conf",
-    "compat_list_domainset": "compat/List/domainset/domestic.conf",
-    "stash": "stash/domestic.list",
-    "stash_classical": "stash/classical/domestic.list",
-    "stash_domainset": "stash/domainset/domestic.txt",
-    "stash_ipcidr": "stash/ipcidr/domestic.txt"
+    "compat_list_domainset": "compat/List/domainset/domestic.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 6783,
-  "stash_classical_rule_count": 3,
-  "stash_domain_rule_count": 6780,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

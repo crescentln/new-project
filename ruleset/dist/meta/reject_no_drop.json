@@ -5,7 +5,15 @@
   "recommended_priority": 130,
   "recommended_note": "显式拒绝规则（不静默丢弃）",
   "rule_count": 6,
+  "stash_rule_count": 6,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 6,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/reject_no_drop.list",
+    "stash_classical": "stash/classical/reject_no_drop.list",
+    "stash_domainset": "stash/domainset/reject_no_drop.txt",
+    "stash_ipcidr": "stash/ipcidr/reject_no_drop.txt",
     "surge": "surge/reject_no_drop.list",
     "surge_non_ip": "surge/non_ip/reject_no_drop.list",
     "surge_ip": "surge/ip/reject_no_drop.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/reject_no_drop.txt",
     "compat_list_non_ip": "compat/List/non_ip/reject_no_drop.conf",
     "compat_list_ip": "compat/List/ip/reject_no_drop.conf",
-    "compat_list_domainset": "compat/List/domainset/reject_no_drop.conf",
-    "stash": "stash/reject_no_drop.list",
-    "stash_classical": "stash/classical/reject_no_drop.list",
-    "stash_domainset": "stash/domainset/reject_no_drop.txt",
-    "stash_ipcidr": "stash/ipcidr/reject_no_drop.txt"
+    "compat_list_domainset": "compat/List/domainset/reject_no_drop.conf"
   },
   "sources": [
     {
@@ -34,9 +38,5 @@
       "used_cache": false,
       "rule_count": 6
     }
-  ],
-  "stash_rule_count": 6,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 6,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

@@ -5,7 +5,15 @@
   "recommended_priority": 321,
   "recommended_note": "Apple 国际域名走代理（中国区见 apple_cn/apple_cdn 直连）",
   "rule_count": 50,
+  "stash_rule_count": 50,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 50,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/apple_proxy.list",
+    "stash_classical": "stash/classical/apple_proxy.list",
+    "stash_domainset": "stash/domainset/apple_proxy.txt",
+    "stash_ipcidr": "stash/ipcidr/apple_proxy.txt",
     "surge": "surge/apple_proxy.list",
     "surge_non_ip": "surge/non_ip/apple_proxy.list",
     "surge_ip": "surge/ip/apple_proxy.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/apple_proxy.txt",
     "compat_list_non_ip": "compat/List/non_ip/apple_proxy.conf",
     "compat_list_ip": "compat/List/ip/apple_proxy.conf",
-    "compat_list_domainset": "compat/List/domainset/apple_proxy.conf",
-    "stash": "stash/apple_proxy.list",
-    "stash_classical": "stash/classical/apple_proxy.list",
-    "stash_domainset": "stash/domainset/apple_proxy.txt",
-    "stash_ipcidr": "stash/ipcidr/apple_proxy.txt"
+    "compat_list_domainset": "compat/List/domainset/apple_proxy.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 3
     }
-  ],
-  "stash_rule_count": 50,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 50,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

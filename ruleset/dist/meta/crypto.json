@@ -5,7 +5,15 @@
   "recommended_priority": 336,
   "recommended_note": "加密交易站点走代理",
   "rule_count": 74,
+  "stash_rule_count": 74,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 74,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/crypto.list",
+    "stash_classical": "stash/classical/crypto.list",
+    "stash_domainset": "stash/domainset/crypto.txt",
+    "stash_ipcidr": "stash/ipcidr/crypto.txt",
     "surge": "surge/crypto.list",
     "surge_non_ip": "surge/non_ip/crypto.list",
     "surge_ip": "surge/ip/crypto.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/crypto.txt",
     "compat_list_non_ip": "compat/List/non_ip/crypto.conf",
     "compat_list_ip": "compat/List/ip/crypto.conf",
-    "compat_list_domainset": "compat/List/domainset/crypto.conf",
-    "stash": "stash/crypto.list",
-    "stash_classical": "stash/classical/crypto.list",
-    "stash_domainset": "stash/domainset/crypto.txt",
-    "stash_ipcidr": "stash/ipcidr/crypto.txt"
+    "compat_list_domainset": "compat/List/domainset/crypto.conf"
   },
   "sources": [
     {
@@ -69,9 +73,5 @@
       "used_cache": false,
       "rule_count": 4
     }
-  ],
-  "stash_rule_count": 74,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 74,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

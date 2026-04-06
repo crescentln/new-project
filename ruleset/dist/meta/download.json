@@ -5,7 +5,15 @@
   "recommended_priority": 251,
   "recommended_note": "安卓应用下载集合默认直连（游戏平台流量归 games）",
   "rule_count": 15,
+  "stash_rule_count": 15,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 15,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/download.list",
+    "stash_classical": "stash/classical/download.list",
+    "stash_domainset": "stash/domainset/download.txt",
+    "stash_ipcidr": "stash/ipcidr/download.txt",
     "surge": "surge/download.list",
     "surge_non_ip": "surge/non_ip/download.list",
     "surge_ip": "surge/ip/download.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/download.txt",
     "compat_list_non_ip": "compat/List/non_ip/download.conf",
     "compat_list_ip": "compat/List/ip/download.conf",
-    "compat_list_domainset": "compat/List/domainset/download.conf",
-    "stash": "stash/download.list",
-    "stash_classical": "stash/classical/download.list",
-    "stash_domainset": "stash/domainset/download.txt",
-    "stash_ipcidr": "stash/ipcidr/download.txt"
+    "compat_list_domainset": "compat/List/domainset/download.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 8
     }
-  ],
-  "stash_rule_count": 15,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 15,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

@@ -6081,7 +6081,6 @@ xtratime.qcomgeo2.com
 +.tenpay.com
 +.tenxcloud.com
 +.test-cignacmb.com
-+.test.steampowered.com
 +.testjrzk.net.cn
 +.testmeet.cn
 +.testplus.cn

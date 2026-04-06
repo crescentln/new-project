@@ -5,7 +5,15 @@
   "recommended_priority": 320,
   "recommended_note": "AI 服务走代理（含 Apple Intelligence 聚合）",
   "rule_count": 135,
+  "stash_rule_count": 135,
+  "stash_classical_rule_count": 1,
+  "stash_domain_rule_count": 134,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/ai.list",
+    "stash_classical": "stash/classical/ai.list",
+    "stash_domainset": "stash/domainset/ai.txt",
+    "stash_ipcidr": "stash/ipcidr/ai.txt",
     "surge": "surge/ai.list",
     "surge_non_ip": "surge/non_ip/ai.list",
     "surge_ip": "surge/ip/ai.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/ai.txt",
     "compat_list_non_ip": "compat/List/non_ip/ai.conf",
     "compat_list_ip": "compat/List/ip/ai.conf",
-    "compat_list_domainset": "compat/List/domainset/ai.conf",
-    "stash": "stash/ai.list",
-    "stash_classical": "stash/classical/ai.list",
-    "stash_domainset": "stash/domainset/ai.txt",
-    "stash_ipcidr": "stash/ipcidr/ai.txt"
+    "compat_list_domainset": "compat/List/domainset/ai.conf"
   },
   "sources": [
     {
@@ -90,9 +94,5 @@
       "used_cache": false,
       "rule_count": 13
     }
-  ],
-  "stash_rule_count": 135,
-  "stash_classical_rule_count": 1,
-  "stash_domain_rule_count": 134,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

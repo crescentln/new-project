@@ -6081,7 +6081,6 @@ DOMAIN-SUFFIX,tendis.net
 DOMAIN-SUFFIX,tenpay.com
 DOMAIN-SUFFIX,tenxcloud.com
 DOMAIN-SUFFIX,test-cignacmb.com
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,testjrzk.net.cn
 DOMAIN-SUFFIX,testmeet.cn
 DOMAIN-SUFFIX,testplus.cn
@@ -12180,6 +12179,7 @@ IP-CIDR,162.216.148.0/22,no-resolve
 IP-CIDR,162.222.176.0/21,no-resolve
 IP-CIDR,163.0.0.0/16,no-resolve
 IP-CIDR,163.125.0.0/16,no-resolve
+IP-CIDR,163.128.152.0/23,no-resolve
 IP-CIDR,163.128.30.0/23,no-resolve
 IP-CIDR,163.142.0.0/16,no-resolve
 IP-CIDR,163.177.0.0/16,no-resolve

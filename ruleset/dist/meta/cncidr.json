@@ -4,8 +4,16 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 220,
   "recommended_note": "中国大陆 IP 段直连（IP-focused）",
-  "rule_count": 10828,
+  "rule_count": 10829,
+  "stash_rule_count": 10829,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 0,
+  "stash_ipcidr_rule_count": 10829,
   "paths": {
+    "stash": "stash/cncidr.list",
+    "stash_classical": "stash/classical/cncidr.list",
+    "stash_domainset": "stash/domainset/cncidr.txt",
+    "stash_ipcidr": "stash/ipcidr/cncidr.txt",
     "surge": "surge/cncidr.list",
     "surge_non_ip": "surge/non_ip/cncidr.list",
     "surge_ip": "surge/ip/cncidr.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/cncidr.txt",
     "compat_list_non_ip": "compat/List/non_ip/cncidr.conf",
     "compat_list_ip": "compat/List/ip/cncidr.conf",
-    "compat_list_domainset": "compat/List/domainset/cncidr.conf",
-    "stash": "stash/cncidr.list",
-    "stash_classical": "stash/classical/cncidr.list",
-    "stash_domainset": "stash/domainset/cncidr.txt",
-    "stash_ipcidr": "stash/ipcidr/cncidr.txt"
+    "compat_list_domainset": "compat/List/domainset/cncidr.conf"
   },
   "sources": [
     {
@@ -32,7 +36,7 @@
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10828
+      "rule_count": 10829
     },
     {
       "type": "local_domain",
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 10828,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 0,
-  "stash_ipcidr_rule_count": 10828
+  ]
 }

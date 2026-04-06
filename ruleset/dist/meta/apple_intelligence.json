@@ -5,7 +5,15 @@
   "recommended_priority": 323,
   "recommended_note": "Apple Intelligence 走代理（同时并入 ai 聚合类）",
   "rule_count": 5,
+  "stash_rule_count": 5,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 5,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/apple_intelligence.list",
+    "stash_classical": "stash/classical/apple_intelligence.list",
+    "stash_domainset": "stash/domainset/apple_intelligence.txt",
+    "stash_ipcidr": "stash/ipcidr/apple_intelligence.txt",
     "surge": "surge/apple_intelligence.list",
     "surge_non_ip": "surge/non_ip/apple_intelligence.list",
     "surge_ip": "surge/ip/apple_intelligence.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/apple_intelligence.txt",
     "compat_list_non_ip": "compat/List/non_ip/apple_intelligence.conf",
     "compat_list_ip": "compat/List/ip/apple_intelligence.conf",
-    "compat_list_domainset": "compat/List/domainset/apple_intelligence.conf",
-    "stash": "stash/apple_intelligence.list",
-    "stash_classical": "stash/classical/apple_intelligence.list",
-    "stash_domainset": "stash/domainset/apple_intelligence.txt",
-    "stash_ipcidr": "stash/ipcidr/apple_intelligence.txt"
+    "compat_list_domainset": "compat/List/domainset/apple_intelligence.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 5,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 5,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

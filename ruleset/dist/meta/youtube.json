@@ -5,7 +5,15 @@
   "recommended_priority": 327,
   "recommended_note": "YouTube 走代理",
   "rule_count": 176,
+  "stash_rule_count": 176,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 176,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/youtube.list",
+    "stash_classical": "stash/classical/youtube.list",
+    "stash_domainset": "stash/domainset/youtube.txt",
+    "stash_ipcidr": "stash/ipcidr/youtube.txt",
     "surge": "surge/youtube.list",
     "surge_non_ip": "surge/non_ip/youtube.list",
     "surge_ip": "surge/ip/youtube.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/youtube.txt",
     "compat_list_non_ip": "compat/List/non_ip/youtube.conf",
     "compat_list_ip": "compat/List/ip/youtube.conf",
-    "compat_list_domainset": "compat/List/domainset/youtube.conf",
-    "stash": "stash/youtube.list",
-    "stash_classical": "stash/classical/youtube.list",
-    "stash_domainset": "stash/domainset/youtube.txt",
-    "stash_ipcidr": "stash/ipcidr/youtube.txt"
+    "compat_list_domainset": "compat/List/domainset/youtube.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 4
     }
-  ],
-  "stash_rule_count": 176,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 176,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

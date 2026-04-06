@@ -5,7 +5,15 @@
   "recommended_priority": 150,
   "recommended_note": "HTTPDNS 常用于绕过本地 DNS 分流，默认建议拦截",
   "rule_count": 57,
+  "stash_rule_count": 57,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 57,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/httpdns.list",
+    "stash_classical": "stash/classical/httpdns.list",
+    "stash_domainset": "stash/domainset/httpdns.txt",
+    "stash_ipcidr": "stash/ipcidr/httpdns.txt",
     "surge": "surge/httpdns.list",
     "surge_non_ip": "surge/non_ip/httpdns.list",
     "surge_ip": "surge/ip/httpdns.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/httpdns.txt",
     "compat_list_non_ip": "compat/List/non_ip/httpdns.conf",
     "compat_list_ip": "compat/List/ip/httpdns.conf",
-    "compat_list_domainset": "compat/List/domainset/httpdns.conf",
-    "stash": "stash/httpdns.list",
-    "stash_classical": "stash/classical/httpdns.list",
-    "stash_domainset": "stash/domainset/httpdns.txt",
-    "stash_ipcidr": "stash/ipcidr/httpdns.txt"
+    "compat_list_domainset": "compat/List/domainset/httpdns.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 21
     }
-  ],
-  "stash_rule_count": 57,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 57,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

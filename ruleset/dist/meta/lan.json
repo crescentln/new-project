@@ -4,8 +4,16 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 200,
   "recommended_note": "局域网与特殊保留地址直连",
-  "rule_count": 155,
+  "rule_count": 154,
+  "stash_rule_count": 154,
+  "stash_classical_rule_count": 1,
+  "stash_domain_rule_count": 120,
+  "stash_ipcidr_rule_count": 33,
   "paths": {
+    "stash": "stash/lan.list",
+    "stash_classical": "stash/classical/lan.list",
+    "stash_domainset": "stash/domainset/lan.txt",
+    "stash_ipcidr": "stash/ipcidr/lan.txt",
     "surge": "surge/lan.list",
     "surge_non_ip": "surge/non_ip/lan.list",
     "surge_ip": "surge/ip/lan.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/lan.txt",
     "compat_list_non_ip": "compat/List/non_ip/lan.conf",
     "compat_list_ip": "compat/List/ip/lan.conf",
-    "compat_list_domainset": "compat/List/domainset/lan.conf",
-    "stash": "stash/lan.list",
-    "stash_classical": "stash/classical/lan.list",
-    "stash_domainset": "stash/domainset/lan.txt",
-    "stash_ipcidr": "stash/ipcidr/lan.txt"
+    "compat_list_domainset": "compat/List/domainset/lan.conf"
   },
   "sources": [
     {
@@ -46,7 +50,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
       "used_cache": false,
-      "rule_count": 122
+      "rule_count": 121
     },
     {
       "type": "local_domain",
@@ -55,9 +59,5 @@
       "used_cache": false,
       "rule_count": 0
     }
-  ],
-  "stash_rule_count": 155,
-  "stash_classical_rule_count": 1,
-  "stash_domain_rule_count": 121,
-  "stash_ipcidr_rule_count": 33
+  ]
 }

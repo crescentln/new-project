@@ -5,7 +5,15 @@
   "recommended_priority": 329,
   "recommended_note": "Apple TV+ 走代理",
   "rule_count": 8,
+  "stash_rule_count": 8,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 8,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/apple_tv.list",
+    "stash_classical": "stash/classical/apple_tv.list",
+    "stash_domainset": "stash/domainset/apple_tv.txt",
+    "stash_ipcidr": "stash/ipcidr/apple_tv.txt",
     "surge": "surge/apple_tv.list",
     "surge_non_ip": "surge/non_ip/apple_tv.list",
     "surge_ip": "surge/ip/apple_tv.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/apple_tv.txt",
     "compat_list_non_ip": "compat/List/non_ip/apple_tv.conf",
     "compat_list_ip": "compat/List/ip/apple_tv.conf",
-    "compat_list_domainset": "compat/List/domainset/apple_tv.conf",
-    "stash": "stash/apple_tv.list",
-    "stash_classical": "stash/classical/apple_tv.list",
-    "stash_domainset": "stash/domainset/apple_tv.txt",
-    "stash_ipcidr": "stash/ipcidr/apple_tv.txt"
+    "compat_list_domainset": "compat/List/domainset/apple_tv.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 1
     }
-  ],
-  "stash_rule_count": 8,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 8,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

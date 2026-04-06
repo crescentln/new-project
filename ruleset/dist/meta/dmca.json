@@ -5,7 +5,15 @@
   "recommended_priority": 243,
   "recommended_note": "按你当前 Surge 配置作为直连类",
   "rule_count": 5,
+  "stash_rule_count": 5,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 5,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/dmca.list",
+    "stash_classical": "stash/classical/dmca.list",
+    "stash_domainset": "stash/domainset/dmca.txt",
+    "stash_ipcidr": "stash/ipcidr/dmca.txt",
     "surge": "surge/dmca.list",
     "surge_non_ip": "surge/non_ip/dmca.list",
     "surge_ip": "surge/ip/dmca.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/dmca.txt",
     "compat_list_non_ip": "compat/List/non_ip/dmca.conf",
     "compat_list_ip": "compat/List/ip/dmca.conf",
-    "compat_list_domainset": "compat/List/domainset/dmca.conf",
-    "stash": "stash/dmca.list",
-    "stash_classical": "stash/classical/dmca.list",
-    "stash_domainset": "stash/domainset/dmca.txt",
-    "stash_ipcidr": "stash/ipcidr/dmca.txt"
+    "compat_list_domainset": "compat/List/domainset/dmca.conf"
   },
   "sources": [
     {
@@ -34,9 +38,5 @@
       "used_cache": false,
       "rule_count": 5
     }
-  ],
-  "stash_rule_count": 5,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 5,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

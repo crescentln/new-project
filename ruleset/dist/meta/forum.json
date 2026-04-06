@@ -5,7 +5,15 @@
   "recommended_priority": 339,
   "recommended_note": "国际论坛走代理",
   "rule_count": 98,
+  "stash_rule_count": 98,
+  "stash_classical_rule_count": 0,
+  "stash_domain_rule_count": 98,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/forum.list",
+    "stash_classical": "stash/classical/forum.list",
+    "stash_domainset": "stash/domainset/forum.txt",
+    "stash_ipcidr": "stash/ipcidr/forum.txt",
     "surge": "surge/forum.list",
     "surge_non_ip": "surge/non_ip/forum.list",
     "surge_ip": "surge/ip/forum.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/forum.txt",
     "compat_list_non_ip": "compat/List/non_ip/forum.conf",
     "compat_list_ip": "compat/List/ip/forum.conf",
-    "compat_list_domainset": "compat/List/domainset/forum.conf",
-    "stash": "stash/forum.list",
-    "stash_classical": "stash/classical/forum.list",
-    "stash_domainset": "stash/domainset/forum.txt",
-    "stash_ipcidr": "stash/ipcidr/forum.txt"
+    "compat_list_domainset": "compat/List/domainset/forum.conf"
   },
   "sources": [
     {
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 2
     }
-  ],
-  "stash_rule_count": 98,
-  "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 98,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

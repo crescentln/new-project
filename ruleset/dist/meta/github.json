@@ -5,7 +5,15 @@
   "recommended_priority": 325,
   "recommended_note": "GitHub/GitLab/Gitee/Codeberg/SourceHut 等代码托管平台走代理",
   "rule_count": 47,
+  "stash_rule_count": 47,
+  "stash_classical_rule_count": 1,
+  "stash_domain_rule_count": 46,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/github.list",
+    "stash_classical": "stash/classical/github.list",
+    "stash_domainset": "stash/domainset/github.txt",
+    "stash_ipcidr": "stash/ipcidr/github.txt",
     "surge": "surge/github.list",
     "surge_non_ip": "surge/non_ip/github.list",
     "surge_ip": "surge/ip/github.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/github.txt",
     "compat_list_non_ip": "compat/List/non_ip/github.conf",
     "compat_list_ip": "compat/List/ip/github.conf",
-    "compat_list_domainset": "compat/List/domainset/github.conf",
-    "stash": "stash/github.list",
-    "stash_classical": "stash/classical/github.list",
-    "stash_domainset": "stash/domainset/github.txt",
-    "stash_ipcidr": "stash/ipcidr/github.txt"
+    "compat_list_domainset": "compat/List/domainset/github.conf"
   },
   "sources": [
     {
@@ -69,9 +73,5 @@
       "used_cache": false,
       "rule_count": 14
     }
-  ],
-  "stash_rule_count": 47,
-  "stash_classical_rule_count": 1,
-  "stash_domain_rule_count": 46,
-  "stash_ipcidr_rule_count": 0
+  ]
 }

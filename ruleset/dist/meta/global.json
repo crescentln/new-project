@@ -4,8 +4,16 @@
   "recommended_action": "PROXY",
   "recommended_priority": 900,
   "recommended_note": "兜底代理集合（应放在较后顺序）",
-  "rule_count": 23745,
+  "rule_count": 23938,
+  "stash_rule_count": 23938,
+  "stash_classical_rule_count": 162,
+  "stash_domain_rule_count": 23776,
+  "stash_ipcidr_rule_count": 0,
   "paths": {
+    "stash": "stash/global.list",
+    "stash_classical": "stash/classical/global.list",
+    "stash_domainset": "stash/domainset/global.txt",
+    "stash_ipcidr": "stash/ipcidr/global.txt",
     "surge": "surge/global.list",
     "surge_non_ip": "surge/non_ip/global.list",
     "surge_ip": "surge/ip/global.list",
@@ -20,11 +28,7 @@
     "compat_clash_domainset": "compat/Clash/domainset/global.txt",
     "compat_list_non_ip": "compat/List/non_ip/global.conf",
     "compat_list_ip": "compat/List/ip/global.conf",
-    "compat_list_domainset": "compat/List/domainset/global.conf",
-    "stash": "stash/global.list",
-    "stash_classical": "stash/classical/global.list",
-    "stash_domainset": "stash/domainset/global.txt",
-    "stash_ipcidr": "stash/ipcidr/global.txt"
+    "compat_list_domainset": "compat/List/domainset/global.conf"
   },
   "sources": [
     {
@@ -32,7 +36,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
       "used_cache": false,
-      "rule_count": 23745
+      "rule_count": 23938
     },
     {
       "type": "local_domain",
@@ -41,9 +45,5 @@
       "used_cache": false,
       "rule_count": 4
     }
-  ],
-  "stash_rule_count": 23745,
-  "stash_classical_rule_count": 162,
-  "stash_domain_rule_count": 23583,
-  "stash_ipcidr_rule_count": 0
+  ]
 }
