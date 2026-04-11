@@ -1,0 +1,347 @@
+# Generated file: recommended Stash Native template (domainset + ipcidr + classical residuals)
+# Existing Stash classical main入口保持不变；此模板仅为更适合 Stash 的增量推荐入口。
+# If your proxy policy group name is not PROXY, replace it in rules below.
+rule-providers:
+  reject-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/reject.txt
+    interval: 86400
+  reject_extra-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/reject_extra.txt
+    interval: 86400
+  reject_drop-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/reject_drop.txt
+    interval: 86400
+  reject_no_drop-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/reject_no_drop.txt
+    interval: 86400
+  httpdns-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/httpdns.txt
+    interval: 86400
+  lan-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/lan.txt
+    interval: 86400
+  lan-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/lan.txt
+    interval: 86400
+  lan-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/lan.list
+    interval: 86400
+  direct-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/direct.txt
+    interval: 86400
+  direct-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/direct.txt
+    interval: 86400
+  direct-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/direct.list
+    interval: 86400
+  domestic-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/domestic.txt
+    interval: 86400
+  domestic-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/domestic.list
+    interval: 86400
+  cncidr-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/cncidr.txt
+    interval: 86400
+  apple_cn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_cn.txt
+    interval: 86400
+  apple_cdn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_cdn.txt
+    interval: 86400
+  microsoft_cdn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/microsoft_cdn.txt
+    interval: 86400
+  socialmedia_cn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/socialmedia_cn.txt
+    interval: 86400
+  games_cn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/games_cn.txt
+    interval: 86400
+  games_cn-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/games_cn.list
+    interval: 86400
+  douyin-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/douyin.txt
+    interval: 86400
+  dmca-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/dmca.txt
+    interval: 86400
+  cdn-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/cdn.txt
+    interval: 86400
+  cdn-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/cdn.txt
+    interval: 86400
+  cdn-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/cdn.list
+    interval: 86400
+  download-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/download.txt
+    interval: 86400
+  telegram-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/telegram.txt
+    interval: 86400
+  telegram-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/telegram.txt
+    interval: 86400
+  stream-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/stream.txt
+    interval: 86400
+  stream-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/stream.list
+    interval: 86400
+  ai-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/ai.txt
+    interval: 86400
+  ai-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/ai.list
+    interval: 86400
+  apple_proxy-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_proxy.txt
+    interval: 86400
+  icloud_private_relay-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/icloud_private_relay.txt
+    interval: 86400
+  icloud_private_relay-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/icloud_private_relay.txt
+    interval: 86400
+  apple_services-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_services.txt
+    interval: 86400
+  apple_intelligence-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_intelligence.txt
+    interval: 86400
+  microsoft-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/microsoft.txt
+    interval: 86400
+  github-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/github.txt
+    interval: 86400
+  github-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/github.list
+    interval: 86400
+  games-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/games.txt
+    interval: 86400
+  games-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/games.list
+    interval: 86400
+  youtube-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/youtube.txt
+    interval: 86400
+  abema-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/abema.txt
+    interval: 86400
+  apple_tv-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apple_tv.txt
+    interval: 86400
+  primevideo-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/primevideo.txt
+    interval: 86400
+  spotify-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/spotify.txt
+    interval: 86400
+  twitch-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/twitch.txt
+    interval: 86400
+  google-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/google.txt
+    interval: 86400
+  googlefcm-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/googlefcm.txt
+    interval: 86400
+  paypal-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/paypal.txt
+    interval: 86400
+  crypto-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/crypto.txt
+    interval: 86400
+  ecommerce-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/ecommerce.txt
+    interval: 86400
+  onedrive-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/onedrive.txt
+    interval: 86400
+  forum-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/forum.txt
+    interval: 86400
+  anime-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/anime.txt
+    interval: 86400
+  socialmedia-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/socialmedia.txt
+    interval: 86400
+  tiktok-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/tiktok.txt
+    interval: 86400
+  apns-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/apns.txt
+    interval: 86400
+  vowifi-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/vowifi.txt
+    interval: 86400
+  vowifi-ip:
+    behavior: ipcidr-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/vowifi.txt
+    interval: 86400
+  vowifi-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/vowifi.list
+    interval: 86400
+  tld_proxy-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/tld_proxy.txt
+    interval: 86400
+  gfw-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/gfw.txt
+    interval: 86400
+  global-domain:
+    behavior: domain-text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/global.txt
+    interval: 86400
+  global-classical:
+    behavior: classical
+    format: text
+    url: https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/classical/global.list
+    interval: 86400
+rules:
+  - RULE-SET,reject-domain,REJECT
+  - RULE-SET,reject_extra-domain,REJECT
+  - RULE-SET,reject_drop-domain,REJECT-DROP
+  - RULE-SET,reject_no_drop-domain,REJECT-NO-DROP
+  - RULE-SET,httpdns-domain,REJECT
+  - RULE-SET,lan-domain,DIRECT
+  - RULE-SET,lan-classical,DIRECT
+  - RULE-SET,lan-ip,DIRECT,no-resolve
+  - RULE-SET,direct-domain,DIRECT
+  - RULE-SET,direct-classical,DIRECT
+  - RULE-SET,direct-ip,DIRECT,no-resolve
+  - RULE-SET,domestic-domain,DIRECT
+  - RULE-SET,domestic-classical,DIRECT
+  - RULE-SET,cncidr-ip,DIRECT,no-resolve
+  - RULE-SET,apple_cn-domain,DIRECT
+  - RULE-SET,apple_cdn-domain,DIRECT
+  - RULE-SET,microsoft_cdn-domain,DIRECT
+  - RULE-SET,socialmedia_cn-domain,DIRECT
+  - RULE-SET,games_cn-domain,DIRECT
+  - RULE-SET,games_cn-classical,DIRECT
+  - RULE-SET,douyin-domain,DIRECT
+  - RULE-SET,dmca-domain,DIRECT
+  - RULE-SET,cdn-domain,DIRECT
+  - RULE-SET,cdn-classical,DIRECT
+  - RULE-SET,cdn-ip,DIRECT,no-resolve
+  - RULE-SET,download-domain,DIRECT
+  - RULE-SET,telegram-domain,PROXY
+  - RULE-SET,telegram-ip,PROXY,no-resolve
+  - RULE-SET,stream-domain,PROXY
+  - RULE-SET,stream-classical,PROXY
+  - RULE-SET,ai-domain,PROXY
+  - RULE-SET,ai-classical,PROXY
+  - RULE-SET,apple_proxy-domain,PROXY
+  - RULE-SET,icloud_private_relay-domain,PROXY
+  - RULE-SET,icloud_private_relay-ip,PROXY,no-resolve
+  - RULE-SET,apple_services-domain,PROXY
+  - RULE-SET,apple_intelligence-domain,PROXY
+  - RULE-SET,microsoft-domain,PROXY
+  - RULE-SET,github-domain,PROXY
+  - RULE-SET,github-classical,PROXY
+  - RULE-SET,games-domain,PROXY
+  - RULE-SET,games-classical,PROXY
+  - RULE-SET,youtube-domain,PROXY
+  - RULE-SET,abema-domain,PROXY
+  - RULE-SET,apple_tv-domain,PROXY
+  - RULE-SET,primevideo-domain,PROXY
+  - RULE-SET,spotify-domain,PROXY
+  - RULE-SET,twitch-domain,PROXY
+  - RULE-SET,google-domain,PROXY
+  - RULE-SET,googlefcm-domain,PROXY
+  - RULE-SET,paypal-domain,PROXY
+  - RULE-SET,crypto-domain,PROXY
+  - RULE-SET,ecommerce-domain,PROXY
+  - RULE-SET,onedrive-domain,PROXY
+  - RULE-SET,forum-domain,PROXY
+  - RULE-SET,anime-domain,PROXY
+  - RULE-SET,socialmedia-domain,PROXY
+  - RULE-SET,tiktok-domain,PROXY
+  - RULE-SET,apns-domain,PROXY
+  - RULE-SET,vowifi-domain,PROXY
+  - RULE-SET,vowifi-classical,PROXY
+  - RULE-SET,vowifi-ip,PROXY,no-resolve
+  - RULE-SET,tld_proxy-domain,PROXY
+  - RULE-SET,gfw-domain,PROXY
+  - RULE-SET,global-domain,PROXY
+  - RULE-SET,global-classical,PROXY
+  - MATCH,PROXY

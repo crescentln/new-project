@@ -2,15 +2,18 @@
 
 Auto-generated summary for `ruleset/dist` updates.
 
-## 2026-04-06T05:37:23+00:00
+## 2026-04-11T14:03:29+00:00
 
 - Category Count: 54
 - Conflict Summary: total=490, cross_action=0, high=0
-- Fetch Summary: network=1362, offline_cache=0, fallback_cache=0
+- Fetch Summary: network=1368, offline_cache=0, fallback_cache=0
 - Top Rule Count Changes:
-- `reject`: 336830 -> 341046 (+4216)
-- `icloud_private_relay`: 13361 -> 13585 (+224)
-- `global`: 23745 -> 23938 (+193)
-- `games`: 793 -> 804 (+11)
-- `cncidr`: 10828 -> 10829 (+1)
-- `lan`: 155 -> 154 (-1)
+- `global`: 23938 -> 24365 (+427)
+- `ecommerce`: 1103 -> 1275 (+172)
+- `direct`: 19580 -> 19605 (+25)
+- `domestic`: 6783 -> 6807 (+24)
+- `reject`: 341046 -> 341065 (+19)
+- `ai`: 135 -> 139 (+4)
+- `cncidr`: 10829 -> 10827 (-2)
+- `lan`: 154 -> 156 (+2)
+- `cdn`: 1460 -> 1461 (+1)

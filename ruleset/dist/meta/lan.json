@@ -4,10 +4,10 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 200,
   "recommended_note": "局域网与特殊保留地址直连",
-  "rule_count": 154,
-  "stash_rule_count": 154,
+  "rule_count": 156,
+  "stash_rule_count": 156,
   "stash_classical_rule_count": 1,
-  "stash_domain_rule_count": 120,
+  "stash_domain_rule_count": 122,
   "stash_ipcidr_rule_count": 33,
   "paths": {
     "stash": "stash/lan.list",
@@ -50,7 +50,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
       "used_cache": false,
-      "rule_count": 121
+      "rule_count": 123
     },
     {
       "type": "local_domain",

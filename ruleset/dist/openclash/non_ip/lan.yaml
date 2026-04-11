@@ -1,6 +1,7 @@
 payload:
   - 'DOMAIN,asusrouter.com'
   - 'DOMAIN,instant.arubanetworks.com'
+  - 'DOMAIN,local.adguard.org'
   - 'DOMAIN,miwifi.com'
   - 'DOMAIN,oasisauth.h3c.com'
   - 'DOMAIN,router.asus.com'
@@ -107,6 +108,7 @@ payload:
   - 'DOMAIN-SUFFIX,d.f.ip6.arpa'
   - 'DOMAIN-SUFFIX,hiwifi.com'
   - 'DOMAIN-SUFFIX,home.arpa'
+  - 'DOMAIN-SUFFIX,kis.v2.scr.kaspersky-labs.com'
   - 'DOMAIN-SUFFIX,leike.cc'
   - 'DOMAIN-SUFFIX,localhost.ptlogin2.qq.com'
   - 'DOMAIN-SUFFIX,localhost.sec.qq.com'

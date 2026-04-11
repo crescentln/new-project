@@ -1275,6 +1275,7 @@ payload:
   - 'IP-CIDR,65.8.0.0/16,no-resolve'
   - 'IP-CIDR,65.9.0.0/17,no-resolve'
   - 'IP-CIDR,65.9.128.0/18,no-resolve'
+  - 'IP-CIDR,66.182.96.0/20,no-resolve'
   - 'IP-CIDR,70.132.0.0/18,no-resolve'
   - 'IP-CIDR,71.152.0.0/17,no-resolve'
   - 'IP-CIDR,75.2.0.0/17,no-resolve'

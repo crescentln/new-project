@@ -4,10 +4,10 @@
   "recommended_action": "PROXY",
   "recommended_priority": 337,
   "recommended_note": "跨境电商走代理",
-  "rule_count": 1103,
-  "stash_rule_count": 1103,
+  "rule_count": 1275,
+  "stash_rule_count": 1275,
   "stash_classical_rule_count": 0,
-  "stash_domain_rule_count": 1103,
+  "stash_domain_rule_count": 1275,
   "stash_ipcidr_rule_count": 0,
   "paths": {
     "stash": "stash/ecommerce.list",
@@ -36,7 +36,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ecommerce",
       "used_cache": false,
-      "rule_count": 1099
+      "rule_count": 1271
     },
     {
       "type": "local_domain",

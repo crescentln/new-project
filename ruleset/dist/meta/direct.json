@@ -4,11 +4,11 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-  "rule_count": 19580,
-  "stash_rule_count": 19580,
+  "rule_count": 19605,
+  "stash_rule_count": 19605,
   "stash_classical_rule_count": 4,
-  "stash_domain_rule_count": 7409,
-  "stash_ipcidr_rule_count": 12167,
+  "stash_domain_rule_count": 7435,
+  "stash_ipcidr_rule_count": 12166,
   "paths": {
     "stash": "stash/direct.list",
     "stash_classical": "stash/classical/direct.list",
@@ -50,14 +50,14 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/private",
       "used_cache": false,
-      "rule_count": 121
+      "rule_count": 123
     },
     {
       "type": "apnic_country_cidr",
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10829
+      "rule_count": 10827
     },
     {
       "type": "plain_cidr",
@@ -78,7 +78,7 @@
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "used_cache": false,
-      "rule_count": 386
+      "rule_count": 387
     },
     {
       "type": "gcp_ip_ranges",
@@ -120,7 +120,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
       "used_cache": false,
-      "rule_count": 6783
+      "rule_count": 6807
     },
     {
       "type": "v2fly_dlc",
