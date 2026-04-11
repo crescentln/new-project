@@ -1,6 +1,8 @@
 # Example Stash rule-providers using Project_G Stash-native outputs.
 # Raw base:
 # https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist
+# Full generated template:
+# https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/recommended_stash_native.yaml
 
 rule-providers:
   direct-domain:

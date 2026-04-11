@@ -44,6 +44,44 @@ def load_categories(policy_reference_path: pathlib.Path) -> list[dict[str, Any]]
     return rows
 
 
+def load_index_categories(index_path: pathlib.Path) -> list[dict[str, Any]]:
+    payload = json.loads(index_path.read_text(encoding="utf-8"))
+    categories = payload.get("categories", [])
+    if not isinstance(categories, list):
+        raise RuntimeError(f"invalid index: {index_path}")
+
+    rows: list[dict[str, Any]] = []
+    for row in categories:
+        if not isinstance(row, dict):
+            continue
+        category_id = str(row.get("id", "")).strip()
+        action = str(row.get("recommended_action", "UNSPECIFIED")).upper().strip()
+        if not category_id:
+            continue
+        priority = int(row.get("recommended_priority", 9999))
+        rows.append(
+            {
+                "id": category_id,
+                "action": action,
+                "priority": priority,
+                "stash_domain_rule_count": int(row.get("stash_domain_rule_count", 0)),
+                "stash_ipcidr_rule_count": int(row.get("stash_ipcidr_rule_count", 0)),
+                "stash_classical_rule_count": int(row.get("stash_classical_rule_count", 0)),
+                "stash_domainset_path": str(row.get("stash_domainset_path", "")).strip(),
+                "stash_ipcidr_path": str(row.get("stash_ipcidr_path", "")).strip(),
+                "stash_classical_path": str(row.get("stash_classical_path", "")).strip(),
+            }
+        )
+
+    rows.sort(key=lambda item: (int(item["priority"]), str(item["id"])))
+
+    category_ids = {str(item["id"]) for item in rows}
+    if "stream" in category_ids:
+        rows = [item for item in rows if str(item["id"]) not in STREAM_SPLIT_IDS]
+
+    return rows
+
+
 def normalize_policy(action: str, proxy_policy: str) -> str:
     action = str(action).upper().strip()
     if action in {"DIRECT", "REJECT", "REJECT-DROP", "REJECT-NO-DROP"}:
@@ -144,13 +182,78 @@ def render_stash_template(
     return "\n".join(lines)
 
 
+def render_stash_native_template(
+    categories: list[dict[str, Any]],
+    raw_base_url: str,
+    interval: int,
+    proxy_policy: str,
+) -> str:
+    lines = [
+        "# Generated file: recommended Stash Native template (domainset + ipcidr + classical residuals)",
+        "# Existing Stash classical main入口保持不变；此模板仅为更适合 Stash 的增量推荐入口。",
+        "# If your proxy policy group name is not PROXY, replace it in rules below.",
+        "rule-providers:",
+    ]
+
+    for row in categories:
+        category_id = str(row["id"])
+        if int(row.get("stash_domain_rule_count", 0)) > 0:
+            lines.extend(
+                [
+                    f"  {category_id}-domain:",
+                    "    behavior: domain-text",
+                    f"    url: {raw_base_url}/{row['stash_domainset_path']}",
+                    f"    interval: {interval}",
+                ]
+            )
+        if int(row.get("stash_ipcidr_rule_count", 0)) > 0:
+            lines.extend(
+                [
+                    f"  {category_id}-ip:",
+                    "    behavior: ipcidr-text",
+                    f"    url: {raw_base_url}/{row['stash_ipcidr_path']}",
+                    f"    interval: {interval}",
+                ]
+            )
+        if int(row.get("stash_classical_rule_count", 0)) > 0:
+            lines.extend(
+                [
+                    f"  {category_id}-classical:",
+                    "    behavior: classical",
+                    "    format: text",
+                    f"    url: {raw_base_url}/{row['stash_classical_path']}",
+                    f"    interval: {interval}",
+                ]
+            )
+
+    lines.append("rules:")
+    for row in categories:
+        category_id = str(row["id"])
+        policy = normalize_policy(str(row["action"]), proxy_policy)
+        if int(row.get("stash_domain_rule_count", 0)) > 0:
+            lines.append(f"  - RULE-SET,{category_id}-domain,{policy}")
+        if int(row.get("stash_classical_rule_count", 0)) > 0:
+            lines.append(f"  - RULE-SET,{category_id}-classical,{policy}")
+        if int(row.get("stash_ipcidr_rule_count", 0)) > 0:
+            lines.append(f"  - RULE-SET,{category_id}-ip,{policy},no-resolve")
+    lines.append(f"  - MATCH,{proxy_policy}")
+    lines.append("")
+    return "\n".join(lines)
+
+
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Generate recommended OpenClash/Surge templates from policy reference.")
+    parser = argparse.ArgumentParser(description="Generate recommended OpenClash/Surge/Stash templates from policy reference and index.")
     parser.add_argument(
         "--policy-reference",
         type=pathlib.Path,
         default=pathlib.Path("ruleset/dist/policy_reference.json"),
         help="Path to policy_reference.json",
+    )
+    parser.add_argument(
+        "--index",
+        type=pathlib.Path,
+        default=pathlib.Path("ruleset/dist/index.json"),
+        help="Path to index.json",
     )
     parser.add_argument(
         "--openclash-out",
@@ -169,6 +272,12 @@ def parse_args() -> argparse.Namespace:
         type=pathlib.Path,
         default=pathlib.Path("ruleset/dist/recommended_stash.yaml"),
         help="Output Stash template path",
+    )
+    parser.add_argument(
+        "--stash-native-out",
+        type=pathlib.Path,
+        default=pathlib.Path("ruleset/dist/recommended_stash_native.yaml"),
+        help="Output Stash Native template path",
     )
     parser.add_argument(
         "--raw-base-url",
@@ -194,6 +303,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> int:
     args = parse_args()
     categories = load_categories(args.policy_reference)
+    stash_native_categories = load_index_categories(args.index)
     openclash_text = render_openclash_template(
         categories=categories,
         raw_base_url=args.raw_base_url.rstrip("/"),
@@ -212,16 +322,25 @@ def main() -> int:
         interval=args.interval,
         proxy_policy=args.proxy_policy,
     )
+    stash_native_text = render_stash_native_template(
+        categories=stash_native_categories,
+        raw_base_url=args.raw_base_url.rstrip("/"),
+        interval=args.interval,
+        proxy_policy=args.proxy_policy,
+    )
 
     args.openclash_out.parent.mkdir(parents=True, exist_ok=True)
     args.surge_out.parent.mkdir(parents=True, exist_ok=True)
     args.stash_out.parent.mkdir(parents=True, exist_ok=True)
+    args.stash_native_out.parent.mkdir(parents=True, exist_ok=True)
     args.openclash_out.write_text(openclash_text, encoding="utf-8")
     args.surge_out.write_text(surge_text, encoding="utf-8")
     args.stash_out.write_text(stash_text, encoding="utf-8")
+    args.stash_native_out.write_text(stash_native_text, encoding="utf-8")
     print(f"[templates] wrote {args.openclash_out}")
     print(f"[templates] wrote {args.surge_out}")
     print(f"[templates] wrote {args.stash_out}")
+    print(f"[templates] wrote {args.stash_native_out}")
     return 0
 
 

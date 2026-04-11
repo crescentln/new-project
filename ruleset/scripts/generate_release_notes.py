@@ -110,6 +110,8 @@ def main() -> int:
     out.append(f"- Policy Reference JSON: `{raw_base}/policy_reference.json`")
     out.append(f"- Recommended OpenClash: `{raw_base}/recommended_openclash.yaml`")
     out.append(f"- Recommended Surge: `{raw_base}/recommended_surge.conf`")
+    out.append(f"- Recommended Stash (classical): `{raw_base}/recommended_stash.yaml`")
+    out.append(f"- Recommended Stash Native: `{raw_base}/recommended_stash_native.yaml`")
 
     change_lines = [line for line in entry_lines if line.startswith("- `")]
     if change_lines:

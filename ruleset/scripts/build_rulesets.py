@@ -1324,6 +1324,10 @@ def build_all(
                 "id": category_id,
                 "description": category.get("description", ""),
                 "rule_count": len(rules),
+                "stash_rule_count": len(rules),
+                "stash_classical_rule_count": len(stash_classical_rules),
+                "stash_domain_rule_count": len(stash_domain_lines),
+                "stash_ipcidr_rule_count": len(stash_ipcidr_lines),
                 "surge_path": str(surge_file.relative_to(dist_dir)),
                 "openclash_path": str(openclash_file.relative_to(dist_dir)),
                 "stash_path": str(stash_file.relative_to(dist_dir)),
@@ -1533,6 +1537,12 @@ def build_all(
         "cross_action_conflict_count": cross_action_conflict_count,
         "high_severity_conflict_count": high_severity_conflict_count,
         "fetch_report_path": str(fetch_report_file.relative_to(dist_dir)),
+        "recommended_templates": {
+            "openclash": "recommended_openclash.yaml",
+            "surge": "recommended_surge.conf",
+            "stash_classical": "recommended_stash.yaml",
+            "stash_native": "recommended_stash_native.yaml",
+        },
         "categories": metadata_categories,
     }
     manifest_file = dist_dir / "index.json"

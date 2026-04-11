@@ -13,3 +13,5 @@
 - `dist/openclash/`: OpenClash YAML 主入口与拆分产物
 - `dist/surge/`: Surge list 主入口与拆分产物
 - `dist/stash/`: Stash classical 主入口，以及 `domainset` / `ipcidr` / `classical` 拆分产物
+- `dist/recommended_stash.yaml`: Stash classical 兼容推荐模板
+- `dist/recommended_stash_native.yaml`: Stash Native 优化推荐模板（优先使用 `domainset` / `ipcidr`，仅保留 residual classical）

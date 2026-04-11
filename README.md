@@ -23,6 +23,8 @@
 - Surge `direct`: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/surge/direct.list`
 - Stash `reject`（classical 主入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/reject.list`
 - Stash `direct`（classical 主入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/direct.list`
+- 推荐 Stash 模板（classical 兼容入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/recommended_stash.yaml`
+- 推荐 Stash 模板（Native 优化入口）: `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/recommended_stash_native.yaml`
 - Stash 原生拆分入口示例：
   - `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/domainset/direct.txt`
   - `https://raw.githubusercontent.com/crescentln/Project_G/main/ruleset/dist/stash/ipcidr/direct.txt`
