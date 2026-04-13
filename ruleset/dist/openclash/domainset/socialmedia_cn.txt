@@ -1,4 +1,3 @@
-manga.bilibili.com
 upos-hz-mirrorakam.akamaized.net
 +.97973.com
 +.acg.tv
@@ -61,6 +60,7 @@ upos-hz-mirrorakam.akamaized.net
 +.hdslb.org
 +.hk.weibo.com
 +.hoopchina.com.cn
++.huasheng.cn
 +.hupu.com
 +.hupucdn.com
 +.im9.com

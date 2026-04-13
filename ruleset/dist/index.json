@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-11T14:03:22.308331+00:00",
+  "generated_at_utc": "2026-04-13T04:31:37.165496+00:00",
   "config_path": "config/sources.json",
   "policy_path": "config/policy_map.json",
   "category_count": 54,
@@ -17,10 +17,10 @@
     {
       "id": "reject",
       "description": "Ads, trackers, and malware",
-      "rule_count": 341065,
-      "stash_rule_count": 341065,
+      "rule_count": 341285,
+      "stash_rule_count": 341285,
       "stash_classical_rule_count": 0,
-      "stash_domain_rule_count": 341065,
+      "stash_domain_rule_count": 341285,
       "stash_ipcidr_rule_count": 0,
       "surge_path": "surge/reject.list",
       "openclash_path": "openclash/reject.yaml",
@@ -50,7 +50,7 @@
           "authority": "curated-upstream",
           "ref": "https://easylist.to/easylist/easylist.txt",
           "used_cache": false,
-          "rule_count": 58920
+          "rule_count": 59344
         },
         {
           "type": "adblock",
@@ -64,14 +64,14 @@
           "authority": "curated-upstream",
           "ref": "https://filters.adtidy.org/dns/filter_1.txt",
           "used_cache": false,
-          "rule_count": 164687
+          "rule_count": 165126
         },
         {
           "type": "adblock",
           "authority": "curated-upstream",
           "ref": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
           "used_cache": false,
-          "rule_count": 157623
+          "rule_count": 157404
         },
         {
           "type": "local_domain",
@@ -266,10 +266,10 @@
     {
       "id": "domestic",
       "description": "Mainland China domains (domain-focused direct set)",
-      "rule_count": 6807,
-      "stash_rule_count": 6807,
+      "rule_count": 6821,
+      "stash_rule_count": 6821,
       "stash_classical_rule_count": 3,
-      "stash_domain_rule_count": 6804,
+      "stash_domain_rule_count": 6818,
       "stash_ipcidr_rule_count": 0,
       "surge_path": "surge/domestic.list",
       "openclash_path": "openclash/domestic.yaml",
@@ -299,7 +299,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6807
+          "rule_count": 6821
         },
         {
           "type": "local_domain",
@@ -414,11 +414,11 @@
     {
       "id": "cdn",
       "description": "CDN domains and edge prefixes",
-      "rule_count": 1461,
-      "stash_rule_count": 1461,
+      "rule_count": 1474,
+      "stash_rule_count": 1474,
       "stash_classical_rule_count": 2,
       "stash_domain_rule_count": 132,
-      "stash_ipcidr_rule_count": 1327,
+      "stash_ipcidr_rule_count": 1340,
       "surge_path": "surge/cdn.list",
       "openclash_path": "openclash/cdn.yaml",
       "stash_path": "stash/cdn.list",
@@ -468,7 +468,7 @@
           "authority": "official",
           "ref": "https://www.gstatic.com/ipranges/cloud.json",
           "used_cache": false,
-          "rule_count": 897
+          "rule_count": 910
         },
         {
           "type": "fastly_public_ip_list",
@@ -2410,10 +2410,10 @@
     {
       "id": "ecommerce",
       "description": "E-commerce services",
-      "rule_count": 1275,
-      "stash_rule_count": 1275,
+      "rule_count": 1224,
+      "stash_rule_count": 1224,
       "stash_classical_rule_count": 0,
-      "stash_domain_rule_count": 1275,
+      "stash_domain_rule_count": 1224,
       "stash_ipcidr_rule_count": 0,
       "surge_path": "surge/ecommerce.list",
       "openclash_path": "openclash/ecommerce.yaml",
@@ -2443,7 +2443,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-ecommerce",
           "used_cache": false,
-          "rule_count": 1271
+          "rule_count": 1220
         },
         {
           "type": "local_domain",
@@ -3091,10 +3091,10 @@
     {
       "id": "global",
       "description": "Global fallback domain list",
-      "rule_count": 24365,
-      "stash_rule_count": 24365,
+      "rule_count": 24345,
+      "stash_rule_count": 24345,
       "stash_classical_rule_count": 162,
-      "stash_domain_rule_count": 24203,
+      "stash_domain_rule_count": 24183,
       "stash_ipcidr_rule_count": 0,
       "surge_path": "surge/global.list",
       "openclash_path": "openclash/global.yaml",
@@ -3124,7 +3124,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/geolocation-!cn",
           "used_cache": false,
-          "rule_count": 24365
+          "rule_count": 24345
         },
         {
           "type": "local_domain",
@@ -3138,11 +3138,11 @@
     {
       "id": "direct",
       "description": "Merged direct rules for simplified deployment",
-      "rule_count": 19605,
-      "stash_rule_count": 19605,
+      "rule_count": 19632,
+      "stash_rule_count": 19632,
       "stash_classical_rule_count": 4,
-      "stash_domain_rule_count": 7435,
-      "stash_ipcidr_rule_count": 12166,
+      "stash_domain_rule_count": 7449,
+      "stash_ipcidr_rule_count": 12179,
       "surge_path": "surge/direct.list",
       "openclash_path": "openclash/direct.yaml",
       "stash_path": "stash/direct.list",
@@ -3220,7 +3220,7 @@
           "authority": "official",
           "ref": "https://www.gstatic.com/ipranges/cloud.json",
           "used_cache": false,
-          "rule_count": 897
+          "rule_count": 910
         },
         {
           "type": "v2fly_dlc",
@@ -3255,7 +3255,7 @@
           "authority": "community-curated",
           "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
           "used_cache": false,
-          "rule_count": 6807
+          "rule_count": 6821
         },
         {
           "type": "v2fly_dlc",

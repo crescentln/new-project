@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-11T14:03:22.300035+00:00",
+  "generated_at_utc": "2026-04-13T04:31:37.157147+00:00",
   "conflict_count": 490,
   "cross_action_conflict_count": 0,
   "high_severity_conflict_count": 0,
@@ -646,27 +646,6 @@
           "category": "apple_intelligence",
           "action": "PROXY",
           "action_family": "PROXY"
-        }
-      ],
-      "type": "same_action_overlap",
-      "severity": "low"
-    },
-    {
-      "rule": "DOMAIN,manga.bilibili.com",
-      "categories": [
-        "domestic",
-        "socialmedia_cn"
-      ],
-      "actions": [
-        {
-          "category": "domestic",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
-        },
-        {
-          "category": "socialmedia_cn",
-          "action": "DIRECT",
-          "action_family": "DIRECT"
         }
       ],
       "type": "same_action_overlap",
@@ -4559,6 +4538,27 @@
     },
     {
       "rule": "DOMAIN-SUFFIX,hoopchina.com.cn",
+      "categories": [
+        "domestic",
+        "socialmedia_cn"
+      ],
+      "actions": [
+        {
+          "category": "domestic",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        },
+        {
+          "category": "socialmedia_cn",
+          "action": "DIRECT",
+          "action_family": "DIRECT"
+        }
+      ],
+      "type": "same_action_overlap",
+      "severity": "low"
+    },
+    {
+      "rule": "DOMAIN-SUFFIX,huasheng.cn",
       "categories": [
         "domestic",
         "socialmedia_cn"

@@ -2,18 +2,15 @@
 
 Auto-generated summary for `ruleset/dist` updates.
 
-## 2026-04-11T14:03:29+00:00
+## 2026-04-13T04:31:44+00:00
 
 - Category Count: 54
 - Conflict Summary: total=490, cross_action=0, high=0
-- Fetch Summary: network=1368, offline_cache=0, fallback_cache=0
+- Fetch Summary: network=1369, offline_cache=0, fallback_cache=0
 - Top Rule Count Changes:
-- `global`: 23938 -> 24365 (+427)
-- `ecommerce`: 1103 -> 1275 (+172)
-- `direct`: 19580 -> 19605 (+25)
-- `domestic`: 6783 -> 6807 (+24)
-- `reject`: 341046 -> 341065 (+19)
-- `ai`: 135 -> 139 (+4)
-- `cncidr`: 10829 -> 10827 (-2)
-- `lan`: 154 -> 156 (+2)
-- `cdn`: 1460 -> 1461 (+1)
+- `reject`: 341065 -> 341285 (+220)
+- `ecommerce`: 1275 -> 1224 (-51)
+- `direct`: 19605 -> 19632 (+27)
+- `global`: 24365 -> 24345 (-20)
+- `domestic`: 6807 -> 6821 (+14)
+- `cdn`: 1461 -> 1474 (+13)
