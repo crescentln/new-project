@@ -271,6 +271,7 @@ payload:
   - 'IP-CIDR,23.234.192.0/18,no-resolve'
   - 'IP-CIDR,23.235.32.0/20,no-resolve'
   - 'IP-CIDR,23.236.48.0/20,no-resolve'
+  - 'IP-CIDR,23.238.128.0/17,no-resolve'
   - 'IP-CIDR,23.251.128.0/20,no-resolve'
   - 'IP-CIDR,23.251.144.0/20,no-resolve'
   - 'IP-CIDR,23.91.0.0/19,no-resolve'

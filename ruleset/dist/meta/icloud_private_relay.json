@@ -4,11 +4,11 @@
   "recommended_action": "PROXY",
   "recommended_priority": 321,
   "recommended_note": "iCloud Private Relay 推荐走代理（PROXY）",
-  "rule_count": 13585,
-  "stash_rule_count": 13585,
+  "rule_count": 13586,
+  "stash_rule_count": 13586,
   "stash_classical_rule_count": 0,
   "stash_domain_rule_count": 5,
-  "stash_ipcidr_rule_count": 13580,
+  "stash_ipcidr_rule_count": 13581,
   "paths": {
     "stash": "stash/icloud_private_relay.list",
     "stash_classical": "stash/classical/icloud_private_relay.list",
@@ -36,7 +36,7 @@
       "authority": "official",
       "ref": "https://mask-api.icloud.com/egress-ip-ranges.csv",
       "used_cache": false,
-      "rule_count": 13580
+      "rule_count": 13581
     },
     {
       "type": "v2fly_dlc",

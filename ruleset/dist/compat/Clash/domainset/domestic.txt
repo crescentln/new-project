@@ -855,6 +855,7 @@ xtratime.qcomgeo2.com
 +.bamenzhushou.com
 +.bangongziyuan.com
 +.bank-of-china.com
++.bankcomm.cn
 +.bankcomm.com
 +.bankofbeijing.com.cn
 +.bankofchina.com
@@ -2630,6 +2631,7 @@ xtratime.qcomgeo2.com
 +.gameres.com
 +.gamersky.com
 +.gamewower.com
++.gangwan.com
 +.ganji.com
 +.ganjiangvpn.com
 +.ganjistatic1.com
@@ -3944,6 +3946,7 @@ xtratime.qcomgeo2.com
 +.leetcode.cn
 +.leigod.cn
 +.leigod.com
++.leigodjsq.com
 +.leikeji.com
 +.leiniao.com
 +.leiphone.com
@@ -4051,6 +4054,7 @@ xtratime.qcomgeo2.com
 +.lppz.com
 +.lppzimg.com
 +.lrts.me
++.ls66.cn
 +.lsplayer.com
 +.lu.com
 +.lu1da.cn
@@ -4453,6 +4457,8 @@ xtratime.qcomgeo2.com
 +.nlark.com
 +.nmc.cn
 +.nmrdata.com
++.nn.com
++.nnbooster.com
 +.nnthink.com
 +.noi.cn
 +.noknok.cn
@@ -6024,6 +6030,7 @@ xtratime.qcomgeo2.com
 +.vvstc.com
 +.vxo7tu.com
 +.vzuu.com
++.waifushangcheng.com
 +.wali.com
 +.wallstcn.com
 +.wallstreetcn.com
@@ -6386,6 +6393,7 @@ xtratime.qcomgeo2.com
 +.xunyou.com
 +.xunyou.mobi
 +.xwbank.com
++.xxghh.biz
 +.xxsy.net
 +.xxtmail.com
 +.xycdn.com

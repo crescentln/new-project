@@ -4,11 +4,11 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 205,
   "recommended_note": "合并直连集合（含国内域名 + CN CIDR，简化部署）",
-  "rule_count": 19632,
-  "stash_rule_count": 19632,
+  "rule_count": 19643,
+  "stash_rule_count": 19643,
   "stash_classical_rule_count": 4,
-  "stash_domain_rule_count": 7449,
-  "stash_ipcidr_rule_count": 12179,
+  "stash_domain_rule_count": 7457,
+  "stash_ipcidr_rule_count": 12182,
   "paths": {
     "stash": "stash/direct.list",
     "stash_classical": "stash/classical/direct.list",
@@ -57,7 +57,7 @@
       "authority": "official",
       "ref": "https://ftp.apnic.net/stats/apnic/delegated-apnic-latest",
       "used_cache": false,
-      "rule_count": 10827
+      "rule_count": 10829
     },
     {
       "type": "plain_cidr",
@@ -78,7 +78,7 @@
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "used_cache": false,
-      "rule_count": 387
+      "rule_count": 388
     },
     {
       "type": "gcp_ip_ranges",
@@ -120,7 +120,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/cn",
       "used_cache": false,
-      "rule_count": 6821
+      "rule_count": 6829
     },
     {
       "type": "v2fly_dlc",
