@@ -3,6 +3,9 @@
 # Recommended action: PROXY
 
 # 3GPP anchor
+# Surge external rulesets do not support DOMAIN-REGEX, so keep a broad
+# suffix anchor for IMS/ePDG names that OpenClash covers with regex below.
+DOMAIN-SUFFIX,3gppnetwork.org
 DOMAIN-SUFFIX,pub.3gppnetwork.org
 
 # Core ePDG patterns (global fallback)
@@ -45,6 +48,9 @@ DOMAIN,vvm.mobile.att.net
 DOMAIN,wo.vzwwo.com
 DOMAIN,sg.vzwfemto.com
 DOMAIN,spg.vzw.com
+DOMAIN-SUFFIX,mobile.att.net
+DOMAIN-SUFFIX,vzwfemto.com
+DOMAIN-SUFFIX,vzwwo.com
 
 # Verified fallback CIDR used by current production clients
 IP-CIDR,208.54.0.0/16

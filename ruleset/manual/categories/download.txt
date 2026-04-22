@@ -9,3 +9,11 @@ DOMAIN-SUFFIX,fdroidrepo.com
 DOMAIN-SUFFIX,uptodown.com
 DOMAIN-SUFFIX,aptoide.com
 DOMAIN-SUFFIX,apkmirrorusercontent.com
+DOMAIN-SUFFIX,auroraoss.com
+DOMAIN-SUFFIX,izzysoft.de
+DOMAIN-SUFFIX,androidfilehost.com
+DOMAIN-SUFFIX,apkfab.com
+DOMAIN-SUFFIX,apkmonk.com
+DOMAIN-SUFFIX,apk.support
+DOMAIN-SUFFIX,apps.evozi.com
+DOMAIN-SUFFIX,apkfollow.com

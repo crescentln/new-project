@@ -63,7 +63,9 @@
       "DOMAIN-SUFFIX,amazonaws.cn"
     ],
     "download": [
-      "DOMAIN-SUFFIX,apkmirrorusercontent.com"
+      "DOMAIN-SUFFIX,apkmirrorusercontent.com",
+      "DOMAIN-SUFFIX,auroraoss.com",
+      "DOMAIN-SUFFIX,izzysoft.de"
     ],
     "ecommerce": [
       "DOMAIN-SUFFIX,newegg.com",
@@ -102,8 +104,10 @@
       "DOMAIN-SUFFIX,bahamut.com.tw"
     ],
     "vowifi": [
+      "DOMAIN-SUFFIX,3gppnetwork.org",
       "DOMAIN-SUFFIX,pub.3gppnetwork.org",
-      "DOMAIN,epdg.epc.att.net"
+      "DOMAIN,epdg.epc.att.net",
+      "DOMAIN-SUFFIX,mobile.att.net"
     ],
     "apns": [
       "DOMAIN-SUFFIX,push.apple.com",
