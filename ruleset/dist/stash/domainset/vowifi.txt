@@ -16,4 +16,8 @@ ss.epdg.epc.mnc410.mcc310.pub.3gppnetwork.org
 ss.epdg.epc.mnc480.mcc311.pub.3gppnetwork.org
 vvm.mobile.att.net
 wo.vzwwo.com
++.3gppnetwork.org
++.mobile.att.net
 +.pub.3gppnetwork.org
++.vzwfemto.com
++.vzwwo.com

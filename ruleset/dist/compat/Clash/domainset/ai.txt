@@ -57,6 +57,7 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.comfyregistry.org
 +.copilot.microsoft.com
 +.coze.com
++.crewai.com
 +.crixet.com
 +.cursor-cdn.com
 +.cursor.com
@@ -97,7 +98,9 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.kiro.dev
 +.labs.google
 +.labs.google.com
++.langchain.com
 +.liveperson.net
++.lmstudio.ai
 +.lovart.ai
 +.lpsnmedia.net
 +.makersuite.google.com
@@ -105,11 +108,13 @@ webchannel-alkalimakersuite-pa.clients6.google.com
 +.manuscdn.com
 +.marscode.com
 +.meta.ai
++.minimax.io
 +.mistral.ai
 +.notebooklm.google
 +.notebooklm.google.com
 +.oaistatic.com
 +.oaiusercontent.com
++.ollama.com
 +.opal.google
 +.opal.google.com
 +.openai.com

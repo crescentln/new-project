@@ -16,7 +16,11 @@ DOMAIN,ss.epdg.epc.mnc410.mcc310.pub.3gppnetwork.org
 DOMAIN,ss.epdg.epc.mnc480.mcc311.pub.3gppnetwork.org
 DOMAIN,vvm.mobile.att.net
 DOMAIN,wo.vzwwo.com
+DOMAIN-SUFFIX,3gppnetwork.org
+DOMAIN-SUFFIX,mobile.att.net
 DOMAIN-SUFFIX,pub.3gppnetwork.org
+DOMAIN-SUFFIX,vzwfemto.com
+DOMAIN-SUFFIX,vzwwo.com
 DOMAIN-REGEX,^bsf\\.mnc[0-9]{3}\\.mcc31[0-6]\\.3gppnetwork\\.org$
 DOMAIN-REGEX,^epdg(\\.epc)?\\.mnc[0-9]{3}\\.mcc31[0-6]\\.pub\\.3gppnetwork\\.org$
 DOMAIN-REGEX,^epdg\\.epc\\.mnc[0-9]{3}\\.mcc[0-9]{3}\\.pub\\.3gppnetwork\\.org$

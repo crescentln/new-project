@@ -6689,6 +6689,7 @@ zeenews-fonts.s3.amazonaws.com
 +.crececonebay.com
 +.creditcardsbay.com
 +.creditkarma.com
++.crewai.com
 +.cricketcountry.com
 +.crit-staging.com
 +.critiquebrainz.org
@@ -9395,6 +9396,7 @@ zeenews-fonts.s3.amazonaws.com
 +.fortawesome.com
 +.forthebadge.com
 +.forthethrone.com
++.fortnite-vod.akamaized.net
 +.fortnite.com
 +.fortuneinsight.com
 +.forza.net
@@ -12157,6 +12159,7 @@ zeenews-fonts.s3.amazonaws.com
 +.impermium.com
 +.imstagram.com
 +.imtagram.com
++.imtintl.com
 +.imzog.com
 +.inaporn.com
 +.inasian.club
@@ -13559,6 +13562,7 @@ zeenews-fonts.s3.amazonaws.com
 +.lagranepoca.com
 +.lanasbigboobs.com
 +.landofhope.tv
++.langchain.com
 +.langsuirs.com
 +.lanik.us
 +.lanmdh.net
@@ -13820,6 +13824,7 @@ zeenews-fonts.s3.amazonaws.com
 +.lmm167.shop
 +.lmmbtc.com
 +.lms01.com
++.lmstudio.ai
 +.lnkd.in
 +.lnstagram-help.com
 +.loanbuilder.com
@@ -14943,6 +14948,7 @@ zeenews-fonts.s3.amazonaws.com
 +.minilondon.co
 +.minimarkham.ca
 +.minimarkham.com
++.minimax.io
 +.minimoncton.ca
 +.minimoncton.com
 +.minimontrealcentre.ca
@@ -16628,6 +16634,7 @@ zeenews-fonts.s3.amazonaws.com
 +.olevod.tv
 +.olevodtv.com
 +.oli-school.com
++.ollama.com
 +.omafotze.com
 +.omakase.in
 +.omaps.app
@@ -19059,6 +19066,7 @@ zeenews-fonts.s3.amazonaws.com
 +.scolle.net
 +.scoop.sh
 +.scopus.com
++.scorecardresearch.com
 +.scoreclassics.com
 +.scorediscounts.club
 +.scoregroup.com

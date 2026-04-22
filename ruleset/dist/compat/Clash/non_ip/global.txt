@@ -6689,6 +6689,7 @@ DOMAIN-SUFFIX,creatwhatsnext.com
 DOMAIN-SUFFIX,crececonebay.com
 DOMAIN-SUFFIX,creditcardsbay.com
 DOMAIN-SUFFIX,creditkarma.com
+DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,cricketcountry.com
 DOMAIN-SUFFIX,crit-staging.com
 DOMAIN-SUFFIX,critiquebrainz.org
@@ -9395,6 +9396,7 @@ DOMAIN-SUFFIX,forpojie.pics
 DOMAIN-SUFFIX,fortawesome.com
 DOMAIN-SUFFIX,forthebadge.com
 DOMAIN-SUFFIX,forthethrone.com
+DOMAIN-SUFFIX,fortnite-vod.akamaized.net
 DOMAIN-SUFFIX,fortnite.com
 DOMAIN-SUFFIX,fortuneinsight.com
 DOMAIN-SUFFIX,forza.net
@@ -12157,6 +12159,7 @@ DOMAIN-SUFFIX,imperiodefamosas.com
 DOMAIN-SUFFIX,impermium.com
 DOMAIN-SUFFIX,imstagram.com
 DOMAIN-SUFFIX,imtagram.com
+DOMAIN-SUFFIX,imtintl.com
 DOMAIN-SUFFIX,imzog.com
 DOMAIN-SUFFIX,inaporn.com
 DOMAIN-SUFFIX,inasian.club
@@ -13559,6 +13562,7 @@ DOMAIN-SUFFIX,ladyboypornonly.com
 DOMAIN-SUFFIX,lagranepoca.com
 DOMAIN-SUFFIX,lanasbigboobs.com
 DOMAIN-SUFFIX,landofhope.tv
+DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,langsuirs.com
 DOMAIN-SUFFIX,lanik.us
 DOMAIN-SUFFIX,lanmdh.net
@@ -13820,6 +13824,7 @@ DOMAIN-SUFFIX,lmebooks.com
 DOMAIN-SUFFIX,lmm167.shop
 DOMAIN-SUFFIX,lmmbtc.com
 DOMAIN-SUFFIX,lms01.com
+DOMAIN-SUFFIX,lmstudio.ai
 DOMAIN-SUFFIX,lnkd.in
 DOMAIN-SUFFIX,lnstagram-help.com
 DOMAIN-SUFFIX,loanbuilder.com
@@ -14943,6 +14948,7 @@ DOMAIN-SUFFIX,minilondon.ca
 DOMAIN-SUFFIX,minilondon.co
 DOMAIN-SUFFIX,minimarkham.ca
 DOMAIN-SUFFIX,minimarkham.com
+DOMAIN-SUFFIX,minimax.io
 DOMAIN-SUFFIX,minimoncton.ca
 DOMAIN-SUFFIX,minimoncton.com
 DOMAIN-SUFFIX,minimontrealcentre.ca
@@ -16628,6 +16634,7 @@ DOMAIN-SUFFIX,olevod.io
 DOMAIN-SUFFIX,olevod.tv
 DOMAIN-SUFFIX,olevodtv.com
 DOMAIN-SUFFIX,oli-school.com
+DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,omafotze.com
 DOMAIN-SUFFIX,omakase.in
 DOMAIN-SUFFIX,omaps.app
@@ -19059,6 +19066,7 @@ DOMAIN-SUFFIX,scnsrc.me
 DOMAIN-SUFFIX,scolle.net
 DOMAIN-SUFFIX,scoop.sh
 DOMAIN-SUFFIX,scopus.com
+DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,scoreclassics.com
 DOMAIN-SUFFIX,scorediscounts.club
 DOMAIN-SUFFIX,scoregroup.com

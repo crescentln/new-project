@@ -4,10 +4,10 @@
   "recommended_action": "PROXY",
   "recommended_priority": 326,
   "recommended_note": "国际游戏服务走代理",
-  "rule_count": 804,
-  "stash_rule_count": 804,
+  "rule_count": 805,
+  "stash_rule_count": 805,
   "stash_classical_rule_count": 6,
-  "stash_domain_rule_count": 798,
+  "stash_domain_rule_count": 799,
   "stash_ipcidr_rule_count": 0,
   "paths": {
     "stash": "stash/games.list",
@@ -36,7 +36,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/category-games-!cn",
       "used_cache": false,
-      "rule_count": 804
+      "rule_count": 805
     },
     {
       "type": "v2fly_dlc",
@@ -50,7 +50,7 @@
       "authority": "community-curated",
       "ref": "https://raw.githubusercontent.com/v2fly/domain-list-community/master/data/epicgames",
       "used_cache": false,
-      "rule_count": 31
+      "rule_count": 32
     },
     {
       "type": "v2fly_dlc",

@@ -457,6 +457,7 @@ xtratime.qcomgeo2.com
 +.17u.net
 +.17usoft.com
 +.17usoft.net
++.17van.com
 +.17zuoye.cn
 +.17zuoye.com
 +.17zuoye.net
@@ -845,6 +846,7 @@ xtratime.qcomgeo2.com
 +.acctdns.net
 +.accuratead.cn
 +.accxiaoheihe.com
++.acepanel.net
 +.acetaffy.club
 +.acfun.cn
 +.acfun.net
@@ -895,9 +897,11 @@ xtratime.qcomgeo2.com
 +.aicdn.com
 +.aichaoxing.com
 +.aichongzoo.cn
++.aidream.website
 +.aiemy.com
 +.aiganggu.com
 +.aigc-cloud.com
++.aigodlike.com
 +.aihst8.com
 +.aihuishou.com
 +.aiketour.com
@@ -1044,6 +1048,7 @@ xtratime.qcomgeo2.com
 +.ancientbooks.cn
 +.andfx.cn
 +.andfx.net
++.androidfilehost.com
 +.anfensi.com
 +.anhuinews.com
 +.anhuiyun.com
@@ -1130,11 +1135,15 @@ xtratime.qcomgeo2.com
 +.apimkt.net
 +.apipost.cn
 +.apipost.net
++.apk.support
 +.apk3.com
 +.apk8.com
 +.apkcombo.com
++.apkfab.com
++.apkfollow.com
 +.apkmirror.com
 +.apkmirrorusercontent.com
++.apkmonk.com
 +.apkpure.com
 +.apkpure.net
 +.apkpures.xyz
@@ -1174,6 +1183,7 @@ xtratime.qcomgeo2.com
 +.appletv4.com.cn
 +.applysquare.com
 +.applysquare.net
++.apps.evozi.com
 +.appserviceenvironment.cn
 +.appsimg.com
 +.appstoreapple.cn
@@ -1197,6 +1207,7 @@ xtratime.qcomgeo2.com
 +.asmlink.cn
 +.astral-vector.com
 +.atatech.org
++.auroraoss.com
 +.aurorapush.cn
 +.autohome.com
 +.autohome.com.cn
@@ -1336,6 +1347,7 @@ xtratime.qcomgeo2.com
 +.baomitu.com
 +.baoxianshichang.com
 +.baseopendev.com
++.batchat.com
 +.battlecare.net
 +.baydn.com
 +.bazai.com
@@ -1550,7 +1562,6 @@ xtratime.qcomgeo2.com
 +.boscam.com.cn
 +.bosera.com
 +.bosszhipin.com
-+.botvip.cn
 +.bouffalolab.com
 +.boxdouyin.com
 +.bplslb.com
@@ -1955,6 +1966,7 @@ xtratime.qcomgeo2.com
 +.chesicc.net
 +.chesicc.net.cn
 +.chesicc.org.cn
++.chessease.net
 +.cheyisou.com
 +.chicalot.cn
 +.china-chair.com
@@ -2039,6 +2051,7 @@ xtratime.qcomgeo2.com
 +.chugou360.com
 +.chuimg.com
 +.chujingapp.com
++.chushi.cool
 +.chushou.tv
 +.chuyu.me
 +.cib-fund.com.cn
@@ -2257,6 +2270,7 @@ xtratime.qcomgeo2.com
 +.comsenz.com
 +.con-c-hybris.lenovo.com
 +.conac.cn
++.cone-x.com
 +.configuration.apple.com
 +.contentchina.com
 +.cookicut.com
@@ -2573,6 +2587,7 @@ xtratime.qcomgeo2.com
 +.discuz.net
 +.discuz.org
 +.ditu.live.com
++.divoiotcloud.com
 +.diyiyou.com
 +.dj99.com
 +.djdjapp.com
@@ -2754,6 +2769,7 @@ xtratime.qcomgeo2.com
 +.dzw3.com
 +.dzwww.com
 +.e0n.cn
++.eagsen.com
 +.easebar.com
 +.easec.com.cn
 +.easesale.com
@@ -2839,6 +2855,7 @@ xtratime.qcomgeo2.com
 +.essurl.com
 +.et-api.com
 +.et001.com
++.et0731.com
 +.etao.com
 +.ets100.com
 +.eu-central-201.myhuaweicloud.com
@@ -2863,7 +2880,9 @@ xtratime.qcomgeo2.com
 +.eufymake.com.cn
 +.everbright.com
 +.ewww.com.cn
++.excelbbx.net
 +.excelhome.net
++.exiliumgf.com
 +.exmailgz.com
 +.expreview.com
 +.extfans.com
@@ -3299,6 +3318,7 @@ xtratime.qcomgeo2.com
 +.guanaitong.com
 +.guancha.cn
 +.guanggaotongapp.cn
++.guangyapan.com
 +.guanhaobio.com
 +.guanyierp.com
 +.guazi.com
@@ -3320,6 +3340,7 @@ xtratime.qcomgeo2.com
 +.gupzs.com
 +.gushiwen.org
 +.guzhangting.com
++.gvgoo.com
 +.gw.com.cn
 +.gwdang.com
 +.gwm.com.cn
@@ -3638,6 +3659,7 @@ xtratime.qcomgeo2.com
 +.hxfy888.com
 +.hxsd.com
 +.hxzq.cn
++.hybiome.com
 +.hypercachenet.com
 +.hytung.cn
 +.hzdtv.tv
@@ -3791,6 +3813,7 @@ xtratime.qcomgeo2.com
 +.ihuoshanvod.com
 +.ihykb.com
 +.ijiandao.com
++.ijingyi.com
 +.ijinshan.com
 +.ikafan.com
 +.ikanchai.com
@@ -3914,6 +3937,7 @@ xtratime.qcomgeo2.com
 +.iztzq.com
 +.izuche.com
 +.izuchebao.com
++.izzysoft.de
 +.j-test.com
 +.jamcz.com
 +.jandan.net
@@ -4019,6 +4043,7 @@ xtratime.qcomgeo2.com
 +.jdlike.cn
 +.jdpay.com
 +.jdpaydns.com
++.jduoduo.com
 +.jdwl.com
 +.jdx.com
 +.jet-ego.com
@@ -4032,6 +4057,7 @@ xtratime.qcomgeo2.com
 +.jia.com
 +.jiameng.com
 +.jianbihua.com
++.jiangningwater.com
 +.jianguoyun.com
 +.jianshu.com
 +.jianshu.io
@@ -4063,6 +4089,7 @@ xtratime.qcomgeo2.com
 +.jindidata.com
 +.jingdong.com
 +.jingdongjinrong.com
++.jingheiot.com
 +.jinglingbiaozhu.com
 +.jingpinhui.com
 +.jingxi.com
@@ -4148,6 +4175,7 @@ xtratime.qcomgeo2.com
 +.jsdmirror.com
 +.jsehealth.com
 +.jsfund.cn
++.jsj.top
 +.jslife.net
 +.jsrdgg.com
 +.jsterp.cn
@@ -4213,6 +4241,8 @@ xtratime.qcomgeo2.com
 +.kafan.cn
 +.kaifayun.com
 +.kaifubiao.com
++.kaihong.com
++.kaipanhong.com
 +.kaipuyun.cn
 +.kaipuyun.com
 +.kaipuyun.com.cn
@@ -4525,12 +4555,15 @@ xtratime.qcomgeo2.com
 +.liba.com
 +.libaclub.com
 +.liblib.art
++.liblib.cloud
++.liblib.tv
 +.libvideo.com
 +.liebao.cn
 +.liepin.com
 +.lietou-static.com
 +.lietou.com
 +.lieyunwang.com
++.lightmake.site
 +.lightonus.com
 +.likuso.com
 +.limestart.cn
@@ -4686,6 +4719,7 @@ xtratime.qcomgeo2.com
 +.mayihr.com
 +.mayshijia.com
 +.mbalib.com
++.mblyun.com
 +.mcadn.cn
 +.mcbaas.work
 +.mcbang.com
@@ -4731,6 +4765,7 @@ xtratime.qcomgeo2.com
 +.meiwulist.com
 +.meizu.cn
 +.meizu.com
++.meloong.com
 +.mengtuoshi.wang
 +.merach.com
 +.mesu.apple.com
@@ -4778,6 +4813,7 @@ xtratime.qcomgeo2.com
 +.mideaepayuat.com
 +.miercn.com
 +.mifile.cn
++.mifon.com
 +.migames.com
 +.migu.cn
 +.migucloud.com
@@ -5248,6 +5284,7 @@ xtratime.qcomgeo2.com
 +.piaoliang.com
 +.picpic-ai.cn
 +.picself.cn
++.piedaochuan.top
 +.pigai.org
 +.pinduoduo.com
 +.pinduoduo.net
@@ -5660,6 +5697,7 @@ xtratime.qcomgeo2.com
 +.shang360.com
 +.shangc.net
 +.shanghairc.com
++.shanghongbei.com
 +.shangshi360.com
 +.shangyexinzhi.com
 +.shangzhibo.tv
@@ -5946,7 +5984,9 @@ xtratime.qcomgeo2.com
 +.taikanglife.com
 +.taikangzhijia.com
 +.taipingfund.com.cn
++.tajiduo.com
 +.takungpao.com
++.talk-cloud.net
 +.talkingdata.com
 +.talkinggame.com
 +.tamaegis.com
@@ -5966,6 +6006,7 @@ xtratime.qcomgeo2.com
 +.tapd.cn
 +.tapimg.com
 +.tapimg.net
++.tapnow.top
 +.taptap.cn
 +.taptap.com
 +.taptap.io
@@ -6149,6 +6190,7 @@ xtratime.qcomgeo2.com
 +.thinkprinter.cn
 +.thinkprinter.com.cn
 +.thinkprinter.net
++.thmnet.com
 +.ths123.com
 +.thsi.cn
 +.thtf.com.cn
@@ -6161,6 +6203,7 @@ xtratime.qcomgeo2.com
 +.tianjimedia.com
 +.tianjin-air.com
 +.tianlailive.com
++.tianlala.com
 +.tianpeng.com
 +.tianqi.com
 +.tianqistatic.com
@@ -6247,6 +6290,7 @@ xtratime.qcomgeo2.com
 +.tom.com
 +.tongdun.net
 +.tongfangpc.com
++.tongkask.com
 +.tongtaiamc.com
 +.tongxianghuicn.com
 +.tongxuepie.com
@@ -6490,6 +6534,7 @@ xtratime.qcomgeo2.com
 +.vancl.com
 +.vanclimg.com
 +.vanho.cn
++.vanjee.net
 +.vaptcha.com
 +.vaptcha.net
 +.variflight.com
@@ -6861,6 +6906,7 @@ xtratime.qcomgeo2.com
 +.xafc.com
 +.xbext.com
 +.xbiao.com
++.xboxfan.com
 +.xboxlive.cn
 +.xcc.cn
 +.xcsc.com
@@ -7148,6 +7194,7 @@ xtratime.qcomgeo2.com
 +.youyiwms.com
 +.youzan.com
 +.youzanyun.com
++.youzhiyouxing.com
 +.youzu.com
 +.yowhale.com
 +.yoyojie.com
@@ -7256,6 +7303,7 @@ xtratime.qcomgeo2.com
 +.yzwb.net
 +.yzyxgame.com
 +.z-bank.com
++.z-tek.com
 +.z.ai
 +.z28j.com
 +.z95rr.cn
@@ -7327,6 +7375,7 @@ xtratime.qcomgeo2.com
 +.zhiding.cn
 +.zhiding.com.cn
 +.zhidx.com
++.zhiexa.com
 +.zhifang.com
 +.zhihang100.com
 +.zhihu.com
@@ -7453,5 +7502,6 @@ xtratime.qcomgeo2.com
 +.zygbdszt.net.cn
 +.zyh365.com
 +.zyhe.com.cn
++.zysou.com
 +.zzdtec.com
 +.zztfly.com

@@ -4,11 +4,11 @@
   "recommended_action": "DIRECT",
   "recommended_priority": 250,
   "recommended_note": "CDN 回源与就近访问优先直连",
-  "rule_count": 1475,
-  "stash_rule_count": 1475,
+  "rule_count": 1474,
+  "stash_rule_count": 1474,
   "stash_classical_rule_count": 2,
   "stash_domain_rule_count": 132,
-  "stash_ipcidr_rule_count": 1341,
+  "stash_ipcidr_rule_count": 1340,
   "paths": {
     "stash": "stash/cdn.list",
     "stash_classical": "stash/classical/cdn.list",
@@ -50,7 +50,7 @@
       "authority": "official",
       "ref": "https://ip-ranges.amazonaws.com/ip-ranges.json",
       "used_cache": false,
-      "rule_count": 388
+      "rule_count": 387
     },
     {
       "type": "gcp_ip_ranges",
