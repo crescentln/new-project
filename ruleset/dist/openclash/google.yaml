@@ -113,6 +113,7 @@ payload:
   - 'DOMAIN-SUFFIX,adgoogle.net'
   - 'DOMAIN-SUFFIX,admeld.com'
   - 'DOMAIN-SUFFIX,ai.studio'
+  - 'DOMAIN-SUFFIX,aicode.googleapis.com'
   - 'DOMAIN-SUFFIX,aida.googleapis.com'
   - 'DOMAIN-SUFFIX,aisandbox-pa.googleapis.com'
   - 'DOMAIN-SUFFIX,aistudio.google.com'
