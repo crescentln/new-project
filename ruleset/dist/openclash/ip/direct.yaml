@@ -12167,6 +12167,8 @@ payload:
   - 'IP-CIDR6,2600:f0f0:5504::/46,no-resolve'
   - 'IP-CIDR6,2600:f0f0:601::/48,no-resolve'
   - 'IP-CIDR6,2600:f0f0:602::/47,no-resolve'
+  - 'IP-CIDR6,2600:f0f1:14::/48,no-resolve'
+  - 'IP-CIDR6,2600:f0f1:15::/48,no-resolve'
   - 'IP-CIDR6,2606:4700::/32,no-resolve'
   - 'IP-CIDR6,2803:f800::/32,no-resolve'
   - 'IP-CIDR6,2a06:98c0::/29,no-resolve'

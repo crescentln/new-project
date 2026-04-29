@@ -418,6 +418,7 @@ xtratime.qcomgeo2.com
 +.91danji.com
 +.91shenfan.com
 +.91yunxiao.com
++.95015.com
 +.95095.com
 +.95306.cn
 +.95311.com
@@ -748,6 +749,7 @@ xtratime.qcomgeo2.com
 +.apcdns.net
 +.apdcdn.com
 +.apdcdn.net
++.api-building.fun
 +.apifox.cn
 +.apifox.com
 +.apigwtencent.com
@@ -864,6 +866,8 @@ xtratime.qcomgeo2.com
 +.bankofbeijing.com.cn
 +.bankofchina.com
 +.banmaaike.com
++.banxiaoer.com
++.banxiaoer.net
 +.baofeng.com
 +.baofeng.net
 +.baomitu.com
@@ -1090,6 +1094,7 @@ xtratime.qcomgeo2.com
 +.bubei.com.cn
 +.buf35.cn
 +.build9s.io
++.building.fun
 +.buke999.com
 +.burningvocabulary.cn
 +.burningvocabulary.com
@@ -1416,6 +1421,7 @@ xtratime.qcomgeo2.com
 +.cdnv2.cn
 +.cdnv3.cn
 +.ceair.com
++.ceati.org.cn
 +.cebbank.com
 +.ceblease.com
 +.cecdc.com
@@ -1795,12 +1801,22 @@ xtratime.qcomgeo2.com
 +.cowcs.com
 +.cowlevel.net
 +.cowtransfer.com
++.coze-dns-01.com
 +.coze.cn
 +.coze.com
++.coze.email
 +.coze.site
++.cozeapp.net
 +.cozebaas.cn
++.cozebuild.com
++.cozecdn.com
++.cozedeploy.com
 +.cozefn.cn
 +.cozeide.cn
++.cozesdk.com
++.cozetest.cn
++.cozetest2.cn
++.cozetest3.cn
 +.cpatrk.net
 +.cppblog.com
 +.cpppf.org
@@ -1961,6 +1977,7 @@ xtratime.qcomgeo2.com
 +.daojia.com
 +.daovoice.io
 +.data.pharmacodia.com
++.datacon.org.cn
 +.dataeye.com
 +.datasea.cn
 +.datayi.cn
@@ -1979,6 +1996,7 @@ xtratime.qcomgeo2.com
 +.dbankcloud.ru
 +.dbankedge.cn
 +.dbankedge.net
++.dbbuilding.fun
 +.dbfund.com.cn
 +.dcarapi.com
 +.dcarimg.com
@@ -2159,6 +2177,7 @@ xtratime.qcomgeo2.com
 +.douban.com
 +.douban.fm
 +.doubanio.com
++.doubao-dev.com
 +.doubao.com
 +.doubaocdn.com
 +.doubo03.com
@@ -2800,6 +2819,7 @@ xtratime.qcomgeo2.com
 +.guanaitong.com
 +.guancha.cn
 +.guanggaotongapp.cn
++.guangyacdn.com
 +.guangyapan.com
 +.guanhaobio.com
 +.guanyierp.com
@@ -3328,6 +3348,7 @@ xtratime.qcomgeo2.com
 +.inspirecloud.cn
 +.inspirecloud.com
 +.insta360.com
++.instreet.com
 +.intltencentcos.com
 +.intsig.com
 +.intsig.net
@@ -4522,6 +4543,8 @@ xtratime.qcomgeo2.com
 +.nzwgs.com
 +.o7mu8.cn
 +.oadz.com
++.obriccloud.com
++.obricclouddw.com
 +.oceancloudapi.com
 +.ocfund.cn
 +.ocwms.com
@@ -4820,6 +4843,8 @@ xtratime.qcomgeo2.com
 +.qianlima.com
 +.qianwen.aliyun.com
 +.qianwen.com
++.qianxin.com
++.qianxincdn.com
 +.qianxun.com
 +.qianyierp.com
 +.qianzhan.com
@@ -5009,6 +5034,7 @@ xtratime.qcomgeo2.com
 +.saayaa.com
 +.saduck.top
 +.saee.org.cn
++.safeskill.cn
 +.sagemaker.com.cn
 +.saibo.com
 +.samasty.com
@@ -5047,6 +5073,7 @@ xtratime.qcomgeo2.com
 +.seasungames.com
 +.sec-wiki.com
 +.secec.com
++.seclab.online
 +.secrss.com
 +.securityfeishu.cn
 +.securityfs.cn
@@ -5099,6 +5126,7 @@ xtratime.qcomgeo2.com
 +.sharejs.com
 +.sharesdk.cn
 +.shebiaotm.com
++.shellpub.com
 +.shelter-china.com
 +.shelterdome.net
 +.shengdaosoft.com
@@ -5572,6 +5600,8 @@ xtratime.qcomgeo2.com
 +.thinkprinter.com.cn
 +.thinkprinter.net
 +.thmnet.com
++.threatbook.cn
++.threatbook.com
 +.ths123.com
 +.thsi.cn
 +.thtf.com.cn
@@ -5588,6 +5618,7 @@ xtratime.qcomgeo2.com
 +.tianpeng.com
 +.tianqi.com
 +.tianqistatic.com
++.tianshucup.com
 +.tianxiajiameng.cn
 +.tianxiajiameng.com
 +.tianyancha.com
