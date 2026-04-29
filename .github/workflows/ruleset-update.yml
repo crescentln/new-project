@@ -130,6 +130,19 @@ jobs:
               --output ruleset/dist/CHANGELOG.md
           fi
 
+      - name: Secret scan before publish
+        run: |
+          docker run --rm \
+            -v "$PWD:/repo" \
+            ghcr.io/gitleaks/gitleaks:v8.24.2 \
+            detect \
+            --source /repo \
+            --no-git \
+            --config /repo/.gitleaks.toml \
+            --redact \
+            --report-format sarif \
+            --report-path /repo/gitleaks-ruleset-update.sarif
+
       - name: Generate workflow summary
         if: always()
         run: |
@@ -171,6 +184,7 @@ jobs:
             ruleset/dist/conflicts.json
             ruleset/dist/fetch_report.json
             ruleset/dist/policy_reference.json
+            gitleaks-ruleset-update.sarif
             /tmp/ruleset-workflow-summary.md
 
       - name: Commit dist changes
